@@ -123,8 +123,7 @@ A **mutator** method may modify ("mutate") a class' fields.
 An **accessor** method accesses fields but may not modify a class' fields.
 Commonly, a field has two associated methods: a mutator for setting the value, and an accessor for getting the value, known as a setter and getter method, respectively, and typically with names starting with set or get. Other mutators and accessors may exist that aren't associated with just one field, such as the print() method below.
 
-### Example
-<details><summary>CLICK ME TO GET THE CODE</summary>
+<details><summary>Example</summary>
 <p>
 
 ``` java
