@@ -45,6 +45,7 @@ The programmer defines the details of each member method, sometimes called the c
 The following class gives an overview of how a class, constructor and methods are defined.
 <details><summary>Click to get the code</summary>
 <p>
+
 ``` java
 public class Bicycle { 
     // the Bicycle class has three fields
