@@ -22,7 +22,7 @@ A programmer can create one or more objects of the same class. Creating an objec
 
 The "." operator, known as the member access operator, is used to invoke a method on an object. Ex: favLunchPlace.setRating(4) calls the setRating() method on the favLunchPlace object, which sets the object's rating to 4.
 
-![myimage](class_RestaurantFavorites.png)
+![myimage](images/class_RestaurantFavorites.png)
 
 ### Class example: String
 Java's String object is a class that stores a character string in memory, along with variables indicating the length and other things, but a String's user need not know such details. Instead, the String's user just needs to know what public member methods can be used.
@@ -31,14 +31,14 @@ Java's String object is a class that stores a character string in memory, along 
 ## Private fields
 In addition to public member methods, a class definition has private fields: variables that member methods can access but class users cannot. The private access modifier precedes each private field declaration.
 
-![myimage](private_fields)
+![myimage](images/private_fields)
 
 ## Defining a class public member methods
 A programmer defining a class first names the class, declares private fields, and defines public member methods. A class' fields and methods are collectively called class members.
 
 The programmer defines the details of each member method, sometimes called the class' implementation. A method definition provides an access modifier, return type, name, parameters, and the method's statements. A member method can access all private fields.
 
-![myimage](/images/Restaurant)
-![myimage](/images/RestaurantFavorites)
+![myimage](images/Restaurant)
+![myimage](images/RestaurantFavorites)
 
 ### Example - Bicycle class
