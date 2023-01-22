@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class CallPersonInfo {
 
+public class CallPersonInfo {
     public static void main(String [] args) {
         Scanner scnr = new Scanner(System.in);
         PersonInfo person1 = new PersonInfo();
