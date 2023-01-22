@@ -17,3 +17,10 @@ The class construct defines a new type that can group data and methods to form a
 
 ![myimage](class_Restaurant.png)
 
+## Using a class
+A programmer can create one or more objects of the same class. Creating an object consists of two steps: declaring a reference variable of the class type, and assigning the variable with an explicitly allocated instance of the class type. A reference variable can refer to an instance of a class. The new operator explicitly allocates an object of the specified class type. Ex: Restaurant favLunchPlace = new Restaurant(); creates a Restaurant object named favLunchPlace.
+
+The "." operator, known as the member access operator, is used to invoke a method on an object. Ex: favLunchPlace.setRating(4) calls the setRating() method on the favLunchPlace object, which sets the object's rating to 4.
+
+![myimage](class_RestaurantFavorites.png)
+
