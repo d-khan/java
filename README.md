@@ -43,3 +43,34 @@ The programmer defines the details of each member method, sometimes called the c
 
 ### Example - Bicycle class
 https://github.com/d-khan/java/blob/92323b0fc4eff5542211ab329c6502569932fec3/intro_to_objects/code/Class_Bicycle
+
+``` java
+public class Bicycle { 
+    // the Bicycle class has three fields
+    public int cadence;
+    public int gear;
+    public int speed;
+       
+
+    // the Bicycle class has one constructor
+    public Bicycle(int startCadence, int startSpeed, int startGear) {
+        gear = startGear;
+        cadence = startCadence;
+        speed = startSpeed;
+    }
+    // the Bicycle class has four methods
+    public void setCadence(int newValue) {
+        cadence = newValue;
+    }  
+    public void setGear(int newValue) {
+        gear = newValue;
+    }   
+    public void applyBrake(int decrement) {
+        speed -= decrement;
+    }   
+    public void speedUp(int increment) {
+        speed += increment;
+    }   
+}
+
+```
