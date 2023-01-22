@@ -24,3 +24,6 @@ The "." operator, known as the member access operator, is used to invoke a metho
 
 ![myimage](class_RestaurantFavorites.png)
 
+### Class example: String
+Java's String object is a class that stores a character string in memory, along with variables indicating the length and other things, but a String's user need not know such details. Instead, the String's user just needs to know what public member methods can be used.
+
