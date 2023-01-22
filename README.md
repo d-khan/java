@@ -42,3 +42,4 @@ The programmer defines the details of each member method, sometimes called the c
 ![myimage](intro_to_objects/images/RestaurantFavorites.png)
 
 ### Example - Bicycle class
+https://github.com/d-khan/java/blob/92323b0fc4eff5542211ab329c6502569932fec3/intro_to_objects/code/Class_Bicycle
