@@ -38,7 +38,7 @@ A programmer defining a class first names the class, declares private fields, an
 
 The programmer defines the details of each member method, sometimes called the class' implementation. A method definition provides an access modifier, return type, name, parameters, and the method's statements. A member method can access all private fields.
 
-![myimage](images/Restaurant)
-![myimage](images/RestaurantFavorites)
+![myimage](images/Restaurant.png)
+![myimage](images/RestaurantFavorites.png)
 
 ### Example - Bicycle class
