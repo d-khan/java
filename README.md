@@ -15,5 +15,5 @@ An abstract data type (ADT) is a data type whose creation and update are constra
 ## Classes intro: Public member methods
 The class construct defines a new type that can group data and methods to form an object. A class' public member methods indicate all operations a class user can perform on the object. The power of classes is that a class user need not know how the class' data and methods are implemented but need only understand how each public member method behaves.
 
-![myimage](https://github.com/d-khan/java/blob/main/class_Restaurant.png)
+![myimage](class_Restaurant.png)
 
