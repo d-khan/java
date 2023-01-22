@@ -174,3 +174,12 @@ class Restaurant {
 
 </p>
 </details>
+
+## Private helper methods
+A programmer commonly creates private methods, known as private helper methods, to help public methods carry out tasks.
+
+![myimage](private_helper_methods/images/private_fields.png)
+
+# Initialization and constructors
+
+> A good practice is to initialize all variables when declared. This section deals with initializing the fields of a class when a variable of the class type is allocated.
