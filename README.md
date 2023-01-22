@@ -31,7 +31,7 @@ Java's String object is a class that stores a character string in memory, along 
 ## Private fields
 In addition to public member methods, a class definition has private fields: variables that member methods can access but class users cannot. The private access modifier precedes each private field declaration.
 
-![myimage](images/private_fields)
+![myimage](images/private_fields.png)
 
 ## Defining a class public member methods
 A programmer defining a class first names the class, declares private fields, and defines public member methods. A class' fields and methods are collectively called class members.
