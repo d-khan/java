@@ -42,7 +42,7 @@ The programmer defines the details of each member method, sometimes called the c
 ![myimage](intro_to_objects/images/RestaurantFavorites.png)
 
 ### Example - Bicycle class
-https://github.com/d-khan/java/blob/92323b0fc4eff5542211ab329c6502569932fec3/intro_to_objects/code/Class_Bicycle
+The following class gives an overview of how a class, constructor and methods are defined.
 
 ``` java
 public class Bicycle { 
@@ -73,4 +73,43 @@ public class Bicycle {
     }   
 }
 
+```
+### Example - PersonInfo class
+```java
+import java.util.Scanner;
+public class CallPersonInfo {
+
+    public static void main(String [] args) {
+        Scanner scnr = new Scanner(System.in);
+        PersonInfo person1 = new PersonInfo();
+        int personsKid;
+
+        System.out.println("Enter number of kids: ");
+        personsKid = scnr.nextInt();
+
+        person1.setNumKids(personsKid);
+
+        System.out.println("Kids: " + person1.getNumKids());
+        person1.incNumKids();
+        System.out.println("New baby, kids now: " + person1.getNumKids());
+
+    }
+
+}
+
+class PersonInfo {
+    private int numKids;
+
+    public void setNumKids(int setPersonsKids) {
+        numKids = setPersonsKids;
+    }
+
+    public void incNumKids() {
+        numKids = numKids + 1;
+    }
+
+    public int getNumKids() {
+        return numKids;
+    }
+}
 ```
