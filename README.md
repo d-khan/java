@@ -1,1 +1,1 @@
-# java
+# Example code
