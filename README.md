@@ -516,3 +516,9 @@ Features of a good testbench include:
 - Independent test cases. Ex: The test case for GetAverage() assigns new values, vs. relying on earlier values.
 - 100% code coverage: Every line of code is executed. A good testbench would have more test cases than below.
 - Includes not just typical values but also border cases: Unusual or extreme test case values like 0, negative numbers, or large numbers.
+
+# Constructors overloading
+Programmers often want to provide different initialization values when creating a new object. A class creator can overload a constructor by defining multiple constructors differing in parameter types. When an object is created with the new operator, arguments can be passed to the constructor. The constructor with matching parameters will be called.
+
+![myimage](intro_to_objects/images/Overload_constructors.png)
+
