@@ -437,3 +437,82 @@ public class BasicCar {
 # Unit testing (classes)
 ## Testbenches
 Like a chef who tastes food before serving, a class creator should test a class before allowing use. A testbench is a program whose job is to thoroughly test another program (or portion) via a series of input/output checks known as test cases. Unit testing means to create and run a testbench for a specific item (or "unit") like a method or a class.
+
+### Example: Unit testing of a class
+<details><summary>Click to get the code</summary>
+<p>
+
+``` java
+public class StatsInfoTest {
+    public static void main(String[] args) {
+        StatsInfo testData = new StatsInfo();
+
+        // Typical testbench tests more thoroughly
+
+        System.out.println("Beginning tests.");
+
+        // Check set/get num1
+        testData.setNum1(100);
+        if (testData.getNum1() != 100) {
+            System.out.println("   FAILED set/get num1");
+        }
+
+        // Check set/get num2
+        testData.setNum2(50);
+        if (testData.getNum2() != 50) {
+            System.out.println("   FAILED set/get num2");
+        }
+
+        // Check getAverage()
+        testData.setNum1(10);
+        testData.setNum2(20);
+        if (testData.getAverage() != 15) {
+            System.out.println("   FAILED GetAverage for 10, 20");
+        }
+
+        testData.setNum1(-10);
+        testData.setNum2(0);
+        if (testData.getAverage() != -5) {
+            System.out.println("   FAILED GetAverage for -10, 0");
+        }
+
+        System.out.println("Tests complete.");
+    }
+}
+
+class StatsInfo {
+
+    // Note: This class intentionally has errors
+
+    private int num1;
+    private int num2;
+
+    public void setNum1(int numVal) {
+        num1 = numVal;
+    }
+
+    public void setNum2(int numVal) {
+        num2 = numVal;
+    }
+
+    public int getNum1() {
+        return num1;
+    }
+
+    public int getNum2() {
+        return num1;
+    }
+
+    public int getAverage() {
+        return num1 + num2 / 2;
+    }
+}
+```
+</p>
+</details>
+
+Features of a good testbench include:
+- Automatic checks. Ex: Values are compared, as in testData.GetNum1() != 100. For conciseness, only fails are printed.
+- Independent test cases. Ex: The test case for GetAverage() assigns new values, vs. relying on earlier values.
+- 100% code coverage: Every line of code is executed. A good testbench would have more test cases than below.
+- Includes not just typical values but also border cases: Unusual or extreme test case values like 0, negative numbers, or large numbers.
