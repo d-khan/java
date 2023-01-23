@@ -272,6 +272,8 @@ class Restaurant_f {
 </p>
 </details>
 
-> - Further details can be found at:
-    - [Constructors from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html).
-    
+Further details can be found at:
+    - [Constructors from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)
+    - [Initializing fields from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html)
+
+
