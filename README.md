@@ -178,7 +178,7 @@ class Restaurant {
 ## Private helper methods
 A programmer commonly creates private methods, known as private helper methods, to help public methods carry out tasks.
 
-![myimage](images/private_fields.png)
+![myimage](intro_to_objects/images/private_fields.png)
 
 # Initialization and constructors
 
@@ -282,7 +282,7 @@ Creating a program may start by a programmer deciding what "things" exist, and w
 
 Below, the programmer wants to maintain a soccer team. The programmer realizes the team will have people, so decides to sketch a Person class. Each Person class will have private (shown by "-") data like name and age, and public (shown by "+") methods like get/set name, get/set age, and print. The programmer then sketches a Team class, which uses Person objects.
 
-![myimage](images/sketch_class_soccer.png)
+![myimage](intro_to_objects/images/sketch_class_soccer.png)
 
 ### Example: SoccerTeam and TeamPerson classes
 <details><summary>Click to get the TeamPerson class</summary>
