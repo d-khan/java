@@ -386,4 +386,51 @@ public class SoccerTeamPrinter {
 </p>
 </details>
 
+# Defining main() in a programmer-defined class
+The main() method can be defined within a programmer-defined class and create objects of that class type. The BasicCar class defined in the example below represents a car that keeps track of the number of miles driven. BasicCar has a field that maintains the miles driven and three methods that set, retrieve, and modify the object's field.
+
+main() is a static method that is independent of class objects. main() can access other static methods and static fields of the class, but cannot directly access non-static methods or fields, like BasicCar's checkOdometer() method. So, a programmer must create objects within main() to call non-static methods on those objects. Ex: BasicCar's main() creates two objects of type BasicCar and performs operations on those objects.
+
+Non-static fields and methods are also called instance variables and instance methods.
+
+### Example: Class definition with main() method.
+<details><summary>Click to get the TeamPerson class</summary>
+<p>
+
+``` java
+public class BasicCar {
+
+    // Total miles driven by the car
+    private int milesDriven;
+
+    // Constructor assigns initial values to instance variables
+    public BasicCar() {
+        milesDriven = 0;
+    }
+
+    // Drive the requested miles
+    public void drive(int tripMiles) {
+        milesDriven = milesDriven + tripMiles;
+    }
+
+    // Return total number of miles driven
+    public int checkOdometer() {
+        return milesDriven;
+    }
+
+    // Main() creates objects of type BasicCar and
+    // calls methods to operate on the objects
+    public static void main(String [] args) {
+        BasicCar redCorvette = new BasicCar();
+        BasicCar fordMustang = new BasicCar();
+
+        redCorvette.drive(100);
+        fordMustang.drive(75);
+        fordMustang.drive(300);
+        fordMustang.drive(50);
+    }
+}
+```
+</p>
+</details>
 
