@@ -394,7 +394,7 @@ main() is a static method that is independent of class objects. main() can acces
 Non-static fields and methods are also called instance variables and instance methods.
 
 ### Example: Class definition with main() method.
-<details><summary>Click to get the TeamPerson class</summary>
+<details><summary>Click to get the code</summary>
 <p>
 
 ``` java
@@ -434,3 +434,6 @@ public class BasicCar {
 </p>
 </details>
 
+# Unit testing (classes)
+## Testbenches
+Like a chef who tastes food before serving, a class creator should test a class before allowing use. A testbench is a program whose job is to thoroughly test another program (or portion) via a series of input/output checks known as test cases. Unit testing means to create and run a testbench for a specific item (or "unit") like a method or a class.
