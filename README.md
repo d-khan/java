@@ -522,7 +522,9 @@ Programmers often want to provide different initialization values when creating 
 
 ![myimage](intro_to_objects/images/Overload_constructors.png)
 
-> Creating a new object with no constructor arguments calls the default constructor. In this case, the object gets initialized with NoName and -1.
+Creating a new object with no constructor arguments calls the default constructor. In this case, the object gets initialized with NoName and -1.
 Passing a String and int argument to the constructor causes the constructor with matching parameters to be called instead. The object gets initialized with those argument values.
 
 > If a programmer defines any constructor, the compiler does not implicitly define a default constructor, so good practice is for the programmer to also explicitly define a default constructor so that an object creation like new MyClass() remains supported.
+
+![myimage](intro_to_objects/images/default_constructor.png)
