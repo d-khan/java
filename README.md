@@ -528,3 +528,6 @@ Passing a String and int argument to the constructor causes the constructor with
 > If a programmer defines any constructor, the compiler does not implicitly define a default constructor, so good practice is for the programmer to also explicitly define a default constructor so that an object creation like new MyClass() remains supported.
 
 ![myimage](intro_to_objects/images/default_constructor.png)
+
+# Objects and references
+
