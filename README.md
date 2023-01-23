@@ -364,6 +364,7 @@ public class SoccerTeam {
 <p>
 
 ``` java
+// main method
 public class SoccerTeamPrinter {
     public static void main(String[] args) {
         SoccerTeam teamCalifornia = new SoccerTeam();
@@ -384,12 +385,5 @@ public class SoccerTeamPrinter {
 ```
 </p>
 </details>
-
-
-
-    
-    
-
-
 
 
