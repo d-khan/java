@@ -224,3 +224,49 @@ class Restaurant_f {
 ```
 </p>
 </details>
+
+## Constructors
+Java provides a special class member method, known as a constructor, that is called when an object of that class type is created, and which can be used to initialize all fields. The constructor has the same name as the class. The constructor method has no return type, not even void. Ex: public Restaurant() {...} defines a constructor for the Restaurant class.
+
+A programmer specifies the constructor that should be called when creating an object. Ex: Restaurant favLunchPlace = new Restaurant(); creates a new Restaurant object and calls the constructor Restaurant().
+
+If a class does not have a programmer-defined constructor, then the Java compiler implicitly defines a default constructor with no arguments. The Java compiler also initializes all fields to their default values.
+
+### Example: Adding a constructor member method to the Restaurant class.
+<details><summary>Click to get the code</summary>
+<p>
+    
+``` java
+public class RestaurantFavorites {
+    public static void main(String[] args) {
+        Restaurant_f favLunchPlace = new Restaurant_f(); // Calls the constructor
+        favLunchPlace.print();
+        favLunchPlace.setName("Central Deli");
+        favLunchPlace.setRating(4);
+        favLunchPlace.print();
+    }
+}
+
+class Restaurant_f {
+    private String name;
+    private int rating;
+
+    public Restaurant_f() {  // Constructor with no arguments
+        name = "NoName";    // Default name: NoName indicates name was not set
+        rating = -1;        // Default rating: -1 indicates rating was not set
+    }
+
+    public void setName(String restaurantName) {
+        name = restaurantName;
+    }
+
+    public void setRating(int userRating) {
+        rating = userRating;
+    }
+
+    public void print() {
+        System.out.println(name + " -- " + rating);
+    }
+}
+```
+    
