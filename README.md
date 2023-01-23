@@ -183,3 +183,43 @@ A programmer commonly creates private methods, known as private helper methods, 
 # Initialization and constructors
 
 > A good practice is to initialize all variables when declared. This section deals with initializing the fields of a class when a variable of the class type is allocated.
+
+## Field initialization
+A programmer can initialize fields in the field declaration. Any object created of that class type will initially have those values.
+
+### Example: A class definition with initialized fields
+<details><summary>Click to get the code</summary>
+<p>
+``` java
+public class RestaurantFavorites {
+    public static void main(String[] args) {
+        Restaurant_f favLunchPlace = new Restaurant_f(); // Initializes fields with values in class definition
+
+        favLunchPlace.print();
+
+        favLunchPlace.setName("Central Deli");
+        favLunchPlace.setRating(4);
+
+        favLunchPlace.print();
+    }
+}
+
+class Restaurant_f {
+    private String name = "NoName";
+    private int rating = -1;
+
+    public void setName(String restaurantName) {
+        name = restaurantName;
+    }
+
+    public void setRating(int userRating) {
+        rating = userRating;
+    }
+
+    public void print() {
+        System.out.println(name + " -- " + rating);
+    }
+}
+```
+</p>
+</details>
