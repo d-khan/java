@@ -178,7 +178,7 @@ class Restaurant {
 ## Private helper methods
 A programmer commonly creates private methods, known as private helper methods, to help public methods carry out tasks.
 
-![myimage](private_helper_methods/images/private_fields.png)
+![myimage](images/private_fields.png)
 
 # Initialization and constructors
 
@@ -275,6 +275,120 @@ class Restaurant_f {
 Further details can be found at:  
     - [Constructors from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)  
     - [Initializing fields from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html)  
+
+# Choosing classes to create
+## Decomposing into classes
+Creating a program may start by a programmer deciding what "things" exist, and what each thing contains and does.
+
+Below, the programmer wants to maintain a soccer team. The programmer realizes the team will have people, so decides to sketch a Person class. Each Person class will have private (shown by "-") data like name and age, and public (shown by "+") methods like get/set name, get/set age, and print. The programmer then sketches a Team class, which uses Person objects.
+
+![myimage](images/sketch_class_soccer.png)
+
+### Example: SoccerTeam and TeamPerson classes
+<details><summary>Click to get the TeamPerson class</summary>
+<p>
+
+``` java
+\\ TeamPerson.java
+public class TeamPerson {
+    private String fullName;
+    private int ageYears;
+
+    public void setFullName(String firstAndLastName) {
+        fullName = firstAndLastName;
+    }
+
+    public void setAgeYears(int ageInYears) {
+        ageYears = ageInYears;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public int getAgeYears() {
+        return ageYears;
+    }
+
+    public void print() {
+        System.out.println("Full name: " + fullName);
+        System.out.println("Age (years): " + ageYears);
+    }
+}
+
+```
+</p>
+</details>
+
+<details><summary>Click to get the SoccerTeam class</summary>
+<p>
+
+``` java
+\\ SoccerTeam.java
+public class SoccerTeam {
+    private TeamPerson headCoach;
+    private TeamPerson assistantCoach;
+    // Players omitted for brevity
+
+    public void setHeadCoach(TeamPerson teamPerson) {
+        headCoach = teamPerson;
+    }
+
+    public void setAssistantCoach(TeamPerson teamPerson) {
+        assistantCoach = teamPerson;
+    }
+
+    public TeamPerson getHeadCoach() {
+        return headCoach;
+    }
+
+    public TeamPerson getAssistantCoach() {
+        return assistantCoach;
+    }
+
+    public void print() {
+        System.out.println("HEAD COACH: ");
+        headCoach.print();
+        System.out.println();
+
+        System.out.println("ASSISTANT COACH: ");
+        assistantCoach.print();
+        System.out.println();
+    }
+}
+
+</p>
+</details>
+
+<details><summary>Click to get the main method</summary>
+<p>
+
+``` java
+public class SoccerTeamPrinter {
+    public static void main(String[] args) {
+        SoccerTeam teamCalifornia = new SoccerTeam();
+        TeamPerson headCoach = new TeamPerson();
+        TeamPerson asstCoach = new TeamPerson();
+
+        headCoach.setFullName("Mark Miwerds");
+        headCoach.setAgeYears(42);
+        teamCalifornia.setHeadCoach(headCoach);
+
+        asstCoach.setFullName("Stanley Lee");
+        asstCoach.setAgeYears(30);
+        teamCalifornia.setAssistantCoach(asstCoach);
+
+        teamCalifornia.print();
+    }
+}
+```
+</p>
+</details>
+
+
+
+    
+    
 
 
 
