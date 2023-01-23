@@ -190,6 +190,7 @@ A programmer can initialize fields in the field declaration. Any object created 
 ### Example: A class definition with initialized fields
 <details><summary>Click to get the code</summary>
 <p>
+    
 ``` java
 public class RestaurantFavorites {
     public static void main(String[] args) {
