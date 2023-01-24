@@ -626,3 +626,38 @@ A wrapper class object (as well as a String object) is immutable, meaning a prog
 
 <img width="758" alt="Screen Shot 2023-01-23 at 10 27 40 PM" src="https://user-images.githubusercontent.com/11669149/214225857-bdbc81e7-52db-4cdc-aa4e-f357b7d64eef.png">
 
+1. timeMins is a primitive type variable. A primitive type variable directly stores the data for that variable type.
+2. Assigning the Integer variable timeHrs with the literal 0 assigns timeHrs with a reference to an Integer object with value 0. Note that Java maintains a cache of Integer objects for literal values -128 to 127 (inclusive).
+3. timeMins is a primitive type and directly stores the value 400.
+4. A new Integer object is created and assigned with 400 / 60, or 6, and timeHrs is updated to refer to that new Integer object.
+
+### Example: Program using the Double class to calculate flight and driving times
+<details><summary>Click to get the code</summary>
+<p>
+    
+``` java
+import java.util.Scanner;
+
+public class FlyDrive {
+    public static void main(String [] args) {
+        Scanner scnr = new Scanner(System.in);
+        Double distMiles;
+        Double hoursFly;
+        Double hoursDrive;
+
+        System.out.print("Enter a distance in miles: ");
+        distMiles = scnr.nextDouble();
+
+        hoursFly = distMiles / 500.0;
+        hoursDrive = distMiles / 60.0;
+
+        System.out.println(distMiles + " miles would take:");
+        System.out.println(hoursFly + " hours to fly");
+        System.out.println(hoursDrive + " hours to drive");
+    }
+}
+```
+</p>
+</details>
+
+
