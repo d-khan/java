@@ -660,4 +660,4 @@ public class FlyDrive {
 </p>
 </details>
 
-
+> When using a literal for initialization, the programmer must ensure that the literal's value falls within the appropriate numeric range, e.g., -2,147,483,648 to 2,147,483,647 for an integer. The wrapper classes (except for Character and Boolean) declare the MAX_VALUE and MIN_VALUE fields, which are static fields initialized with the maximum and minimum values a type may represent, respectively. A programmer may access these fields to check the supported numeric range by typing the wrapper class' name followed by a dot and the field name, as in Integer.MIN_VALUE, which returns -2,147,483,648.
