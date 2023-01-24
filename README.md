@@ -675,3 +675,4 @@ Reference variables of wrapper classes can also be compared using the equals() a
 
 ### equals() and compareTo() methods for wrapper class types
 <img width="963" alt="Screen Shot 2023-01-23 at 10 52 57 PM" src="https://user-images.githubusercontent.com/11669149/214229574-987edfbd-83bc-4ffc-85e3-81e6de6714a0.png">
+
