@@ -530,4 +530,62 @@ Passing a String and int argument to the constructor causes the constructor with
 ![myimage](intro_to_objects/images/default_constructor.png)
 
 # Objects and references
+## References
+A reference is a variable type that refers to an object. A reference may be thought of as storing the memory address of an object. Variables of a class data type (and array types, discussed elsewhere) are reference variables.
+
+![myimage](intro_to_objects/images/Reference_var.png)
+
+A statement like TimeHrMin travelTime; declares a reference to an object of type TimeHrMin, while String firstName; declares a reference to an object of type String. The reference variables do not store data for those class types. Instead, the programmer must assign each reference to an object, which can be created using the new operator.
+
+The statement TimeHrMin travelTime; declares a reference variable with an unknown value. A common error is to attempt to use a reference variable that does not yet refer to a valid object.
+
+The new operator allocates memory for an object, then returns a reference to the object's location in memory. Thus, travelTime = new TimeHrMin(); sets travelTime to refer to a new TimeHrMin object in memory. travelTime now refers to a valid object and the programmer may use travelTime to access the object's methods. The reference variable declaration and object creation may be combined into a single statement: TimeHrMin travelTime = new TimeHrMin();
+
+Java does not provide a direct way to determine the memory location of an object, or to determine the exact address to which a reference variable refers. The "value" of a reference variable is unknown to the programmer. 
+
+# The 'this' implicit parameter
+## Implicit parameter
+An object's member method is called using the syntax objectReference.method(). The object reference before the method name is known as an implicit parameter of the member method because the compiler converts the call syntax objectReference.method(...) into a method call with the object reference implicitly passed as a parameter. Ex: method(objectReference, ...).
+
+Within a member method, the implicitly-passed object reference is accessible via the keyword this. In particular, a class member can be accessed as this.classMember. The "." is the member access operator.
+
+Using this makes clear that a class member is being accessed and is essential if a field member and parameter have the same identifier. In the example below, this is necessary to differentiate between the field member sideLength and the parameter sideLength.
+
+### Example: Using 'this' to refer to an object's members
+<details><summary>Click to get the code</summary>
+<p>
+    
+``` java
+public class ShapeTest {
+    public static void main(String[] args) {
+        ShapeSquare square1 = new ShapeSquare();
+
+        square1.setSideLength(1.2);
+        System.out.println("Square's area: " + square1.getArea());
+    }
+}
+
+class ShapeSquare {
+    // Private fields
+    private double sideLength;
+
+    // Public methods
+    public void setSideLength(double sideLength) {
+        this.sideLength = sideLength;
+        // Field member    Parameter
+    }
+
+    public double getArea() {
+        return sideLength * sideLength; // Both refer to field
+    }
+}
+```
+</p>
+</details>
+
+
+
+
+
+
 
