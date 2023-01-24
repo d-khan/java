@@ -682,4 +682,20 @@ Reference variables of wrapper classes can also be compared using the equals() a
 Java allows statements to combine primitive and wrapper class variables by automatically converting between primitive types and wrapper classes. **Autoboxing** is the automatic conversion of primitive types to the corresponding wrapper classes. **Unboxing** is the automatic conversion of wrapper class objects to the corresponding primitive types.
 
 ### Common autoboxing scenarios
+<img width="959" alt="Screen Shot 2023-01-24 at 8 13 23 AM" src="https://user-images.githubusercontent.com/11669149/214346849-8c9b8bcc-c120-41f4-a2ac-5416a7b283ce.png">
+
+### Common unboxing scenarios
+<img width="966" alt="Screen Shot 2023-01-24 at 8 15 17 AM" src="https://user-images.githubusercontent.com/11669149/214347223-97ab534f-eaca-4854-aa68-3437956d94cc.png">
+
+### Converting to primitive types
+The Integer, Double, and Long wrapper classes provide methods for converting objects to primitive types.
+
+<img width="836" alt="Screen Shot 2023-01-24 at 8 19 02 AM" src="https://user-images.githubusercontent.com/11669149/214348096-c3c2ae9d-a08f-43b8-a8f9-93f1ecb4ca26.png">
+
+The Character and Boolean classes support the charValue() and booleanValue() methods, respectively, which perform similar functions.
+
+### Converting to and from Strings
+Wrapper classes feature methods that are useful for converting to and from Strings. Several of these methods are static methods, meaning they can be called by a program without creating an object. To call a static method, the name of the class and a '.' must precede the static method name, as in  Integer.toString(16);.
+
+<img width="489" alt="Screen Shot 2023-01-24 at 8 22 38 AM" src="https://user-images.githubusercontent.com/11669149/214349002-20eb7d54-11e5-4584-a365-a25e5e78b943.png">
 
