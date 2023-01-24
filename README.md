@@ -597,8 +597,25 @@ The "this" keyword can also be used in a constructor to invoke a different (over
 Further details can be found at:  
     - [Using the 'this' keyword from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html)
 
+# Primitive and reference types
+## Wrapper classes
+Java variables are one of two types.
 
+- A primitive type variable directly stores the data for that variable type, such as int, double, or char. Ex: int numStudents = 20; declares an int that directly stores the data 20.  
+- A reference type variable can refer to an instance of a class, also known as an object.  
 
+Java provides several wrapper classes that are built-in reference types that augment the primitive types. The Integer data type is a built-in class in Java that augments the int primitive type. Ex: Integer maxPlayers = 10; declares an Integer reference variable named maxPlayers that refers to an instance of the Integer class, also known as an Integer object. That Integer object stores the integer value 10.
 
+Many of Java's built-in classes, such as Java's Collection library, only work with objects. For example, a programmer can create an ArrayList containing Integer elements, e.g., ArrayList<Integer> frameScores; but not an ArrayList of int elements. Wrapper classes allow the program to create objects that store a single primitive type value, such as an integer or floating-point value. The wrapper classes also provide methods for converting between primitive types (e.g., int to double), between number systems (e.g., decimal to binary), and between a primitive type and a String representation.  
+
+| Reference type | Associated primitive type |
+| -------------- | --------------------------|
+| Character      | char                      |
+| Integer        | int                       |
+| Double         | double                    |
+| Boolean        | boolean                   |
+| Long           | long                      |
+    
+    
 
 
