@@ -662,3 +662,16 @@ public class FlyDrive {
 
 **Note**
 > When using a literal for initialization, the programmer must ensure that the literal's value falls within the appropriate numeric range, e.g., -2,147,483,648 to 2,147,483,647 for an integer. The wrapper classes (except for Character and Boolean) declare the MAX_VALUE and MIN_VALUE fields, which are static fields initialized with the maximum and minimum values a type may represent, respectively. A programmer may access these fields to check the supported numeric range by typing the wrapper class' name followed by a dot and the field name, as in Integer.MIN_VALUE, which returns -2,147,483,648.
+
+## Comparing wrapper class objects
+For reference variables of wrapper classes (e.g., Integer, Double, Boolean), a common error is to use the equality operators == and != when comparing values, which does not work as expected. Using the equality operators on any two reference variables evaluates to either true or false depending on each operand's referenced object. For example, given two Integers num1 and num2, the expression num1 == num2 compares if both num1 and num2 reference the same Integer object, but does not compare the Integers' contents. Because those references will (usually) be different, num1 == num2 will evaluate to false. This is not a syntax error, but clearly a logic error.
+
+Although a programmer should never compare two reference variables of wrapper classes using the equality operators, a programmer may use the equality operators when comparing a wrapper class object with a primitive variable or a literal constant. The relational operators <, <=, >, and >= may be used to compare wrapper class objects. However, note that relational operators are not typically valid for other reference types. The following table summarizes allowable comparisons.
+
+### Comparing wrapper class objects using relational operators
+<img width="823" alt="Screen Shot 2023-01-23 at 10 52 11 PM" src="https://user-images.githubusercontent.com/11669149/214229448-70a349cd-928e-4e94-8b34-e90c62f670d4.png">
+
+Reference variables of wrapper classes can also be compared using the equals() and compareTo() methods. These method descriptions are presented for the Integer class, but apply equally well to the other wrapper classes. Although the use of comparison methods is slightly cumbersome in comparison to relational operators, these comparison methods may be preferred by programmers who do not wish to memorize exactly which comparison operators work as expected.
+
+### equals() and compareTo() methods for wrapper class types
+<img width="963" alt="Screen Shot 2023-01-23 at 10 52 57 PM" src="https://user-images.githubusercontent.com/11669149/214229574-987edfbd-83bc-4ffc-85e3-81e6de6714a0.png">
