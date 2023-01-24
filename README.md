@@ -595,7 +595,7 @@ The figure below illustrates how member methods work. When an object's member me
 The "this" keyword can also be used in a constructor to invoke a different (overloaded) constructor. In the default constructor below, this(0, 0); invokes the other constructor to initialize both fields to zero. For this example, a programmer could have just set both fields to zero within the default constructor. However, invoking other constructors is useful when a class' initialization routine is lengthy and avoids rewriting the same code.
 
 Further details can be found at:  
-    - [Using the 'this' keyword from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html)
+- [Using the 'this' keyword from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html)
 
 # Primitive and reference types
 ## Wrapper classes
@@ -616,6 +616,6 @@ Many of Java's built-in classes, such as Java's Collection library, only work wi
 | Boolean        | boolean                   |
 | Long           | long                      |
     
-
+## Memory allocation for wrapper class objects
 
 
