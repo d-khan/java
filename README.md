@@ -583,6 +583,15 @@ class ShapeSquare {
 </p>
 </details>
 
+### Using 'this' in class member methods and constructors
+The figure below illustrates how member methods work. When an object's member method is called, the object's reference, which can be thought of as the object's memory address, is passed to the method via the implicit "this" parameter. An access in setTime() to this.hours first goes to the object's address, then to the hours field.
+
+![myimage](intro_to_objects/images/class_member_method.png)
+
+1. travTime is an object of class type ElapsedTime.  
+2. When travTime's SetTime() member method is called, travTime's object reference, which can be thought of as the object's memory address, is passed to the method via the implicit 'this' parameter.  
+3. The implicitly-passed object reference is accessible within the member method via the keyword 'this'. Ex: this.hours first goes to travTime's memory address, then to the hours data member.  
+
 
 
 
