@@ -592,6 +592,10 @@ The figure below illustrates how member methods work. When an object's member me
 2. When travTime's SetTime() member method is called, travTime's object reference, which can be thought of as the object's memory address, is passed to the method via the implicit 'this' parameter.  
 3. The implicitly-passed object reference is accessible within the member method via the keyword 'this'. Ex: this.hours first goes to travTime's memory address, then to the hours data member.  
 
+The "this" keyword can also be used in a constructor to invoke a different (overloaded) constructor. In the default constructor below, this(0, 0); invokes the other constructor to initialize both fields to zero. For this example, a programmer could have just set both fields to zero within the default constructor. However, invoking other constructors is useful when a class' initialization routine is lengthy and avoids rewriting the same code.
+
+Further details can be found at:  
+    - [Using the 'this' keyword from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html)
 
 
 
