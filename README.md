@@ -752,7 +752,7 @@ An ArrayList's index must be an integer type. The index cannot be a floating-poi
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
 
-<summary>Click to get the code</summary>
+<details><summary>Click to get the code</summary>
 <p>
     
 ``` java
@@ -788,6 +788,9 @@ public class ArrayListAverage {
 
 ```
 </p>
+</details>
+    
+    
 
     
 ## Iterating through ArrayLists
