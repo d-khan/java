@@ -697,7 +697,6 @@ The Character and Boolean classes support the charValue() and booleanValue() met
 ### Converting to and from Strings
 Wrapper classes feature methods that are useful for converting to and from Strings. Several of these methods are static methods, meaning they can be called by a program without creating an object. To call a static method, the name of the class and a '.' must precede the static method name, as in  Integer.toString(16);.
 
-
 <img width="957" alt="Screen Shot 2023-01-24 at 2 02 00 PM" src="https://user-images.githubusercontent.com/11669149/214430859-f1455687-7cfe-4b7a-afc9-7309399fcbb0.png">
 <img width="955" alt="Screen Shot 2023-01-24 at 2 02 23 PM" src="https://user-images.githubusercontent.com/11669149/214430921-f8143d7e-cfc9-4e67-a3eb-2da399a461e8.png">
 
@@ -727,3 +726,17 @@ public class DecimalToBinary {
 ```
 </p>
 </details>
+
+# ArraysList
+## Introduction
+
+Sometimes a programmer wishes to maintain a list of items, like a grocery list, or a course roster. An ArrayList is an ordered list of reference type items that comes with Java. Each item in an ArrayList is known as an element. The statement import java.util.ArrayList; enables use of an ArrayList.
+
+The declaration ArrayList\<Integer\> vals = new ArrayList\<Integer\>() creates reference variable vals that refers to a new ArrayList object consisting of Integer objects. The ArrayList list size can grow to contain the desired elements. ArrayList does not support primitive types like int, but rather reference types like Integer. A common error among beginners is to declare an ArrayList of a primitive type like int, as in ArrayList\<int\> myVals, yielding a compilation error: "unexpected type, found : int, required: reference."
+
+<img width="665" alt="Screen Shot 2023-01-24 at 9 31 04 PM" src="https://user-images.githubusercontent.com/11669149/214487464-b4e41fcf-628b-4fea-85d8-a80a1949ce37.png">
+1. valsList is a reference variable that refers to an ArrayList object consisting of Integer objects.
+2. Java automatically creates an Integer object from the integer literal passed to the add() method. The add() method then adds the Integer object to the end of the ArrayList.
+3. The get() method returns the element at the specified list location.
+4. The set() method replaces the element at the specified list position with the new Integer object. Again, Java automatically converts the integer literal 119 to an Integer object with that value.
+    
