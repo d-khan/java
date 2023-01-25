@@ -799,7 +799,7 @@ With an ArrayList and loops, the program could easily be changed to support say 
 ### Example - ArrayLists with loops
 <details><summary>Click to get the code</summary>
 <p>
-   
+    
 ``` java
 import java.util.ArrayList;
 import java.util.Scanner;
