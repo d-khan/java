@@ -988,3 +988,15 @@ Private class members are not included by default in the API documentation gener
 Similarly, the resulting API documentation for the above classes need only include information that enables their use by other programmers. However, if a programmer needs to document a class's complete structure, the Javadoc tool can be executed with the -private flag, as in javadoc -private -d destination class1.java class2.java, to enable the documentation of private class members.
 
 
+# Parameters of reference types
+## Methods with reference variables as parameters
+
+A reference variable is a variable that points to, or refers to, an object or array. Internally, a reference variable stores a reference, or the memory location, of the object to which it refers. A programmer can only access the data or functionality provided by objects through the use of reference variables. Because reference variables store object locations and not the object data itself, passing a reference variable as a method argument assigns the argument's stored reference to the corresponding method parameter. Similarly, returning a reference variable returns an object reference.
+
+<img width="811" alt="Screen Shot 2023-01-25 at 12 19 25 AM" src="https://user-images.githubusercontent.com/11669149/214512934-b77306f1-4636-4a37-a433-b021c5bf9ad8.png">
+
+## Methods with wrapper class parameters
+Instances of wrapper classes, such as Integer and Double, and the String class are defined as immutable, meaning that a programmer cannot modify the object's contents after initialization; new objects must be created instead. The statement Integer travelTime = 10; initializes the variable travelTime with a reference to a new Integer object. Assigning the variable travelTime later with another value, such as travelTime = 11;, creates a completely new object and assigns travelTime to refer to the new object's reference. Note that for convenience, a programmer can assign a literal to reference variables of type String, Integer, Double, or other wrapper classes, and the Java compiler will automatically convert the assigned literal to a new object of the correct type.
+
+
+
