@@ -789,8 +789,8 @@ public class ArrayListAverage {
     }
 }
 ```                                  
-</p>
-</details>
+\</p\>
+\</details\>
 
 ## Iterating through ArrayLists
 The program below allows a user to enter 8 numbers, then prints the average of those 8 numbers. The first loop uses the add() method to add each user-specified number to the ArrayList userNums. After adding the numbers to userNums, the size() method can be used to determine the number of elements in userNums. Thus, size() is used in the second for loop to calculate the sum, and in the statement that computes the average.
