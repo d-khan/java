@@ -22,7 +22,7 @@ A programmer can create one or more objects of the same class. Creating an objec
 
 The "." operator, known as the member access operator, is used to invoke a method on an object. Ex: favLunchPlace.setRating(4) calls the setRating() method on the favLunchPlace object, which sets the object's rating to 4.
 
-![myimage](intro_to_objects/images/class_RestaurantFavorites.png)
+<img width="640" alt="class_RestaurantFavorites" src="https://user-images.githubusercontent.com/11669149/214719560-cdd1e47a-0559-44f9-934a-64e882e0e604.png">
 
 ### Class example: String
 Java's String object is a class that stores a character string in memory, along with variables indicating the length and other things, but a String's user need not know such details. Instead, the String's user just needs to know what public member methods can be used.
@@ -31,15 +31,15 @@ Java's String object is a class that stores a character string in memory, along 
 ## Private fields
 In addition to public member methods, a class definition has private fields: variables that member methods can access but class users cannot. The private access modifier precedes each private field declaration.
 
-![myimage](intro_to_objects/images/private_fields.png)
+<img width="640" alt="private_fields" src="https://user-images.githubusercontent.com/11669149/214719619-917d46ec-9c3d-47b7-85a3-2c0db619cb42.png">
 
 ## Defining a class public member methods
 A programmer defining a class first names the class, declares private fields, and defines public member methods. A class' fields and methods are collectively called class members.
 
 The programmer defines the details of each member method, sometimes called the class' implementation. A method definition provides an access modifier, return type, name, parameters, and the method's statements. A member method can access all private fields.
 
-![myimage](intro_to_objects/images/Restaurant.png)
-![myimage](intro_to_objects/images/RestaurantFavorites.png)
+<img width="637" alt="Restaurant" src="https://user-images.githubusercontent.com/11669149/214719673-e719b4cb-1cab-4bdf-95d8-f62a7e290eb3.png">
+<img width="638" alt="RestaurantFavorites" src="https://user-images.githubusercontent.com/11669149/214719687-bfbf7983-69c3-4a66-8d49-23f23c46bc85.png">
 
 ### Example - Bicycle class
 The following class gives an overview of how a class, constructor and methods are defined.
@@ -178,7 +178,7 @@ class Restaurant {
 ## Private helper methods
 A programmer commonly creates private methods, known as private helper methods, to help public methods carry out tasks.
 
-![myimage](intro_to_objects/images/private_fields.png)
+<img width="640" alt="private_fields" src="https://user-images.githubusercontent.com/11669149/214719756-a43d59a9-180d-4370-977b-3b858b8f5101.png">
 
 # Initialization and constructors
 
@@ -282,7 +282,8 @@ Creating a program may start by a programmer deciding what "things" exist, and w
 
 Below, the programmer wants to maintain a soccer team. The programmer realizes the team will have people, so decides to sketch a Person class. Each Person class will have private (shown by "-") data like name and age, and public (shown by "+") methods like get/set name, get/set age, and print. The programmer then sketches a Team class, which uses Person objects.
 
-![myimage](intro_to_objects/images/sketch_class_soccer.png)
+<img width="619" alt="sketch_class_soccer" src="https://user-images.githubusercontent.com/11669149/214720619-566f685f-1efd-4b1b-9aa4-95681d99de1b.png">
+
 
 ### Example: SoccerTeam and TeamPerson classes
 <details><summary>Click to get the TeamPerson class</summary>
@@ -520,20 +521,20 @@ Features of a good testbench include:
 # Constructors overloading
 Programmers often want to provide different initialization values when creating a new object. A class creator can overload a constructor by defining multiple constructors differing in parameter types. When an object is created with the new operator, arguments can be passed to the constructor. The constructor with matching parameters will be called.
 
-![myimage](intro_to_objects/images/Overload_constructors.png)
+<img width="664" alt="Overload_constructors" src="https://user-images.githubusercontent.com/11669149/214720691-039dc6eb-ba35-48d6-ac2d-347c2e283613.png">
 
 Creating a new object with no constructor arguments calls the default constructor. In this case, the object gets initialized with NoName and -1.
 Passing a String and int argument to the constructor causes the constructor with matching parameters to be called instead. The object gets initialized with those argument values.
 
 > If a programmer defines any constructor, the compiler does not implicitly define a default constructor, so good practice is for the programmer to also explicitly define a default constructor so that an object creation like new MyClass() remains supported.
 
-![myimage](intro_to_objects/images/default_constructor.png)
+<img width="903" alt="default_constructor" src="https://user-images.githubusercontent.com/11669149/214720732-2ab981b0-2654-4554-a5ad-0f2ddc00b8f8.png">
 
 # Objects and references
 ## References
 A reference is a variable type that refers to an object. A reference may be thought of as storing the memory address of an object. Variables of a class data type (and array types, discussed elsewhere) are reference variables.
 
-![myimage](intro_to_objects/images/Reference_var.png)
+<img width="606" alt="Reference_var" src="https://user-images.githubusercontent.com/11669149/214720778-697ba768-10c9-4412-8aee-03c1e5425695.png">
 
 A statement like TimeHrMin travelTime; declares a reference to an object of type TimeHrMin, while String firstName; declares a reference to an object of type String. The reference variables do not store data for those class types. Instead, the programmer must assign each reference to an object, which can be created using the new operator.
 
@@ -586,7 +587,7 @@ class ShapeSquare {
 ### Using 'this' in class member methods and constructors
 The figure below illustrates how member methods work. When an object's member method is called, the object's reference, which can be thought of as the object's memory address, is passed to the method via the implicit "this" parameter. An access in setTime() to this.hours first goes to the object's address, then to the hours field.
 
-![myimage](intro_to_objects/images/class_member_method.png)
+<img width="725" alt="class_member_method" src="https://user-images.githubusercontent.com/11669149/214720921-8c79cd99-6597-4113-9e3a-1043191ca7bb.png">
 
 1. travTime is an object of class type ElapsedTime.  
 2. When travTime's SetTime() member method is called, travTime's object reference, which can be thought of as the object's memory address, is passed to the method via the implicit 'this' parameter.  
@@ -606,7 +607,6 @@ Java variables are one of two types.
 - A reference type variable can refer to an instance of a class, also known as an object.  
 
 Java provides several wrapper classes that are built-in reference types that augment the primitive types. The Integer data type is a built-in class in Java that augments the int primitive type. Ex: Integer maxPlayers = 10; declares an Integer reference variable named maxPlayers that refers to an instance of the Integer class, also known as an Integer object. That Integer object stores the integer value 10.
-
 
 Many of Java's built-in classes, such as Java's Collection library, only work with objects. For example, a programmer can create an ArrayList containing Integer elements, e.g., ArrayList\<Integer\> frameScores; but not an ArrayList of int elements. Wrapper classes allow the program to create objects that store a single primitive type value, such as an integer or floating-point value. The wrapper classes also provide methods for converting between primitive types (e.g., int to double), between number systems (e.g., decimal to binary), and between a primitive type and a String representation. 
     
