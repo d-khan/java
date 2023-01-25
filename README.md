@@ -751,10 +751,15 @@ The ArrayList's get() method returns the element at the specified list location,
 An ArrayList's index must be an integer type. The index cannot be a floating-point type, even if the value is 0.0, 1.0, etc.
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
-<details><summary>Click to get the code</summary>
+
+
+
+<details>
+    <summary>Click to get the code</summary>
 <p>
     
 ``` java
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -791,8 +796,14 @@ public class MostPopularOS {
       return number + "th";
    }
 }
-```
+```                                  
 </p>
 </details>
+    
+
 
 ## Iterating through ArrayLists
+The program below allows a user to enter 8 numbers, then prints the average of those 8 numbers. The first loop uses the add() method to add each user-specified number to the ArrayList userNums. After adding the numbers to userNums, the size() method can be used to determine the number of elements in userNums. Thus, size() is used in the second for loop to calculate the sum, and in the statement that computes the average.
+
+With an ArrayList and loops, the program could easily be changed to support say 100 numbers; the code would be the same, and only the value of NUM_ELEMENTS would be changed to 100.
+
