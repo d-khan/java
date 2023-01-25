@@ -1013,5 +1013,64 @@ In a class, a **static** field is a field of the class instead of a field of eac
 3. The constructor assigns an object's id with nextId, and then increments nextId. Each time an object is created, nextId is incremented. Thus, each object will have a unique id.   
 4. Any class method can access or mutate a static field. Because nextId is public, nextId can also be accessed outside the class using the member access operator (.)
 
+## Static member methods
+A static member method is a class method that is independent of class objects. Static member methods are typically used to access and mutate private static fields from outside the class. Since static methods are independent of class objects, the this parameter is not passed to a static member method. So, a static member method can only access a class' static fields.
+
+### Example - Static member method used to access a private static field
+<details> <summary> Click to get the Store.java code </summary>
+<p>
+    
+``` java
+public class Store {   
+   // Declare and initialize private static field
+   private static int nextId = 101;   
+
+   // Define private fields 
+   private String name;
+   private String type;
+   private int id;
+
+   public Store(String storeName, String storeType) {
+      name = storeName;
+      type = storeType;
+      id = nextId;
+
+      ++nextId;   // Increment each time a Store object is created
+   }
+
+   public int getId() {
+      return id;
+   }
+   
+   public static int getNextId() {
+      return nextId;
+   }
+}
+
+
+```
+</p>
+</details>
+
+<details> <summary> Click to get the NewStores.java code </summary>
+<p>
+    
+``` java
+public class NewStores {
+   public static void main(String[] args) {
+      Store store1 = new Store("Macy's", "Department");
+      Store store2 = new Store("Albertsons", "Grocery");
+      Store store3 = new Store("Ace", "Hardware");
+    
+      System.out.println("Store 1's ID: " + store1.getId());
+      System.out.println("Store 2's ID: " + store2.getId());
+      System.out.println("Store 3's ID: " + store3.getId());
+      System.out.println("Next ID: " + Store.getNextId());
+   }
+}
+```
+</p>
+</details>
+
 
 
