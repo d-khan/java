@@ -701,3 +701,29 @@ Wrapper classes feature methods that are useful for converting to and from Strin
 <img width="957" alt="Screen Shot 2023-01-24 at 2 02 00 PM" src="https://user-images.githubusercontent.com/11669149/214430859-f1455687-7cfe-4b7a-afc9-7309399fcbb0.png">
 <img width="955" alt="Screen Shot 2023-01-24 at 2 02 23 PM" src="https://user-images.githubusercontent.com/11669149/214430921-f8143d7e-cfc9-4e67-a3eb-2da399a461e8.png">
 
+### Example: A program to convert a decimal number to binary
+<details><summary>Click to get the code</summary>
+<p>
+    
+``` java
+import java.util.Scanner;
+
+public class DecimalToBinary {
+   public static void main(String [] args) {
+      Scanner scnr = new Scanner(System.in);
+      int decimalInput;
+      String binaryOutput;
+      
+      System.out.print("Enter a decimal number: ");
+      decimalInput = scnr.nextInt();
+      
+      binaryOutput = Integer.toBinaryString(decimalInput);
+      
+      System.out.println("The binary representation of " + decimalInput +
+                         " is " + binaryOutput);
+   }
+}
+
+```
+</p>
+</details>
