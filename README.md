@@ -752,8 +752,8 @@ An ArrayList's index must be an integer type. The index cannot be a floating-poi
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
 
-\<details\>\<summary\>Click to get the code\</summary\>
-\<p\>
+\<details>\<summary>Click to get the code\</summary>
+\<p>
 
 ``` java
 import java.util.ArrayList;
@@ -787,8 +787,8 @@ public class ArrayListAverage {
 }
 
 ```
-\</p\>
-\</details\>
+</p>
+</details>
 
 ## Iterating through ArrayLists
 The program below allows a user to enter 8 numbers, then prints the average of those 8 numbers. The first loop uses the add() method to add each user-specified number to the ArrayList userNums. After adding the numbers to userNums, the size() method can be used to determine the number of elements in userNums. Thus, size() is used in the second for loop to calculate the sum, and in the statement that computes the average.
@@ -796,9 +796,9 @@ The program below allows a user to enter 8 numbers, then prints the average of t
 With an ArrayList and loops, the program could easily be changed to support say 100 numbers; the code would be the same, and only the value of NUM_ELEMENTS would be changed to 100.
 
 ### Example: ArrayLists with loops
-\<details\>\<summary\>Click to get the code\</summary\>
-\<p\>
-
+\<details>\<summary>Click to get the code</summary>
+\<p>
+   
  ``` java
 
 import java.util.ArrayList;
@@ -831,6 +831,8 @@ public class ArrayListAverage {
    }
 }
 ```
+</p>
+</details>
     
 **Note**
 > An ArrayList is one of several Collections supported by Java for keeping groups of items. Other collections include LinkedList, Set, Queue, Map, and many more. A programmer selects the collection whose features best suit the desired task. For example, an ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
