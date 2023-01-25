@@ -1090,8 +1090,7 @@ Using a package member's fully qualified name: A class' fully qualified name is 
 
 - Using an import statement to import every member in a package: A programmer import all members of a package by using the wildcard character \* instead of a package member name. Ex: import java.util.\*; imports all classes in the java.util package and allows a programmer use package members such as Scanner and ArrayList directly.
 
-
-<img width="81" alt="Screen Shot 2023-01-25 at 7 51 12 AM" src="https://user-images.githubusercontent.com/11669149/214610126-b4d30407-13ec-4063-a6f1-d6b51104c7ee.png">
+<img width="709" alt="Screen Shot 2023-01-25 at 7 51 19 AM" src="https://user-images.githubusercontent.com/11669149/214610307-7d1c8fdb-a71d-4b54-852f-baf61dfa97cf.png">
 
 1. A programmer can access a package member, such as Scanner, using the fully qualified name.   
 2. The import statement allows a programmer to use a package member, such as ArrayList, directly.   
