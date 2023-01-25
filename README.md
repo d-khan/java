@@ -754,53 +754,43 @@ An ArrayList's index must be an integer type. The index cannot be a floating-poi
 
 
 
-<details>
-    <summary>Click to get the code</summary>
-<p>
-    
+\<details\>\<summary\>Click to get the code\</summary\>
+\<p\>
+
 ``` java
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MostPopularOS {
-   public static void main(String[] args) {
-      Scanner scnr = new Scanner(System.in);
-      ArrayList<String> operatingSystems = new ArrayList<String>(); 
-      int nthOS;      // User input, Nth most popular OS
-      
-      // Source: StatCounter.com, 2018
-      operatingSystems.add("Windows 10");
-      operatingSystems.add("Windows 7");
-      operatingSystems.add("Mac OS X");
-      operatingSystems.add("Windows 8");
-      operatingSystems.add("Windows XP");
-      operatingSystems.add("Linux");
-      operatingSystems.add("Chrome OS");
-      operatingSystems.add("Other");
+public class ArrayListAverage {
+    public static void main(String[] args) {
+        final int NUM_ELEMENTS = 8;
+        Scanner scnr = new Scanner(System.in);
+        ArrayList<Double> userNums = new ArrayList<Double>(); // User numbers
+        Double sumVal;
+        Double averageVal;
+        int i;
 
-      System.out.println("Enter N (1-8): ");
-      nthOS = scnr.nextInt();
+        // Get user numbers and add to userNums
+        System.out.println("Enter " + NUM_ELEMENTS + " numbers...");
+        for (i = 0; i < NUM_ELEMENTS; ++i) {
+            System.out.print("Number " + (i + 1) + ": ");
+            userNums.add(scnr.nextDouble());
+        }
 
-      if ((nthOS >= 1) && (nthOS <= 8)) {
-         System.out.print("The " + getNumberSuffix(nthOS) + " most popular OS is ");
-         System.out.println(operatingSystems.get(nthOS - 1));
-      }
-   }
+        // Determine average value
+        sumVal = 0.0;
+        for (i = 0; i < userNums.size(); ++i) {
+            sumVal = sumVal + userNums.get(i); // Calculate sum of all numbers
+        }
+        averageVal = sumVal / userNums.size(); // Calculate average
 
-   private static String getNumberSuffix(int number) {
-      String[] firstThree = { "st", "nd", "rd" };
-      if (number >= 1 && number <= 3) {
-         return number + firstThree[number - 1];
-      }
-      return number + "th";
-   }
+        System.out.println("Average: " + averageVal);
+    }
 }
 ```                                  
 </p>
 </details>
-    
-
 
 ## Iterating through ArrayLists
 The program below allows a user to enter 8 numbers, then prints the average of those 8 numbers. The first loop uses the add() method to add each user-specified number to the ArrayList userNums. After adding the numbers to userNums, the size() method can be used to determine the number of elements in userNums. Thus, size() is used in the second for loop to calculate the sum, and in the statement that computes the average.
