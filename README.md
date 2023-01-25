@@ -752,6 +752,8 @@ An ArrayList's index must be an integer type. The index cannot be a floating-poi
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
 
+<details><summary>Click to get the code</summary>
+<p>
 ``` java
 import java.util.ArrayList;
 import java.util.Scanner;
