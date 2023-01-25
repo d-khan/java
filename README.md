@@ -735,8 +735,12 @@ Sometimes a programmer wishes to maintain a list of items, like a grocery list, 
 The declaration ArrayList\<Integer\> vals = new ArrayList\<Integer\>() creates reference variable vals that refers to a new ArrayList object consisting of Integer objects. The ArrayList list size can grow to contain the desired elements. ArrayList does not support primitive types like int, but rather reference types like Integer. A common error among beginners is to declare an ArrayList of a primitive type like int, as in ArrayList\<int\> myVals, yielding a compilation error: "unexpected type, found : int, required: reference."
 
 <img width="665" alt="Screen Shot 2023-01-24 at 9 31 04 PM" src="https://user-images.githubusercontent.com/11669149/214487464-b4e41fcf-628b-4fea-85d8-a80a1949ce37.png">
-1. valsList is a reference variable that refers to an ArrayList object consisting of Integer objects.
-2. Java automatically creates an Integer object from the integer literal passed to the add() method. The add() method then adds the Integer object to the end of the ArrayList.
-3. The get() method returns the element at the specified list location.
-4. The set() method replaces the element at the specified list position with the new Integer object. Again, Java automatically converts the integer literal 119 to an Integer object with that value.
+1. valsList is a reference variable that refers to an ArrayList object consisting of Integer objects.  
+2. Java automatically creates an Integer object from the integer literal passed to the add() method. The add() method then adds the Integer object to the end of the ArrayList.  
+3. The get() method returns the element at the specified list location.  
+4. The set() method replaces the element at the specified list position with the new Integer object. Again, Java automatically converts the integer literal 119 to an Integer object with that value.  
+
+**Common ArrayList methods**
+
+<img width="957" alt="Screen Shot 2023-01-24 at 9 34 07 PM" src="https://user-images.githubusercontent.com/11669149/214487828-5d3c855a-2fab-4e4b-b04d-e982720c2af7.png">
     
