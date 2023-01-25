@@ -697,5 +697,7 @@ The Character and Boolean classes support the charValue() and booleanValue() met
 ### Converting to and from Strings
 Wrapper classes feature methods that are useful for converting to and from Strings. Several of these methods are static methods, meaning they can be called by a program without creating an object. To call a static method, the name of the class and a '.' must precede the static method name, as in  Integer.toString(16);.
 
-<img width="489" alt="Screen Shot 2023-01-24 at 8 22 38 AM" src="https://user-images.githubusercontent.com/11669149/214349002-20eb7d54-11e5-4584-a365-a25e5e78b943.png">
+
+<img width="957" alt="Screen Shot 2023-01-24 at 2 02 00 PM" src="https://user-images.githubusercontent.com/11669149/214430859-f1455687-7cfe-4b7a-afc9-7309399fcbb0.png">
+<img width="955" alt="Screen Shot 2023-01-24 at 2 02 23 PM" src="https://user-images.githubusercontent.com/11669149/214430921-f8143d7e-cfc9-4e67-a3eb-2da399a461e8.png">
 
