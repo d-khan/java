@@ -998,5 +998,20 @@ A reference variable is a variable that points to, or refers to, an object or ar
 ## Methods with wrapper class parameters
 Instances of wrapper classes, such as Integer and Double, and the String class are defined as immutable, meaning that a programmer cannot modify the object's contents after initialization; new objects must be created instead. The statement Integer travelTime = 10; initializes the variable travelTime with a reference to a new Integer object. Assigning the variable travelTime later with another value, such as travelTime = 11;, creates a completely new object and assigns travelTime to refer to the new object's reference. Note that for convenience, a programmer can assign a literal to reference variables of type String, Integer, Double, or other wrapper classes, and the Java compiler will automatically convert the assigned literal to a new object of the correct type.
 
+# Static fields and methods
+## Static fields
+The keyword **static** indicates a variable is allocated in memory only once during a program's execution. Static variables reside in the program's static memory region and have a global scope. Thus, static variables can be accessed from anywhere in a program.
+
+In a class, a **static** field is a field of the class instead of a field of each class object. Thus, static fields are independent of any class object, and can be accessed without creating a class object. Static fields are declared and initialized in the class definition. Within a class method, a static field is accessed using the field name. A public static field can be accessed outside the class using dot notation: ClassName.fieldName.
+
+> Static fields are also called class variables, and non-static fields are also called instance variables.
+
+<img width="698" alt="Screen Shot 2023-01-25 at 7 37 42 AM" src="https://user-images.githubusercontent.com/11669149/214606881-90ed6250-e618-4941-8421-c759bde79b04.png">
+
+1. The Store class' static field nextId is declared and initialized in the Store class definition. Only one instance of the field nextId will exist in memory.   
+2. When a Store object is created, memory is allocated for the object's name, type, and id fields, but not the static field nextId.   
+3. The constructor assigns an object's id with nextId, and then increments nextId. Each time an object is created, nextId is incremented. Thus, each object will have a unique id.   
+4. Any class method can access or mutate a static field. Because nextId is public, nextId can also be accessed outside the class using the member access operator (.)
+
 
 
