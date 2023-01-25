@@ -15,7 +15,7 @@ An abstract data type (ADT) is a data type whose creation and update are constra
 ## Classes intro: Public member methods
 The class construct defines a new type that can group data and methods to form an object. A class' public member methods indicate all operations a class user can perform on the object. The power of classes is that a class user need not know how the class' data and methods are implemented but need only understand how each public member method behaves.
 
-![myimage](intro_to_objects/images/class_Restaurant.png)
+<img width="634" alt="class_Restaurant" src="https://user-images.githubusercontent.com/11669149/214719429-4dbbb7a7-1033-467a-a232-530e43ae5964.png">
 
 ## Using a class
 A programmer can create one or more objects of the same class. Creating an object consists of two steps: declaring a reference variable of the class type, and assigning the variable with an explicitly allocated instance of the class type. A reference variable can refer to an instance of a class. The new operator explicitly allocates an object of the specified class type. Ex: Restaurant favLunchPlace = new Restaurant(); creates a Restaurant object named favLunchPlace.
