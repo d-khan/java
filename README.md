@@ -736,10 +736,10 @@ The declaration ArrayList\<Integer\> vals = new ArrayList\<Integer\>() creates r
 
 <img width="665" alt="Screen Shot 2023-01-24 at 9 31 04 PM" src="https://user-images.githubusercontent.com/11669149/214487464-b4e41fcf-628b-4fea-85d8-a80a1949ce37.png">
 
-1. valsList is a reference variable that refers to an ArrayList object consisting of Integer objects.  \\
-2. Java automatically creates an Integer object from the integer literal passed to the add() method. The add() method then adds the Integer object to the end of the ArrayList.  \\
-3. The get() method returns the element at the specified list location.  \\
-4. The set() method replaces the element at the specified list position with the new Integer object. Again, Java automatically converts the integer literal 119 to an Integer object with that value.  \\
+1. valsList is a reference variable that refers to an ArrayList object consisting of Integer objects.   
+2. Java automatically creates an Integer object from the integer literal passed to the add() method. The add() method then adds the Integer object to the end of the ArrayList.   
+3. The get() method returns the element at the specified list location.   
+4. The set() method replaces the element at the specified list position with the new Integer object. Again, Java automatically converts the integer literal 119 to an Integer object with that value.   
 
 **Common ArrayList methods**
 
