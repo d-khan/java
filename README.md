@@ -750,10 +750,10 @@ The ArrayList's get() method returns the element at the specified list location,
 
 An ArrayList's index must be an integer type. The index cannot be a floating-point type, even if the value is 0.0, 1.0, etc.
 
-### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
+### Example: ArrayList
 
-\<details>\<summary>Click to get the code\</summary>
-\<p>
+<details><summary>Click to get the code</summary>
+<p>
     
 ``` java
 import java.util.ArrayList;
