@@ -752,8 +752,9 @@ An ArrayList's index must be an integer type. The index cannot be a floating-poi
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
 
-<details><summary>Click to get the code</summary>
-<p>
+\<details><summary>Click to get the code</summary>
+\<p>
+    
 ``` java
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -837,4 +838,6 @@ public class ArrayListAverage {
 **Note**
 > An ArrayList is one of several Collections supported by Java for keeping groups of items. Other collections include LinkedList, Set, Queue, Map, and many more. A programmer selects the collection whose features best suit the desired task. For example, an ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
     
-   
+    
+    
+    
