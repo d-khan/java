@@ -833,6 +833,7 @@ public class ArrayListAverage {
     }
 }
 
+```
 </p>
 </details> 
 </p>
@@ -843,11 +844,7 @@ public class ArrayListAverage {
     
 # Classes and ArrayLists
 ## ArrayList of objects: A reviews program
-dedwed
-dedw
-    Hello
-    Hello2
-    Hello 3
+
     
     
     
