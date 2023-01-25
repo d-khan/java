@@ -752,7 +752,7 @@ An ArrayList's index must be an integer type. The index cannot be a floating-poi
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i): Most popular OS program.
 
-\<details><summary>Click to get the code</summary>
+\<details>\<summary>Click to get the code\</summary>
 \<p>
     
 ``` java
@@ -790,7 +790,7 @@ public class ArrayListAverage {
 
 </p>
 </details>
-    
+
 ## Iterating through ArrayLists
 The program below allows a user to enter 8 numbers, then prints the average of those 8 numbers. The first loop uses the add() method to add each user-specified number to the ArrayList userNums. After adding the numbers to userNums, the size() method can be used to determine the number of elements in userNums. Thus, size() is used in the second for loop to calculate the sum, and in the statement that computes the average.
 
