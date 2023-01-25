@@ -839,11 +839,13 @@ public class ArrayListAverage {
 > An ArrayList is one of several Collections supported by Java for keeping groups of items. Other collections include LinkedList, Set, Queue, Map, and many more. A programmer selects the collection whose features best suit the desired task. For example, an ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
     
 # Classes and ArrayLists
-    ## ArrayList of objects: A reviews program
+## ArrayList of objects: A reviews program
+dedwed
+dedw
+    Hello
+    Hello2
+    Hello 3
     
-    
-    dedwed
-    dedw
     
     
     
