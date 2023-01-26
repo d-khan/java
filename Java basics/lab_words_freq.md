@@ -44,5 +44,4 @@ The deadlines are posted on the Syllabus as well as on Canvas.
 - The video is submitted, and the code is working, but a partial explanation of the questions is submitted. (6+ marks)
 - The code is uploaded but not working regardless the video is submitted or not. (0 marks)
 
-----
 [^1]:This is a test
