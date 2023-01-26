@@ -16,10 +16,10 @@ Your program must define and call the following method:
 ``` public static void sortArray(int[] myArr, int arrSize)```
 
 ## Example input
-5 10 4 39 12 2
+```5 10 4 39 12 2```
 
 ## Example output
-39,12,10,4,2
+```39,12,10,4,2```
 
 ## Notes
 Sorting an array can be done in many ways. You are welcome to look up and use any existing algorithm. 
