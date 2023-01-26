@@ -1,7 +1,7 @@
 # Lab: Words frequencies
 
 ## Objectives
-Count number of words [^1]
+Count number of words[^1]
 
 ## Pre-requisite
 Review of the week 1 Java contents
@@ -45,4 +45,4 @@ The deadlines are posted on the Syllabus as well as on Canvas.
 - The code is uploaded but not working regardless the video is submitted or not. (0 marks)
 
 ----
-[^1] This is a test
+[^1]:This is a test
