@@ -1,7 +1,7 @@
 # Lab: Words frequencies
 
 ## Objectives
-Count number of words[^1]
+Count number of words
 
 ## Pre-requisite
 Review of the week 1 Java contents
@@ -26,7 +26,7 @@ hi 2
 mark 2   
 
 ## What to submit?
-1. Draw a flowchart of your thought process. I found this [online flowchart website](www.draw.io) very useful.
+1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful.
 However, you can use any application of your choice. (2 marks)
 2. Explain, if you have to do a frequency analysis of a website, how you will perform it. (1 mark)
 3. What were your challenges in performing the lab (from design to the implementation phases)? (1 mark)
@@ -43,5 +43,3 @@ The deadlines are posted on the Syllabus as well as on Canvas.
 - The video describes the code in detail. The code is working as per instruction, and the explanation of the questions is submitted (10 marks)
 - The video is submitted, and the code is working, but a partial explanation of the questions is submitted. (6+ marks)
 - The code is uploaded but not working regardless the video is submitted or not. (0 marks)
-
-[^1]:This is a test
