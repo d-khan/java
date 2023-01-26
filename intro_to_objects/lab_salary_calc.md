@@ -1,6 +1,7 @@
 # Calculate salary using classes
 
 ## Objective
+Understand how to apply classes and constructors
 
 ## Pre-requisite
 Review "Introduction to objects & classes"
