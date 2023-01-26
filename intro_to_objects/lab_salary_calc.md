@@ -268,10 +268,9 @@ public class IncomeTaxMain {
 </details>
 
 ## What to submit?
-1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks). 
-2. Explain why did you select a particular sorting algorithm. (1 mark).  
-3. What were your challenges in performing the lab (from design to the implementation phases)? (1 mark).  
-4. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. (6 marks)
+1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks).   
+2. What were your challenges in performing the lab (from design to the implementation phases)? (2 mark).  
+3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. (6 marks)
 
 ## How to submit it?
 - Upload your work in the .pdf format and clearly define your responses.  
