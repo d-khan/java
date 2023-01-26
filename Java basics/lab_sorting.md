@@ -4,7 +4,7 @@
 Sort an array
 
 ## Pre-requisite
-Review of the week 1 Java contents
+Review Java contents covered in week 1
 
 ## Tasks
 Define a method named sortArray that takes an array of integers and the number of elements in the array as parameters. 
