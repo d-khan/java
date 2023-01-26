@@ -987,6 +987,10 @@ Private class members are not included by default in the API documentation gener
 
 Similarly, the resulting API documentation for the above classes need only include information that enables their use by other programmers. However, if a programmer needs to document a class's complete structure, the Javadoc tool can be executed with the -private flag, as in javadoc -private -d destination class1.java class2.java, to enable the documentation of private class members.
 
+# ArrayList ADT
+
+# Java Documentation for classes
+
 
 # Parameters of reference types
 ## Methods with reference variables as parameters
