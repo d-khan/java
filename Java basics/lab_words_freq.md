@@ -1,7 +1,7 @@
 # Lab: Words frequencies
 
 ## Objectives
-Count number of words[^1]
+Count number of words [^1]
 
 ## Pre-requisite
 Review of the week 1 Java contents
