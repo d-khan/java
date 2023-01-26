@@ -128,7 +128,7 @@ public class IncomeTaxMain {
 </p>
 </details>
 
-## Task A (using constructor overload)
+## Task B (using constructor overload)
 The program below calculates a tax rate and tax to pay given an annual salary. The program uses a class, TaxTableTools, which has the tax table built in. Run the program with annual salaries of 10000, 50000, 50001, 100001 and -1 (to end the program) and note the output tax rate and tax to pay.
 
 1. Overload the constructor.   
