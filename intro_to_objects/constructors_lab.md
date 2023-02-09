@@ -7,19 +7,17 @@ Practice constructors in objects and classes. This exercise is not graded.
 Review "Introduction to objects & classes"
 
 ## Task A (using classes)
-Given ```main()```, complete the Car class (in file Car.java) with methods to set and get the purchase price of a car (setPurchasePrice(), getPurchasePrice()), and to output the car's information (printInfo()).
+Given ```main()```, complete the FoodItem class (in file FoodItem.java) with constructors to initialize each food item. The default constructor should initialize the name to "Water" and all other fields to 0.0. The second constructor should have four parameters (food name, grams of fat, grams of carbohydrates, and grams of protein) and should assign each private field with the appropriate parameter value.
 
 ### Expected input
-2011  
-18000   
-2018   
-where 2011 is the car's model year, 18000 is the purchase price, and 2018 is the current year, the output is:
+Water 
 
 ### Expected output
-Car's information:
-  Model year: 2011
-  Purchase price: $18000
-  Current value: $5770
+Nutritional information per serving of Water:
+  Fat: 0.00 g
+  Carbohydrates: 0.00 g
+  Protein: 0.00 g
+Number of calories for 1.00 serving(s): 0.00
 
 Note: printInfo() should use two spaces for indentation.
 
