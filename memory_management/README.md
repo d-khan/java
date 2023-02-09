@@ -11,6 +11,7 @@ The following program can be used to demonstrate the issue. The user inputs an A
 <p>
 
 '''java
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -68,3 +69,5 @@ public class ArrayListAddRemove {
 ```
 </p>
 </details>
+
+
