@@ -14,6 +14,26 @@ Water
 
 ### Expected output
 ```
+Nutritional information per serving of Water:
+  Fat: 0.00 g
+  Carbohydrates: 0.00 g
+  Protein: 0.00 g
+Number of calories for 1.00 serving(s): 0.00
+```
+
+### Expected input
+```
+M&M's
+10.0
+34.0
+2.0
+3.0
+```
+
+where M&M's is the food name, 10.0 is the grams of fat, 34.0 is the grams of carbohydrates, 2.0 is the grams of protein, and 3.0 is the number of servings, the output is:
+
+### Expected output
+```
 Nutritional information per serving of M&M's:
   Fat: 10.00 g
   Carbohydrates: 34.00 g
@@ -21,6 +41,7 @@ Nutritional information per serving of M&M's:
 Number of calories for 1.00 serving(s): 234.00
 Number of calories for 3.00 serving(s): 702.00
 ```
+
 Note: The program outputs the number of calories for one serving of a food and for the input number of servings as well. The program only outputs the calories for one serving of water.
 
 ### Solution
@@ -128,7 +149,4 @@ public class FoodItem {
 ```
 </p>
 </details>
-
-
-
 
