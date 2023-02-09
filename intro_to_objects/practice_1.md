@@ -6,7 +6,7 @@ Practice objects and classes. This exercise is not graded.
 ## Pre-requisite
 Review "Introduction to objects & classes"
 
-## Task A (using classes)
+## Task
 Given ```main()```, complete the Car class (in file Car.java) with methods to set and get the purchase price of a car (setPurchasePrice(), getPurchasePrice()), and to output the car's information (printInfo()).
 
 ### Expected input
