@@ -77,4 +77,4 @@ The appends are fast because they do not involve any shifting of elements, where
  
 One way to make inserts or removes faster is to use a different approach for storing a list of items. The approach does not use contiguous memory locations. Instead, each item contains a "pointer" to the next item's location in memory, as well as, the data being stored. Thus, inserting a new item B between existing items A and C just requires changing A to refer to B's memory location, and B to refer to C's location.
 
-> There is a 
+> There is a very [interactive website](https://visualgo.net/en/list) that shows graphically how linked-list works.
