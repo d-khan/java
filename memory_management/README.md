@@ -10,7 +10,7 @@ The following program can be used to demonstrate the issue. The user inputs an A
 <details><summary>Click to get the code</summary>
 <p>
 
-'''java
+```java
 
 import java.util.ArrayList;
 import java.util.Scanner;
