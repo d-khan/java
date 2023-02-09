@@ -66,11 +66,14 @@ public class ArrayListAddRemove {
         System.out.println("done.");
     }
 }
+
 ```
 </p>
 </details>
 
 The appends are fast because they do not involve any shifting of elements, whereas each insert requires 500,000 elements to be shifted — one at a time. 7,500 inserts thus requires 3,750,000,000 (over 3 billion) shifts.
 
+## Linked-lists
+ 
 One way to make inserts or removes faster is to use a different approach for storing a list of items. The approach does not use contiguous memory locations. Instead, each item contains a "pointer" to the next item's location in memory, as well as, the data being stored. Thus, inserting a new item B between existing items A and C just requires changing A to refer to B's memory location, and B to refer to C's location.
 
