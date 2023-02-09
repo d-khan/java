@@ -7,6 +7,9 @@ The shifting of elements done by add() and remove() requires several processor i
 
 The following program can be used to demonstrate the issue. The user inputs an ArrayList size, and a number of elements to insert. The program then carries out several tasks. The program creates an ArrayList of size numElem, writes an arbitrary value to all elements, performs numOps appends, numOps inserts, and numOps removes.
 
+<details><summary>Click to get the code</summary>
+<p>
+
 '''java
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -63,3 +66,5 @@ public class ArrayListAddRemove {
     }
 }
 ```
+</p>
+</details>
