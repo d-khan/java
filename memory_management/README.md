@@ -78,3 +78,10 @@ The appends are fast because they do not involve any shifting of elements, where
 One way to make inserts or removes faster is to use a different approach for storing a list of items. The approach does not use contiguous memory locations. Instead, each item contains a "pointer" to the next item's location in memory, as well as, the data being stored. Thus, inserting a new item B between existing items A and C just requires changing A to refer to B's memory location, and B to refer to C's location.
 
 > There is a very interactive website that shows graphically [how linked-list works](https://visualgo.net/en/list).
+
+A linked list is a list wherein each item contains not just data but also a reference — a link — to the next item in the list. Comparing ArrayLists and linked lists:
+
+__ArrayList:__ Stores items in contiguous memory locations. Supports quick access to i'th element via the set() and get() methods, but may be slow for inserts or removes on large ArrayLists due to necessary shifting of elements.
+__Linked list:__ Stores each item anywhere in memory, with each item referring to the next item in the list. Supports fast inserts or removes, but access to i'th element may be slow as the list must be traversed from the first item to the i'th item. Also uses more memory due to storing a link for each item.
+    
+    
