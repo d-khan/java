@@ -7,9 +7,10 @@ The shifting of elements done by add() and remove() requires several processor i
 
 The following program can be used to demonstrate the issue. The user inputs an ArrayList size, and a number of elements to insert. The program then carries out several tasks. The program creates an ArrayList of size numElem, writes an arbitrary value to all elements, performs numOps appends, numOps inserts, and numOps removes.
 
+
 <details><summary>Click to get the code</summary>
 <p>
-
+    
 ```java
 
 import java.util.ArrayList;
@@ -81,7 +82,88 @@ One way to make inserts or removes faster is to use a different approach for sto
 
 A linked list is a list wherein each item contains not just data but also a reference — a link — to the next item in the list. Comparing ArrayLists and linked lists:
 
-__ArrayList:__ Stores items in contiguous memory locations. Supports quick access to i'th element via the set() and get() methods, but may be slow for inserts or removes on large ArrayLists due to necessary shifting of elements.
+__ArrayList:__ Stores items in contiguous memory locations. Supports quick access to i'th element via the set() and get() methods, but may be slow for inserts or removes on large ArrayLists due to necessary shifting of elements.  
+
 __Linked list:__ Stores each item anywhere in memory, with each item referring to the next item in the list. Supports fast inserts or removes, but access to i'th element may be slow as the list must be traversed from the first item to the i'th item. Also uses more memory due to storing a link for each item.
     
+A common use of objects and references is to create a list of items such that an item can be efficiently inserted somewhere in the middle of the list, without the shifting of later items as required for an ArrayList. The following program illustrates how such a list can be created. A class is defined to represent each list item, known as a list node. A node is comprised of the data to be stored in each list item, in this case just one int, and a reference to the next node in the list. A special node named head is created to represent the front of the list, after which regular items can be inserted.
     
+<details><summary>Click to get the code IntNode.java</summary>
+<p>
+
+```java
+public class IntNode {
+   private int dataVal;         // Node data
+   private IntNode nextNodeRef; // Reference to the next node
+
+   public IntNode() {
+      dataVal = 0;
+      nextNodeRef = null;
+   }
+
+   // Constructor
+   public IntNode(int dataInit) {
+      this.dataVal = dataInit;
+      this.nextNodeRef = null;
+   }
+
+   /* Insert node after this node.
+    Before: this -- next
+    After:  this -- node -- next
+    */
+   public void insertAfter(IntNode nodeLoc) {
+      IntNode tmpNext;
+
+      tmpNext = this.nextNodeRef;
+      this.nextNodeRef = nodeLoc;
+      nodeLoc.nextNodeRef = tmpNext;
+   }
+
+   // Get location of nextNodeRef
+   public IntNode getNext() {
+      return this.nextNodeRef;
+   }
+
+   public void printNodeData() {
+      System.out.println(this.dataVal);
+   }
+}
+```
+    
+</p>
+</details>
+
+<details><summary>Click to get the code CustomLinkedList.java</summary>
+<p>
+
+```java
+    
+public class CustomLinkedList {
+   public static void main(String[] args) {
+      IntNode headObj; // Create IntNode reference variables
+      IntNode currObj;
+      IntNode lastObj;
+      int i;           // Loop index
+      
+      headObj = new IntNode(-1); // Front of nodes list
+      lastObj = headObj;
+      
+      for (i = 0; i < 20; ++i) { // Append 20 rand nums
+         int rand = (int)(Math.random() * 100000); // random int (0-99999)
+         currObj = new IntNode(rand);
+         
+         lastObj.insertAfter(currObj); // Append curr
+         lastObj = currObj;
+      }
+      
+      currObj = headObj; // Print the list
+      while (currObj != null) {
+         currObj.printNodeData();
+         currObj = currObj.getNext();
+      }
+   }
+}
+                         
+```
+</p>
+</details>
