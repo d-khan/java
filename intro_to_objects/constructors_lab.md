@@ -13,58 +13,54 @@ Given ```main()```, complete the FoodItem class (in file FoodItem.java) with con
 Water 
 
 ### Expected output
-Nutritional information per serving of Water:
-  Fat: 0.00 g
-  Carbohydrates: 0.00 g
-  Protein: 0.00 g
-Number of calories for 1.00 serving(s): 0.00
-
-Note: printInfo() should use two spaces for indentation.
+```
+Nutritional information per serving of M&M's:
+  Fat: 10.00 g
+  Carbohydrates: 34.00 g
+  Protein: 2.00 g
+Number of calories for 1.00 serving(s): 234.00
+Number of calories for 3.00 serving(s): 702.00
+```
+Note: The program outputs the number of calories for one serving of a food and for the input number of servings as well. The program only outputs the calories for one serving of water.
 
 ### Solution
-<details> <summary> Click to get the Car.java </summary>
+<details> <summary> Click to get the NutritionalInfo.java </summary>
 <p>
 
 ``` java
-public class Car {
-   private int modelYear;
-   // Declare purchasePrice data member (int)
-   private int purchasePrice;
-   private int currentValue;
-   
-   public void setModelYear(int userYear){
-      modelYear = userYear;
-   }
-   
-   public int getModelYear() {
-      return modelYear;
-   }
-   
-   // Define setPurchasePrice() method
-   public void setPurchasePrice(int userPrice){
-      purchasePrice = userPrice;
-   }
-   
-   // Define getPurchasePrice() method
-   public int getPurchasePrice() {
-      return purchasePrice;
-   }
-   
-   public void calcCurrentValue(int currentYear) {
-      double depreciationRate = 0.15;
-      int carAge = currentYear - modelYear;
+import java.util.Scanner;
+
+public class NutritionalInfo {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      FoodItem foodItem;
       
-      // Car depreciation formula
-      currentValue = (int) 
-         Math.round(purchasePrice * Math.pow((1 - depreciationRate), carAge));
-   }
-   
-   // Define printInfo() method to output modelYear, purchasePrice, and currentValue
-   public void printInfo() {
-      System.out.println("Car's information:");
-      System.out.println("  Model year: " + modelYear);
-      System.out.println("  Purchase price: $" + purchasePrice);
-      System.out.println("  Current value: $" + currentValue);
+      String itemName = scnr.next();
+      
+      if(itemName.equals("Water") || itemName.equals("water")) {
+         foodItem = new FoodItem();
+         
+         foodItem.printInfo();
+         System.out.printf("Number of calories for %.2f serving(s): %.2f\n", 1.0, 
+                          foodItem.getCalories(1.0));
+      }
+      
+      else {
+         double amountFat = scnr.nextDouble();
+         double amountCarbs = scnr.nextDouble();
+         double amountProtein = scnr.nextDouble();
+      
+         foodItem = new FoodItem(itemName, amountFat, amountCarbs, amountProtein);
+      
+         double numServings = scnr.nextDouble();
+                                                      
+         foodItem.printInfo();
+         System.out.printf("Number of calories for %.2f serving(s): %.2f\n", 1.0,
+                             foodItem.getCalories(1.0));
+                             
+         System.out.printf("Number of calories for %.2f serving(s): %.2f\n", numServings,
+                             foodItem.getCalories(numServings));
+      }
    }
 }
 ```
@@ -72,31 +68,63 @@ public class Car {
 </p>
 </details>
 
-<details> <summary> Click to get the CarValuemain.java </summary>
+<details> <summary> Click to get the FoodItem.java </summary>
 <p>
 
 ``` java
-import java.util.Scanner;
-import java.lang.Math;
-
-public class CarValue {
-   public static void main(String[] args) {
-      Scanner scnr = new Scanner(System.in);
-      
-      Car myCar = new Car();
-      
-      int userYear = scnr.nextInt();
-      int userPrice = scnr.nextInt();
-      int userCurrentYear = scnr.nextInt();
-      
-      myCar.setModelYear(userYear);
-      myCar.setPurchasePrice(userPrice);
-      myCar.calcCurrentValue(userCurrentYear);
-      
-      myCar.printInfo();
+public class FoodItem {
+   private String name;
+   private double fat;
+   private double carbs;
+   private double protein;
+   
+   // Define default constructor
+   public FoodItem() {
+      name = "Water";
+      fat = 0.0;
+      carbs = 0.0;
+      protein = 0.0;
+   }
+   
+   // Define second constructor with parameters to initialize private fields
+   public FoodItem(String userName, double userFatAmt, double userCarbAmt, 
+                   double userProteinAmt) {
+      name = userName;
+      fat = userFatAmt;
+      carbs = userCarbAmt;
+      protein = userProteinAmt;
+   }
+   
+   public String getName() {
+      return name;
+   }
+   
+   public double getFat() {
+      return fat;
+   }
+   
+   public double getCarbs() {
+      return carbs;
+   }
+   
+   public double getProtein() {
+      return protein;
+   }
+   
+   public double getCalories(double numServings) {
+      // Calorie formula
+      double calories = ((fat * 9) + (carbs * 4) + (protein * 4)) * numServings;
+      return calories;
+   }
+   
+   public void printInfo() {
+      System.out.println("Nutritional information per serving of " + name + ":");
+      System.out.printf("  Fat: %.2f g\n", fat);
+      System.out.printf("  Carbohydrates: %.2f g\n", carbs);
+      System.out.printf("  Protein: %.2f g\n", protein);
    }
 }
-
+  
 ```
 </p>
 </details>
