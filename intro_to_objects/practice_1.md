@@ -10,9 +10,9 @@ Review "Introduction to objects & classes"
 Given ```main()```, complete the Car class (in file Car.java) with methods to set and get the purchase price of a car (setPurchasePrice(), getPurchasePrice()), and to output the car's information (printInfo()).
 
 ### Expected input
-2011
-18000
-2018
+2011  
+18000   
+2018   
 where 2011 is the car's model year, 18000 is the purchase price, and 2018 is the current year, the output is:
 
 ### Expected output
@@ -103,14 +103,6 @@ public class CarValue {
 </p>
 </details>
 
-### What to submit?
-1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks).   
-2. What were your challenges in performing the lab (from design to the implementation phases)? (2 mark).  
-3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. (6 marks)
-
-## How to submit it?
-- Upload your work in the .pdf format and clearly define your responses.  
-- Use headings when possible. Upload the code in the .java extension.
 
 
 
