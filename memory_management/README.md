@@ -167,3 +167,16 @@ public class CustomLinkedList {
 ```
 </p>
 </details>
+
+
+## Heap and Stacks
+
+A program's memory usage typically includes four different regions:
+
+__Code__ — The region where the program instructions are stored.
+__Static memory__ — The region where static fields are allocated. The name "static" comes from these variables not changing (static means not changing); they are allocated once and last for the duration of a program's execution, their addresses staying the same.  
+__The stack__ — The region where a method's local variables are allocated during a method call. A method call adds local variables to the stack, and a return removes them, like adding and removing dishes from a pile; hence the term "stack." Because this memory is automatically allocated and deallocated, it is also called automatic memory.
+The heap — The region where the "new" operator allocates memory for objects. The region is also called free store.
+In Java, the code and static memory regions are actually integrated into a region of memory called the method area , which also stores information for every class type used in the program.
+
+<img width="703" alt="Screen Shot 2023-02-13 at 6 16 21 PM" src="https://user-images.githubusercontent.com/11669149/218621626-334502d8-6966-4a80-8b37-913536d210d4.png">
