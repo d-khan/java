@@ -41,7 +41,8 @@ public class FriendLinkedList {
             currFriend = currFriend.getNext();
         }
     }
-}```
+}
+```
 
 </p>
 </details>
