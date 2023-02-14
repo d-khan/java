@@ -7,22 +7,6 @@ The shifting of elements done by add() and remove() requires several processor i
 
 The following program can be used to demonstrate the issue. The user inputs an ArrayList size, and a number of elements to insert. The program then carries out several tasks. The program creates an ArrayList of size numElem, writes an arbitrary value to all elements, performs numOps appends, numOps inserts, and numOps removes.
 
-## Example
-### Step 1
-<img width="744" alt="image" src="https://user-images.githubusercontent.com/11669149/218657615-258fbcb8-db03-44c5-8888-519f94cae499.png">
-
-### Step 2
-<img width="757" alt="image" src="https://user-images.githubusercontent.com/11669149/218657689-d5a9e5a7-90aa-4b9c-a445-b6a3d1d03f01.png">
-
-### Step 3
-<img width="742" alt="image" src="https://user-images.githubusercontent.com/11669149/218657772-87c017ea-5c4d-4fa4-a964-7c3112e22e16.png">
-
-### Step 4
-<img width="746" alt="image" src="https://user-images.githubusercontent.com/11669149/218657836-04ede5fd-3853-41c5-95d8-db3c64d3edee.png">
-
-### Step 5
-<img width="738" alt="image" src="https://user-images.githubusercontent.com/11669149/218657936-8e9753d7-bc1d-4956-8daf-03a7c331c04c.png">
-
 <details><summary>Click to get the code</summary>
 <p>
     
@@ -102,6 +86,23 @@ __ArrayList:__ Stores items in contiguous memory locations. Supports quick acces
 __Linked list:__ Stores each item anywhere in memory, with each item referring to the next item in the list. Supports fast inserts or removes, but access to i'th element may be slow as the list must be traversed from the first item to the i'th item. Also uses more memory due to storing a link for each item.
     
 A common use of objects and references is to create a list of items such that an item can be efficiently inserted somewhere in the middle of the list, without the shifting of later items as required for an ArrayList. The following program illustrates how such a list can be created. A class is defined to represent each list item, known as a list node. A node is comprised of the data to be stored in each list item, in this case just one int, and a reference to the next node in the list. A special node named head is created to represent the front of the list, after which regular items can be inserted.
+
+## Example
+### Step 1
+<img width="744" alt="image" src="https://user-images.githubusercontent.com/11669149/218657615-258fbcb8-db03-44c5-8888-519f94cae499.png">
+
+### Step 2
+<img width="757" alt="image" src="https://user-images.githubusercontent.com/11669149/218657689-d5a9e5a7-90aa-4b9c-a445-b6a3d1d03f01.png">
+
+### Step 3
+<img width="742" alt="image" src="https://user-images.githubusercontent.com/11669149/218657772-87c017ea-5c4d-4fa4-a964-7c3112e22e16.png">
+
+### Step 4
+<img width="746" alt="image" src="https://user-images.githubusercontent.com/11669149/218657836-04ede5fd-3853-41c5-95d8-db3c64d3edee.png">
+
+### Step 5
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/11669149/218657936-8e9753d7-bc1d-4956-8daf-03a7c331c04c.png">
+
     
 <details><summary>Click to get the code IntNode.java</summary>
 <p>
