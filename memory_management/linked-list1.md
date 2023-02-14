@@ -34,6 +34,10 @@ public class FriendLinkedList {
         headObj = new FriendNode("name");
 
         /* Your code goes here */
+        firstFriend = new FriendNode(name1);
+        headObj.insertAfter(firstFriend);
+        secondFriend = new FriendNode(name2);
+        firstFriend.insertAfter(secondFriend);
 
         currFriend = headObj;
         while (currFriend != null) {
