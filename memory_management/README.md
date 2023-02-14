@@ -187,6 +187,13 @@ Because the amount of memory available to a program is finite, objects allocated
 In order to determine which allocated objects the program is currently using at runtime, the Java virtual machine keeps a count, known as a reference count, of all reference variables that are currently referring to an object. If the reference count is zero, then the object is considered an unreachable object and is eligible for garbage collection, as no variables in the program refer to the object. The Java virtual machine marks unreachable objects, and deallocation occurs the next time the Java virtual machine invokes the garbage collector. The following animation illustrates.
 
 <img width="485" alt="image" src="https://user-images.githubusercontent.com/11669149/218622524-d49a73c9-7e21-4882-9461-bec5437ac29c.png">
+<img width="572" alt="image" src="https://user-images.githubusercontent.com/11669149/218622659-ecd462b2-4835-41c8-a339-77820ebdd422.png">
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/11669149/218622716-49df2db2-1baf-4080-b6f4-96d92017b905.png">
+<img width="575" alt="image" src="https://user-images.githubusercontent.com/11669149/218622783-d8a8f0e7-b377-4653-8ec4-f548759f6915.png">
+<img width="576" alt="image" src="https://user-images.githubusercontent.com/11669149/218622838-30e4dc20-2752-4b9b-9f42-cd9a16ee2d14.png">
+<img width="576" alt="image" src="https://user-images.githubusercontent.com/11669149/218622875-c6a1a6dc-a643-4909-91ab-dabc185f4184.png">
+
+    
 
     
     
