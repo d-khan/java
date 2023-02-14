@@ -193,6 +193,8 @@ In order to determine which allocated objects the program is currently using at 
 <img width="576" alt="image" src="https://user-images.githubusercontent.com/11669149/218622838-30e4dc20-2752-4b9b-9f42-cd9a16ee2d14.png">
 <img width="576" alt="image" src="https://user-images.githubusercontent.com/11669149/218622875-c6a1a6dc-a643-4909-91ab-dabc185f4184.png">
 
+A programmer does not explicitly have to set a reference variable to null in order to indicate that the variable no longer refers to an object. The Java virtual machine can automatically infer a null reference once the variable goes out of scope — i.e., the reference variable is no longer visible to the program. For example, local reference variables that are declared within a method go out of scope as soon as the method returns. The Java virtual machine decrements the reference counts associated with the objects referred to by any local variables within the method.
+
     
 
     
