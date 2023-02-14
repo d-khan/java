@@ -195,7 +195,13 @@ In order to determine which allocated objects the program is currently using at 
 
 A programmer does not explicitly have to set a reference variable to null in order to indicate that the variable no longer refers to an object. The Java virtual machine can automatically infer a null reference once the variable goes out of scope — i.e., the reference variable is no longer visible to the program. For example, local reference variables that are declared within a method go out of scope as soon as the method returns. The Java virtual machine decrements the reference counts associated with the objects referred to by any local variables within the method.
 
-    
+<img width="661" alt="image" src="https://user-images.githubusercontent.com/11669149/218629353-92d38d40-605b-431e-82c3-bf1eb6d01132.png">
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/11669149/218633526-53d80896-a290-4209-bc1f-2978bea220c7.png">
+<img width="659" alt="image" src="https://user-images.githubusercontent.com/11669149/218633966-ffaf1f74-55fa-4b08-a47b-362bc959f187.png">
+
+Every time CountBits() is invoked, the method declares a local reference variable called binaryStr, which refers to a newly allocated String object used to store the binary representation of the integer num. The assignment of binaryStr increments the object's reference count. When the method returns, the reference variable binaryStr goes out of scope, and the Java virtual machine will decrement the reference count for the String object. The reference count for that String object becomes zero and the object is marked for deallocation, which occurs whenever the Java virtual machine invokes the garbage collector.
+
+Although CountBits() happens to allocate binaryStr in the same memory location whenever CountBits() is called, note that Java makes no such guarantee. Also, recall that main() is itself a method. Thus, the Java virtual machine will decrement the reference count of any objects associated with reference variables declared in main() upon returning from main().
 
     
     
