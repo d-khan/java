@@ -180,3 +180,13 @@ The heap — The region where the "new" operator allocates memory for objects. T
 In Java, the code and static memory regions are actually integrated into a region of memory called the method area , which also stores information for every class type used in the program.
 
 <img width="703" alt="Screen Shot 2023-02-13 at 6 16 21 PM" src="https://user-images.githubusercontent.com/11669149/218621626-334502d8-6966-4a80-8b37-913536d210d4.png">
+
+## Basic garbage collection
+Because the amount of memory available to a program is finite, objects allocated to the heap must eventually be deallocated when no longer needed by the program. The Java programming language uses a mechanism called garbage collection wherein a program's executable includes automatic behavior that at various intervals finds all unreachable — i.e., unused — allocated memory locations, and automatically frees such memory locations in order to enable memory reuse. Garbage collection can present the programmer with the illusion of a nearly unlimited memory supply at the expense of runtime overhead.
+
+In order to determine which allocated objects the program is currently using at runtime, the Java virtual machine keeps a count, known as a reference count, of all reference variables that are currently referring to an object. If the reference count is zero, then the object is considered an unreachable object and is eligible for garbage collection, as no variables in the program refer to the object. The Java virtual machine marks unreachable objects, and deallocation occurs the next time the Java virtual machine invokes the garbage collector. The following animation illustrates.
+
+<img width="485" alt="image" src="https://user-images.githubusercontent.com/11669149/218622524-d49a73c9-7e21-4882-9461-bec5437ac29c.png">
+
+    
+    
