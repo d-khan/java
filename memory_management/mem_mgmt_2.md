@@ -67,8 +67,8 @@ public class PersonBuilder {
 Let's analyze this step-by-step:
 
 1. When we enter the main() method, a space in stack memory is created to store primitives and references of this method.
-- Stack memory directly stores the primitive value of integer id.
-- The reference variable person of type Person will also be created in stack memory, which will point to the actual object in the heap.
+    - Stack memory directly stores the primitive value of integer id.
+    - The reference variable person of type Person will also be created in stack memory, which will point to the actual object in the heap.
 2. The call to the parameterized constructor Person(int, String) from main() will allocate further memory on top of the previous stack. This will store:
 - The this object reference of the calling object in stack memory
 - The primitive value id in the stack memory
