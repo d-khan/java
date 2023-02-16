@@ -27,3 +27,56 @@ We can break this memory model down into smaller parts, called generations, whic
 - __Young Generation__ – this is where all new objects are allocated and aged. A minor Garbage collection occurs when this fills up.
 - __Old or Tenured Generation__ – this is where long surviving objects are stored. When objects are stored in the Young Generation, a threshold for the object's age is set, and when that threshold is reached, the object is moved to the old generation.
 - __Permanent Generation__ – this consists of JVM metadata for the runtime classes and application methods.
+
+### Features of heap memory
+Some other features of heap space include:
+
+- It's accessed via complex memory management techniques that include the Young Generation, Old or Tenured Generation, and Permanent Generation.
+- If heap space is full, Java throws java.lang.OutOfMemoryError.
+- Access to this memory is comparatively slower than stack memory
+- This memory, in contrast to stack, isn't automatically deallocated. It needs Garbage Collector to free up unused objects so as to keep the efficiency of the memory usage.
+- Unlike stack, a heap isn't threadsafe and needs to be guarded by properly synchronizing the code.
+- Unlike stack, a heap isn't threadsafe and needs to be guarded by properly synchronizing the code.
+
+### Example
+```java
+class Person {
+    int id;
+    String name;
+
+    public Person(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+
+public class PersonBuilder {
+    private static Person buildPerson(int id, String name) {
+        return new Person(id, name);
+    }
+
+    public static void main(String[] args) {
+        int id = 23;
+        String name = "John";
+        Person person = null;
+        person = buildPerson(id, name);
+    }
+}
+```
+
+Let's analyze this step-by-step:
+
+1. When we enter the main() method, a space in stack memory is created to store primitives and references of this method.
+- Stack memory directly stores the primitive value of integer id.
+- The reference variable person of type Person will also be created in stack memory, which will point to the actual object in the heap.
+2. The call to the parameterized constructor Person(int, String) from main() will allocate further memory on top of the previous stack. This will store:
+- The this object reference of the calling object in stack memory
+- The primitive value id in the stack memory
+- The reference variable of String argument name, which will point to the actual string from string pool in heap memory
+3. The main method is further calling the buildPerson() static method, for which further allocation will take place in stack memory on top of the previous one. This will again store variables in the manner described above.
+4. However, heap memory will store all instance variables for the newly created object person of type Person.
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/11669149/219270022-1a5e5f04-961a-4143-96a9-66efee73b4c1.png">
+
+
+<img width="941" alt="image" src="https://user-images.githubusercontent.com/11669149/219267683-2dd11a04-c3c7-468a-84e7-ffa6a1328b79.png">
