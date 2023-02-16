@@ -70,9 +70,9 @@ Let's analyze this step-by-step:
     - Stack memory directly stores the primitive value of integer id.
     - The reference variable person of type Person will also be created in stack memory, which will point to the actual object in the heap.
 2. The call to the parameterized constructor Person(int, String) from main() will allocate further memory on top of the previous stack. This will store:
-- The this object reference of the calling object in stack memory
-- The primitive value id in the stack memory
-- The reference variable of String argument name, which will point to the actual string from string pool in heap memory
+    - The this object reference of the calling object in stack memory
+    - The primitive value id in the stack memory
+    - The reference variable of String argument name, which will point to the actual string from string pool in heap memory
 3. The main method is further calling the buildPerson() static method, for which further allocation will take place in stack memory on top of the previous one. This will again store variables in the manner described above.
 4. However, heap memory will store all instance variables for the newly created object person of type Person.
 
