@@ -4,6 +4,8 @@
 
 ## __Course information__
 
+| | |
+|-|-|
 |Course name|CISC-191 Intermediate Java Programming |
 |Year|Spring 2023-24|
 |Class ID|25690|
