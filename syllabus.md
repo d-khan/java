@@ -38,7 +38,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 ## __Course outline and schedule__
 
-|Week|Date(dd/mm)|Topics | Deadlines|
+|Week|<div style="width:75px">Date</div>|Topics | Deadlines|
 |-|--|--|----|
 |1 |30 Jan |Java lang review | Assignments due on 5 Feb |
 |2  |6 Feb  |Object and classes | Assignments due on 12 Feb |
