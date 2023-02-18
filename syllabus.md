@@ -1,6 +1,4 @@
-# Syllabus[^1] (CISC-191 Intermediate Java Programming)
-
-[^1]:Last updated Jan 2023
+# Syllabus (CISC-191 Intermediate Java Programming)
 
 ## __Course information__
 
