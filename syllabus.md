@@ -134,5 +134,5 @@ Academic Conduct policy may be removed from class by the faculty for the class m
 Campus Safety and Administrative Due Process posted on the District website at:
 <https://www.sdccd.edu/docs/District/procedures/Student%20Services/AP%203100_03.pdf>  
 
-<br/>
-<p style="text-align: center;">---> End of document <--- </p>
+___
+Last updated: Jan 2023
