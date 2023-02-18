@@ -83,7 +83,7 @@ I recommend following my notes and resources provided on the course site in Canv
 ## __Course evaluation schemes__
 
 |Evaluation type|Out of 100|
-|-|-|
+|:-|:-|
 |Weekly lab assignments|20|
 |Mid term|30|
 |Project|20|
