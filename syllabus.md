@@ -1,4 +1,3 @@
-# CISC-191 Intermediate Java Programming
 # Syllabus (CISC-191 Intermediate Java Programming)
 
 ## __Course information__
