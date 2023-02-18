@@ -48,7 +48,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |6  |6 Mar  |Recursion | Assignments due on 12 Mar|
 |7  |13 Mar |Exceptions| Assignments due on 19 Mar|
 |8  |20 Mar |Revision, __Midterm on Thu 23 Mar__|
-|||__Spring break (27 Mar - 1 Apr) - No class__|
+|||__Spring break (27 Mar - 1 Apr) - No classes__|
 |9  |3 Apr  |Collections| Assignments due on 9 Apr|
 |10 |10 Apr |GUI | Assignments due on 16 Apr|
 |11 |17 Apr |JavaFx | Assignments due on 23 Apr|
