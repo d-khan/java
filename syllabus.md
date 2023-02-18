@@ -116,6 +116,7 @@ possible to ensure the health and safety of all students.
 <https://www.sdccd.edu/about/departments-and-offices/student-services-department/dsps/index.aspx> or refer to
 Administrative Procedure, AP 3105.1 Academic Accommodations and Disability Discrimination for Students with
 Disabilities.
+
 ## __Cheating/Plagiarism__
 
 Students are expected to be honest and ethical at all times in the pursuit of academic goals. Students who are found to be in
