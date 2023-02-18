@@ -73,7 +73,7 @@ I recommend following my notes and resources provided on the course site in Canv
 ## __Grading scheme__
 
 |Grade|%|Description
-|-|-|-|
+|:-|:-|:-|
 |A|>90|Work of genuinely superior quality.|
 |B|80-89|Passing performance falls approximately in the upper distribution of passing grades.|
 |C|71-79|Passing performance falls approximately in the center of the distribution of all passing grades.|
@@ -83,7 +83,7 @@ I recommend following my notes and resources provided on the course site in Canv
 ## __Course evaluation schemes__
 
 |Evaluation type|Out of 100|
-|-|-|
+|:-|:-|
 |Weekly lab assignments|20|
 |Mid term|30|
 |Project|20|
