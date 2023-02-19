@@ -95,7 +95,7 @@ public class StringInputStream {
 - created that is associated with a string rather than with the screen (standard output). 
 - An output string stream is created using both the StringWriter and PrintWriter classes, which are available by including: ```import java.io.StringWriter;``` and ```import java.io.PrintWriter;```
 
-
+>The StringWriter class provides a character stream that allows a programmer to output characters. The PrintWriter class is a wrapper class that augments character streams, such as StringWriter, with print() and println() methods that allow a programmer to output various data types (e.g., int, double, String, etc.) to the underlying character stream in a manner similar to System.out.
 
 
 
