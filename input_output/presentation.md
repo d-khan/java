@@ -57,14 +57,14 @@ System.out.flush();
 System.out.print("both live and utter it.\n");   // D
 ```
 
-```{r letter-a, echo=FALSE}
-question("What number is the letter A in the English alphabet?",
-  answer("8"),
-  answer("14"),
-  answer("1", correct = TRUE),
-  answer("23")
-)
-```
+Multiple choice problems allow learners to select only one option. Learners can see all the options along with the problem text.
+       When you add the problem, be sure to select Settings to specify a Display Name and other values that apply.
+       You can use the following example problem as a model.
+       >>Which of the following countries has the largest population?<<
+       ( ) Brazil {{ timely feedback -- explain why an almost correct answer is wrong }}
+       ( ) Germany
+       (x) Indonesia
+       ( ) Russia
 
 
 
