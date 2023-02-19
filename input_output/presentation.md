@@ -48,12 +48,22 @@ __%(flags)(width)(.precision)specifier__
 - To preserve resources, the system may wait until the buffer is full, or at least has a certain number of characters before moving them to the output device. 
 - The PrintStream method flush() flushes the stream's buffer contents. Ex: The statement ```System.out.flush()```; writes the contents of the buffer for System.out to the computer screen. Most Java implementations make System.out flush when a newline character is output or println() method is called.
 
+__Indicate if the line of output is immediately flushed from the System.out buffer.__
 ```Java
 System.out.print("My life has been the poem ");  // A
 System.out.println("I would have writ");         // B
 System.out.print("But I could not ");            // C
 System.out.flush();
 System.out.print("both live and utter it.\n");   // D
+```
+
+```{r letter-a, echo=FALSE}
+question("What number is the letter A in the English alphabet?",
+  answer("8"),
+  answer("14"),
+  answer("1", correct = TRUE),
+  answer("23")
+)
 ```
 
 
