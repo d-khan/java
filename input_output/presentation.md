@@ -57,18 +57,38 @@ System.out.flush();
 System.out.print("both live and utter it.\n");   // D
 ```
 
-metadata:
-    display_name: Multiple Choice
-    markdown: |
-    
-Multiple choice problems allow learners to select only one option. Learners can see all the options along with the problem text.
-       When you add the problem, be sure to select Settings to specify a Display Name and other values that apply.
-       You can use the following example problem as a model.
-       >>Which of the following countries has the largest population?<<
-       ( ) Brazil {{ timely feedback -- explain why an almost correct answer is wrong }}
-       ( ) Germany
-       (x) Indonesia
-       ( ) Russia
+# Streams using Strings
+Sometimes a programmer wishes to read input data from a string rather than from the keyboard (standard input).
+
+```java
+import java.util.Scanner;
+
+public class StringInputStream {
+   public static void main(String[] args) {
+      Scanner inSS = null;              // Input string stream
+      String userInfo;                  // Input string
+      String firstName;                 // First name
+      String lastName;                  // Last name
+      int userAge;                      // Age
+
+      userInfo = "Amy Smith 19";
+
+      // Init scanner object with string
+      inSS = new Scanner(userInfo);
+
+      // Parse name and age values from string
+      firstName = inSS.next();
+      lastName = inSS.next();
+      userAge = inSS.nextInt();
+
+      // Output parsed values
+      System.out.println("First name: " + firstName);
+      System.out.println("Last name: " + lastName);
+      System.out.println("Age: " + userAge);
+   }
+}
+```
+
 
 
 
