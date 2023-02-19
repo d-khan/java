@@ -41,3 +41,6 @@ A sub-specifier provides formatting options for a format specifier and are inclu
 
 __%(flags)(width)(.precision)specifier__
 
+<img width="969" alt="image" src="https://user-images.githubusercontent.com/11669149/219933421-943130d7-bb14-4635-8039-cee218fd82b2.png">
+
+
