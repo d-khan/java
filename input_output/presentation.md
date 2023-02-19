@@ -60,6 +60,8 @@ System.out.print("both live and utter it.\n");   // D
 # Streams using Strings
 Sometimes a programmer wishes to read input data from a string rather than from the keyboard (standard input).
 
+## input string stream
+
 ```java
 import java.util.Scanner;
 
@@ -88,6 +90,11 @@ public class StringInputStream {
    }
 }
 ```
+
+## output string stream
+- created that is associated with a string rather than with the screen (standard output). 
+- An output string stream is created using both the StringWriter and PrintWriter classes, which are available by including: ```import java.io.StringWriter;``` and ```import java.io.PrintWriter;```
+
 
 
 
