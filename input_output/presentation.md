@@ -243,9 +243,7 @@ public class FileReadVaryingAmount {
 
 - A FileOutputStream is a class that supports writing to a file. The FileOutputStream class inherits from OutputStream.
 
-![image-20230219102908028](/Users/danish/Library/Application Support/typora-user-images/image-20230219102908028.png)
-<img width="661" alt="image" src="/Users/danish/Library/Application Support/typora-user-images/image-20230219102908028.png">
-
+<img width="935" alt="image" src="https://user-images.githubusercontent.com/11669149/219969053-983cb263-ad68-44d7-af15-d994dea2e861.png">
 
 ### Example - Writing a text file
 ```java
