@@ -57,6 +57,10 @@ System.out.flush();
 System.out.print("both live and utter it.\n");   // D
 ```
 
+metadata:
+    display_name: Multiple Choice
+    markdown: |
+    
 Multiple choice problems allow learners to select only one option. Learners can see all the options along with the problem text.
        When you add the problem, be sure to select Settings to specify a Display Name and other values that apply.
        You can use the following example problem as a model.
