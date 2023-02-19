@@ -14,7 +14,7 @@ PrintStream (declared as PrintStream out; in the System class).
 ## InputStream
 An InputStream is a class for achieving such input. InputStream provides several overloaded ```read()``` methods that allow a programmer to extract bytes from a particular source.
 
-<img width="731" alt="image" src="https://user-images.githubusercontent.com/11669149/219932878-e97ad981-89b9-4e06-8e3b-fc68587e85ee.png">
+<img width="721" alt="image" src="https://user-images.githubusercontent.com/11669149/219961583-6cdc5246-72f9-489f-9538-32df0ba40115.png">
 
 ## byte stream
 A byte stream is used by programs to input or output 8-bits (a byte).
@@ -96,20 +96,6 @@ public class StringInputStream {
 - An output string stream is created using both the StringWriter and PrintWriter classes, which are available by including: ```import java.io.StringWriter;``` and ```import java.io.PrintWriter;```
 
 >The StringWriter class provides a character stream that allows a programmer to output characters. The PrintWriter class is a wrapper class that augments character streams, such as StringWriter, with print() and println() methods that allow a programmer to output various data types (e.g., int, double, String, etc.) to the underlying character stream in a manner similar to System.out.
-
-
-# This is heading 1
-
-This is a test
-
-## This is heading 2
-
-### This is heading 3
-
-
-
-[TOC]
-
 
 
 
