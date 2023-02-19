@@ -98,5 +98,18 @@ public class StringInputStream {
 >The StringWriter class provides a character stream that allows a programmer to output characters. The PrintWriter class is a wrapper class that augments character streams, such as StringWriter, with print() and println() methods that allow a programmer to output various data types (e.g., int, double, String, etc.) to the underlying character stream in a manner similar to System.out.
 
 
+# This is heading 1
+
+This is a test
+
+## This is heading 2
+
+### This is heading 3
+
+
+
+[TOC]
+
+
 
 
