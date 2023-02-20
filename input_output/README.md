@@ -1,3 +1,9 @@
+# Learning objectives
+
+Last week, we discussed how to use memory effectively. The linked-list data structure is recommended over conventional arrays when data is inserted or deleted frequently in an array. Furthermore, we discussed how stacks and heaps are used when a class or data type is defined.
+
+In this lecture, we will discuss various input and output streams. As a programmer, you may need to provide input from a user (using a keyboard), memory, or a file. Similarly, the output can be displayed on the console (screen), passed on to a variable, or saved in a file. 
+
 # Output and input streams
 
 ## OutputStream
