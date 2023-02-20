@@ -285,5 +285,5 @@ public class TextFileWriteSample {
 
 ------
 
-End of document
+Last updated: Feb 2023
 
