@@ -183,5 +183,10 @@ public class InheritanceExample {
 
 Access specifiers for class members
 
-|      |
-| ---- |
+| Specifier | Description         |
+| --------- | ------------------- |
+| private   | Accessible by self. |
+|           |                     |
+|           |                     |
+|           |                     |
+
