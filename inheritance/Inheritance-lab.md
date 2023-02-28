@@ -10,7 +10,7 @@ Review the "Inheritance" lecture before attending the lab.
 Assign courseStudent's name with Smith, age with 20, and ID with 9999. Use the printAll() member method and a separate println() statement to output courseStudents's data. 
 
 ## Partial code
-```{java .numberLines}
+```java
 // ===== Code from file Person.java =====
 public class Person {
    private int ageYears;
