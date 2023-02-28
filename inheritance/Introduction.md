@@ -14,7 +14,7 @@ Inheritance is one of the core concepts of object-oriented programming (OOP) lan
 - Inheritance works like building blocks.
 - One class is similar to another class but with some additions or variations.
 
-![inheritance_i1](/Users/danish/Desktop/inheritance_i1.png)
+![inheritance_i1](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i1.png)
 
 ### Inheritance
 
@@ -91,7 +91,7 @@ public class ClassDerivationEx {
 - A class can serve as a base class for multiple derived classes.
 - A class can only be derived from __one base class directly___.
 
-<img src="/Users/danish/Library/Application Support/typora-user-images/image-20230226201158321.png" alt="image-20230226201158321" style="zoom:50%;" />
+![inheritance_i1](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i2.png)
 
 ``` public class TextbookItem extends BookItem ```
 
@@ -171,15 +171,15 @@ public class InheritanceExample {
 - Member methods of a derived class cannot access private members of the base class.
 - Private is private. It defeats the purpose of a private variable if the private variable is accessible outside of the class.
 
-![image-20230226215533946](/Users/danish/Library/Application Support/typora-user-images/image-20230226215533946.png)
+![inheritance_i1](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i3.png)
 
 ### Protected member access
 
 -  Provides access to derived classes and all classes in the same **package** but not by anyone else.
 
-![image-20230226220523148](/Users/danish/Library/Application Support/typora-user-images/image-20230226220523148.png)
+![inheritance_i1](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i4.png)
 
-![image-20230226221659050](/Users/danish/Library/Application Support/typora-user-images/image-20230226221659050.png)
+![inheritance_i1](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i5.png)
 
 Access specifiers for class members
 
