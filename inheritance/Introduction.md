@@ -183,10 +183,115 @@ public class InheritanceExample {
 
 Access specifiers for class members
 
-| Specifier | Description         |
-| --------- | ------------------- |
-| private   | Accessible by self. |
-|           |                     |
-|           |                     |
-|           |                     |
+| Specifier    | Description                                                  |
+| ------------ | ------------------------------------------------------------ |
+| private      | Accessible by self                                           |
+| protected    | Accessible by self, derived classes, and other classes in the same package |
+| public       | Accessible by self, derived classes, and everyone else       |
+| no specifier | Accessible by self and other classes in the same package     |
+
+### Class definitions
+
+Separately, the keyword "public" in a class definition like public class DerivedClass {...} specifies a class's visibility in other classes in the program:
+
+- *public* : A class can be used by every class in the program regardless of the package in which either is defined.
+
+- no specifier* : A class can be used only in other classes within the same package, known as **package- private**.
+
+## Overriding member methods
+
+### Overriding
+
+- When a derived class defines a member method that has the same name and parameters as a base class's method, the member method is said to **override** the base class's method.
+
+- The **@Override** annotation is placed above a method that overrides a base class method so the compiler verifies that an identical base class method exists.
+
+- An **annotation** is an optional command beginning with the "@" symbol that can provide the compiler with information that helps the compiler detect errors better.
+
+#### Example code - overriding member method
+
+##### Business.java - base class
+
+```{java .numberLines}
+public class Business {
+    protected String name;
+    protected String address;
+    public void setName(String busName) {
+        name = busName;
+		}
+    public void setAddress(String busAddress) {
+        address = busAddress;
+		}
+    public String getDescription() {
+        return name + " -- " + address;
+		} 
+}
+//Same method as in Restaurant class
+```
+
+##### Restaurant.java - derived class
+
+```{java .numberLines}
+public class Restaurant extends Business {
+    private int rating;
+    public void setRating(int userRating) {
+        rating = userRating;
+		}
+    public int getRating() {
+        return rating;
+		}
+@Override
+    public String getDescription() {
+        return name + " -- " + address + " 96422";
+		} 
+}
+```
+##### OverridingExample.java - main
+
+```{java .numberLines}
+public class InheritanceExample {
+    public static void main(String[] args) {
+				Business someBusiness = new Business();
+        Restaurant favoritePlace = new Restaurant();
+ 
+      	someBusiness.setName("ACME");
+        someBusiness.setAddress("4 Main St");
+        
+      	favoritePlace.setName("Friends Cafe");
+        favoritePlace.setAddress("500 W 2nd Ave");
+        favoritePlace.setRating(5);
+        
+      	System.out.println(someBusiness.getDescription());
+        System.out.println(favoritePlace.getDescription());
+        System.out.println("  Rating: " + favoritePlace.getRating());
+    }
+}
+```
+
+> **Overriding vs. Overloading**
+>
+> Overriding differs from overloading. In overloading, methods with the same name must have different parameter types, number of parameters, or return values. In overriding, a derived class member method must have the same parameter types, number of parameters, and return value as the base class member method with the same name. Overloading is performed if derived and base member methods have different parameter types; the member method of the derived class does not hide the member method of the base class.
+
+### Calling a base class method
+An overriding method can call the overridden method by using the super keyword ```super.getDescription()``` . The __super__ keyword is a reference variable used to call the parent class's methods or constructors.
+
+##### Restaurant.java - base class
+```{java .numberLines}
+public class Restaurant extends Business {
+    private int rating;
+    public void setRating(int userRating) {
+        rating = userRating;
+		}
+    public int getRating() {
+        return rating;
+    }
+  	
+  	@Override
+    public String getDescription() {    //same method as in Business class
+        return super.getDescription();
+        //return name + " -- " + address + " 96422";  //Zip code added
+		} 
+}
+  
+```
 
