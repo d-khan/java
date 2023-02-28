@@ -12,7 +12,7 @@ Inheritance is one of the core concepts of object-oriented programming (OOP) lan
 - Inheritance works like building blocks.
 - One class is similar to another class but with some additions or variations.
 
-![inheritance_i1](/Users/danish/java/images/inheritance_i1.png)
+![inheritance_i1](/Users/danish/Desktop/inheritance_i1.png)
 
 ### Inheritance
 
