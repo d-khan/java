@@ -413,7 +413,7 @@ public class ObjectPrinter {
 
 #### Practice task
 __Objective:__ Overriding ```toString()``` in the derived class
-Re-use the business, restaurant, objectprinter classes. Display user rating when ```tacoRest``` object is called.
+Re-use the business, restaurant, objectprinter classes. Display user rating when ```tacoRest.toString()``` is called.
 
 
 
