@@ -660,8 +660,11 @@ A UML **class diagram** is a structural diagram that can be used to visually mod
 - UML uses an arrow with a solid line and an unfilled arrow head to indicate that one class inherits from another. The arrow points toward the superclass.
 - UML uses italics to denote abstract classes. In particular, UML uses italics for the abstract class' name, and for each abstract method in the class. As a reminder, a superclass does not have to be abstract. Also, any class with an abstract method must be abstract.
 
-
+![uml-inheritance](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i8.png)
 
 - Shape is an abstract class, so the class name and abstract method are in italics.
 - The solid-lined arrow with an unfilled arrow head indicates that the Circle class inherits from Shape.
 - Circle is a concrete class, so the class name is shown in regular font. Note that Circle implements computeArea().
+
+## Interfaces
+
