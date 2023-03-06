@@ -504,6 +504,7 @@ Because all classes are derived from the Object class, programmers can take adva
 
 #### Example of compile-time polymorphism
 **Business.java**
+
 ```{java .numberLines}
 public class Business {
     protected String name;
@@ -567,11 +568,83 @@ Object-oriented programming (OOP) is a powerful programming paradigm, consisting
 - **Inheritance:** Inheritance allows one class (a subclass) to be based on another class (a base class or superclass). 
 - **Abstract classes:** An abstract class is a class that guides the design of subclasses but cannot itself be instantiated as an object. Ex: An abstract Shape class might also specify that any subclass must define a computeArea() method.
 
-
-
-
+![abstract](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i6.png)
 
 1. A class provides data/behaviors for objects.
 2. Inheritance creates a Circle subclass that implements behaviors specific to a circle.
 3. The abstract Shape class specifies "Compute area" is a required behavior of a subclass. Shape does not implement "Compute area", so a Shape object cannot be created.
 4. The Circle class implements "Compute area". The Circle class is a non abstract, which is also called a concrete class, and Circle objects can be created.
+
+#### Example of Abstract classes
+**Person.java**
+```{java .numberLines}
+public abstract class Person {
+   protected String name; 
+   protected int age; 
+
+   abstract void printInfo();
+
+   public String getNameAndAge() { 
+      return this.age + " years, " + name;
+   }
+}
+```
+**Student.java**
+```{java .numberLines}
+public class Student extends Person {
+   private double gpa; 
+
+   public Student(String studentName, int studentAge, double studentGPA) {
+      this.name = studentName;
+      this.age = studentAge;
+      this.gpa = studentGPA;
+   }
+
+   public void printInfo() {
+      String nameAndAge = this.getNameAndAge();
+
+      System.out.println(nameAndAge);
+      System.out.println("GPA: " + this.gpa);
+   }
+}
+```
+**Teacher.java**
+```{java .numberLines}
+public class Teacher extends Person {
+   private String subject; 
+
+   public Teacher(String teacherName, int teacherAge, String teacherSubject) {
+      this.name = teacherName;
+      this.age = teacherAge;
+      this.subject = teacherSubject;
+   }
+
+   public void printInfo() {
+      String nameAndAge = this.getNameAndAge();
+
+      System.out.println(nameAndAge);
+      System.out.println("Subject: " + this.subject);
+   }
+}
+```
+**TestPerson.java**
+```{java .numberLines}
+public class TestPerson {
+   public static void main(String[] args) {
+      Student myStudent = new Student("Mike", 16, 2.3);
+      Teacher myTeacher = new Teacher("Orwell", 23, "English");
+
+      myStudent.printInfo();
+      System.out.println();
+      myTeacher.printInfo();
+   }
+}
+```
+
+## UML class diagrams
+
+- The **Unified Modeling Language** (**UML**) is a language for software design that uses different types of diagrams to visualize the structure and behavior of programs. 
+- A **structural diagram** visualizes static elements of software, such as the variables and methods used in the program. 
+- A **behavioral diagram** visualizes dynamic behavior of software, such as the flow of an algorithm.
+
+A UML **class diagram** is a structural diagram that can be used to visually model the classes of a computer program, including member variables and methods.
