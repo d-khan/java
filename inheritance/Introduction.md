@@ -648,3 +648,20 @@ public class TestPerson {
 - A **behavioral diagram** visualizes dynamic behavior of software, such as the flow of an algorithm.
 
 A UML **class diagram** is a structural diagram that can be used to visually model the classes of a computer program, including member variables and methods.
+
+![uml](https://raw.githubusercontent.com/d-khan/java/main/images/inheritance-i7.png)
+
+- One box exists for each class. The class name is centered at the top.
+- Class members are listed in the box below. Member variables have a name followed by a colon and the type.
+- Each member method's name and return type is listed similarly.
+- Private and public access is noted to the left of each member. A minus (-) indicates private and a plus (+) indicates public.
+
+### UML for inheritance
+- UML uses an arrow with a solid line and an unfilled arrow head to indicate that one class inherits from another. The arrow points toward the superclass.
+- UML uses italics to denote abstract classes. In particular, UML uses italics for the abstract class' name, and for each abstract method in the class. As a reminder, a superclass does not have to be abstract. Also, any class with an abstract method must be abstract.
+
+
+
+- Shape is an abstract class, so the class name and abstract method are in italics.
+- The solid-lined arrow with an unfilled arrow head indicates that the Circle class inherits from Shape.
+- Circle is a concrete class, so the class name is shown in regular font. Note that Circle implements computeArea().
