@@ -206,6 +206,7 @@ Separately, the keyword "public" in a class definition like public class Derived
 
 - An **annotation** is an optional command beginning with the "@" symbol that can provide the compiler with information that helps the compiler detect errors better.
 
+
 #### Example code - overriding member method
 
 __Business.java - base class__
@@ -262,6 +263,39 @@ public class InheritanceExample {
       	System.out.println(someBusiness.getDescription());
         System.out.println(favoritePlace.getDescription());
         System.out.println("  Rating: " + favoritePlace.getRating());
+    }
+}
+```
+## Overloading member methods
+Method overloading is the process that can create multiple methods of the same name in the same class, and all the methods work in different ways. Method overloading occurs when there is more than one method of the same name in the class.
+
+#### Example code - overloading member method
+```{java .numberLines}
+class Shapes {
+    public void area() {
+        System.out.println("Find area ");
+    }
+    public void area(int r) {
+        System.out.println("Circle area = "+3.14*r*r);
+    }
+
+    public void area(double b, double h) {
+        System.out.println("Triangle area="+0.5*b*h);
+    }
+    public void area(int l, int b) {
+        System.out.println("Rectangle area="+l*b);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Shapes myShape = new Shapes();  // Create a Shapes object
+
+        myShape.area();
+        myShape.area(5);
+        myShape.area(6.0,1.2);
+        myShape.area(6,2);
+
     }
 }
 ```
@@ -415,5 +449,129 @@ public class ObjectPrinter {
 __Objective:__ Overriding ```toString()``` in the derived class
 Re-use the business, restaurant, objectprinter classes. Display user rating when ```tacoRest.toString()``` is called.
 
+## Polymorphism
+
+- Polymorphism is the ability of an object to take on different forms. In Java, polymorphism refers to the ability of a class to provide different implementations of a method, depending on the type of object that is passed to the method.
+
+- **Polymorphism in Java** is the task that performs a single action in different ways.
+
+  So, languages that do not support polymorphism are not ‘Object-Oriented Languages’, but ‘Object-Based Languages’. Since Java supports polymorphism, it is an OOP.
+
+  Polymorphism occurs when there is inheritance, i.e., many classes are related to each other.
+
+### Types of Polymorphism
+
+You can perform Polymorphism in Java in two ways: a) Method overloading, b) Method overriding. Also, Polymorphism in Java can be classified into two types, i.e:
+
+1. Static/compile-time polymorphism
+2. Dynamic/runtime polymorphismphism
+
+#### Compile-time polymorphism
+- Compile Time Polymorphism In Java is also known as Static Polymorphism.
+-  Furthermore, the call to the method is resolved at compile time.
+-  Compile-Time polymorphism is achieved through **Method Overloading**. 
+- This type of polymorphism can also be achieved through Operator Overloading. However, Java does not support Operator Overloading.
+
+#### Example of compile-time polymorphism
+```{java .numberLines}
+package staticPolymorphism;
+public class Test
+{
+    void sum(int a, int b) //method overloading
+    {
+        int c = a+b;
+        System.out.println("Addition of two numbers :" +c); }
+    void sum(int a, int b, int e) //method overloading
+    {
+        int c = a+b+e;
+        System.out.println("Addition of three numbers :" +c); }
+    public static void main(String[] args)
+    {
+        Test obj = new Test();
+        obj.sum ( 30,90);
+        obj.sum (45, 80, 22);
+    }
+}
+```
+
+#### Runtime polymorphism
+
+- **Runtime polymorphism** in Java is also popularly known as **Dynamic Binding or Dynamic Method Dispatch.** In this process, the call to an overridden method is resolved dynamically at runtime rather than at compile-time. You can achieve Runtime polymorphism via **Method Overriding**.
+
+## ArrayLists of Objects
+
+Because all classes are derived from the Object class, programmers can take advantage of runtime polymorphism in order to create a collection (e.g., ArrayList) of objects of various class types and perform operations on the elements.
+
+#### Example of compile-time polymorphism
+**Business.java**
+```{java .numberLines}
+public class Business {
+    protected String name;
+    protected String address;
+
+    public Business() {}
+
+    public Business(String busName, String busAddress) {
+        name = busName;
+        address = busAddress;
+    }
+
+    @Override
+    public String toString() {
+        return name + " -- " + address;
+    }
+}
+```
+**ArrayListPrinter.java**
+```{java .numberLines}
+import java.util.ArrayList;
+public class ArrayListPrinter {
+
+    // Method prints an ArrayList of Objects
+    public static void printArrayList(ArrayList<Object> objList) {
+        int i;
+
+        for (i = 0; i < objList.size(); ++i) {
+            System.out.println(objList.get(i));
+        }
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Object> objList = new ArrayList<Object>();
+
+        // Add new instances of various classes to objList
+        objList.add(new Object());
+        objList.add(12);
+        objList.add(3.14);
+        objList.add(new String("Hello!"));
+        objList.add(new Business("ACME", "5 Main St"));
+
+        // Print list of Objects
+        printArrayList(objList);
+    }
+}
+```
+
+- objList is an ArrayList of Object elements. All objects derive from Object, so objList can store any type of object.
+
+- Five new objects of various class types are added to the ArrayList. Each derived class reference is automatically converted to a base class (Object) reference.
+
+- printArrayList() takes an ArrayList of Objects as an argument and outputs every element of the ArrayList.
+
+- get(i) returns each Object element. Runtime polymorphism allows the correct version of toString() to be called based on the actual class type of each element.
+
+## Abstract classes: Introduction (generic)
+Object-oriented programming (OOP) is a powerful programming paradigm, consisting of several features. Three key features include:
+
+- **Classes:** A class encapsulates data and behavior to create objects.
+- **Inheritance:** Inheritance allows one class (a subclass) to be based on another class (a base class or superclass). 
+- **Abstract classes:** An abstract class is a class that guides the design of subclasses but cannot itself be instantiated as an object. Ex: An abstract Shape class might also specify that any subclass must define a computeArea() method.
 
 
+
+
+
+1. A class provides data/behaviors for objects.
+2. Inheritance creates a Circle subclass that implements behaviors specific to a circle.
+3. The abstract Shape class specifies "Compute area" is a required behavior of a subclass. Shape does not implement "Compute area", so a Shape object cannot be created.
+4. The Circle class implements "Compute area". The Circle class is a non abstract, which is also called a concrete class, and Circle objects can be created.
