@@ -1,46 +1,46 @@
-# Derived classes
+# Overriding methods
 
 ## Objective
-Use inheritance to store user data.
+Understand how to use overriding methods.
 
 ## Pre-requisite
 Review the "Inheritance" lecture before attending the lab. 
 
 ## Task
-Write `main()`, define a `Course` base class with methods to set and get private fields of the following types:
+- Write main() and a base `Book` class, define a derived class called `Encyclopedia` with member methods to get and set private fields of the following types:
 
-- String to store the course number
-- String to store the course title
+  - String to store the edition
+  - int to store the number of pages
 
-Define `Course`'s PrintInfo() method that outputs the course number and title.
-
-Then, define a derived class `OfferedCourse` with methods to set and get private fields of the following types:
-
-- String to store the instructor's name
-- String to store the location
-- String to store the class time
+  Within the derived `Encyclopedia` class, define a printInfo() method that overrides the `Book` class' printInfo() method by printing the title, author, publisher, publication date, edition, and number of pages.
 
 ## Expected input
 ```
-ECE287
-Digital Systems Design
-ECE387
-Embedded Systems Design
-Mark Patterson
-Wilson Hall 231
-WF: 2-3:30 pm
+The Hobbit
+J. R. R. Tolkien
+George Allen & Unwin
+21 September 1937
+The Illustrated Encyclopedia of the Universe
+Ian Ridpath
+Watson-Guptill
+2001
+2nd
+384
 ```
 ## Expected output
 ```Course Information:
-Course Information:
-   Course Number: ECE287
-   Course Title: Digital Systems Design
-Course Information:
-   Course Number: ECE387
-   Course Title: Embedded Systems Design
-   Instructor Name: Mark Patterson
-   Location: Wilson Hall 231
-   Class Time: WF: 2-3:30 pm
+CBook Information: 
+   Book Title: The Hobbit
+   Author: J. R. R. Tolkien
+   Publisher: George Allen & Unwin
+   Publication Date: 21 September 1937
+Book Information: 
+   Book Title: The Illustrated Encyclopedia of the Universe
+   Author: Ian Ridpath
+   Publisher: Watson-Guptill
+   Publication Date: 2001
+   Edition: 2nd
+   Number of Pages: 384
 ```
 ## What to submit?
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. **(2 marks).**   
