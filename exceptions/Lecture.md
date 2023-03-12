@@ -308,7 +308,7 @@ try {
 
 ## Exceptions with methods
 
-### Example
+### Example code
 
 ``` java
 import java.util.Scanner;
@@ -461,3 +461,89 @@ public class NaNException extends Exception {
 - A user-defined exception type extends the Exception class.
 
 - The constructor passes a fixed exception message string to the Exception class' constructor.
+
+### Example code - multiple user-defined exceptions
+
+The program below throws exceptions of type InvalidNegativeInputException for negative inputs and throws NaNException when dividing 0.0 by 0.0. By using separate exception handlers for each exception type, the program can handle each exception separately.
+
+**InvalidNegativeInputException.java**
+
+```
+public class InvalidNegativeInputException extends Exception {
+   public InvalidNegativeInputException(String varName) {
+      super("Variable " + varName + " is negative");
+   }
+}
+```
+
+**NaNException.java**
+
+``` java
+public class NaNException extends Exception {
+   public NaNException(String varName) {
+      super("Variable " + varName + " is NaN");
+   }
+}
+```
+
+**DensityCalculator.java**
+
+```java
+import java.util.Scanner;
+
+public class DensityCalculator {
+   public static double getPositiveValue(Scanner scnr, String valName)
+                        throws InvalidNegativeInputException {
+
+      System.out.print("Enter " + valName + ": ");
+
+      double inputVal = scnr.nextDouble();
+
+      if (inputVal < 0.0) {
+          throw new InvalidNegativeInputException(valName);
+      }
+
+      return inputVal;
+   }
+
+   public static double getDensity(Scanner scnr)
+                        throws InvalidNegativeInputException, NaNException {
+
+      double massVal = getPositiveValue(scnr, "massVal");
+      double volumeVal = getPositiveValue(scnr, "volumeVal");
+      double densityCalc = massVal / volumeVal;
+
+      if (Double.isNaN(densityCalc)) {
+         throw new NaNException("densityCalc");
+      }
+
+      return densityCalc;
+   }
+
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+
+      try {
+         System.out.println("Density: " + getDensity(scnr));
+      }
+      catch (InvalidNegativeInputException excpt) {
+         System.out.println(excpt.getMessage());
+
+         // Handle ...
+      }
+      catch (NaNException excpt) {
+         System.out.println(excpt.getMessage());
+
+         // Handle ...
+      }
+   }
+}
+```
+
+## Reflection
+
+Exceptions are important to control errors at compile time. A programmer must include exceptions, especially when a program deals with inputs, to take defined data and prepare the code for unexpected events.
+
+## Further reading
+
+[Oracle docs](https://docs.oracle.com/en/java/javase/12/docs/api/index.html)
