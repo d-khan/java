@@ -21,17 +21,17 @@ __Expected output__
 
 Yes, "senile felines!" is a palindrome.
 
-**Expected input**
+__Expected input__
 
-```
--3850
-```
+rotostor
 
-**Expected output**
+__Expected output__
 
-```
-Exception: Negative step count entered.
-```
+No, "rotostor" is not a palindrome.
+
+>Ignore punctuation and spacing. Assume all alphabetic characters will be lowercase.
+>Special case: A one-character string is a palindrome.
+>Hint: The deque must be a Deque of Characters, but ordinary chars will be automatically converted to Characters when added to the deque.
 
 ## What to submit?
 
