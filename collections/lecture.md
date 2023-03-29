@@ -94,10 +94,6 @@ authorsList = Gamow --> Greene --> Penrose --> Hawking
 | **size()**   | `size()`  Returns the number of elements in the List.        | `// Assume List is empty exList.size(); // Returns 0 exList.add(8); exList.add(22); // List is now: 8, 22 exList.size(); // Returns 2 ` |
 | **remove()** | `remove(index)`  Removes element at specified index. Indices for elements from higher positions are decreased by one. List size is decreased by one. Returns reference to element removed from List.  `remove(existingElement)`  Removes the first occurrence of an element which is equal to existingElement. Indices for elements from higher positions are decreased by one. List size is decreased by one. Returns true if specified element was found and removed. | `// Assume List is: 22, 8, 4, 4 exList.remove(1); // Returns 8 // List is now: 22, 4, 4                  exList.remove(5); // Throws exception // List is still: 22, 4, 4   exList.remove(2); // Returns 4 // List is now: 22, 4` |
 
-### Practice exercise (not graded)
-
-Use the above-mentioned methods, create a Linked list of your favorite movie names. Practice several methods.
-
 ### Iterating through a list
 
 LinkedList methods with index parameters, such as get() or set(), cause the list to be traversed from the first element to the specified element each time the method is called. Thus, using the LinkedLists' `get()` or `set()` methods within a loop that iterates through all list elements is inefficient.
@@ -199,10 +195,6 @@ public class hashmap {
 | **keySet()**        | `keySet() ` Returns a Set containing all keys within the map. | `// Assume Map is: Tom->14, John->86, Mary->13 keys = exMap.keySet(); // keys contains: "Tom", "John", "Mary" ` |
 | **values()**        | `values() ` Returns a Collection containing all values within the map. | `// Assume Map is: Tom->14, John->86, Mary->13 values = exMap.values(); // values contains: 14, 86, 13` |
 
-### Practice exercise (not graded)
-
-Use the above methods to create a Hashmap of your favorite movie name as key and release year as value. Practice several methods.
-
 ## Set: HashSet
 
 - The uniqueness of elements in a list. Duplication of elements is not permitted.
@@ -240,10 +232,6 @@ public class Hashset {
 | **contains()** | `contains(element)` Returns true if element exists, otherwise returns false. | `// Assume Set is: Kasparov, Fisher, Carlsen exSet.contains("Carlsen")  // returns true  exSet.contains("Anand")  // returns false ` |
 | **size()**     | `size() ` Returns the number of elements in the set.         | `// Set originally empty exSet.size(); // returns 0 exSet.add("Nakamura");  exSet.add("Carlsen"); // Set is now: Nakamura, Carlsen exSet.size(); // returns 2 ` |
 
-### Practice exercise (not graded)
-
-Use the above methods to create a set of your favorite movie name. Add at least 5 elements and practice several methods. Try to duplicate the same name and observe the response. Remember, elements in the set are case-sensitive.
-
 ## Queue interface
 
 - The **Queue** interface defined within the Java Collections Framework defines a Collection of ordered elements that supports element insertion at the tail and element retrieval from the head.
@@ -280,10 +268,6 @@ public class queue {
 | **poll()**    | `poll()`  Removes and returns the element at the head of the queue if the queue is not empty. Otherwise, returns null. | `// Assume exQueue is: "down" exQueue.poll(); // Returns "down" // exQueue is now empty exQueue.poll(); // Returns null ` |
 | **element()** | `element()`  Returns, but does not remove, the element at the head of the queue. Throws an exception if the queue is empty. | `// Assume exQueue is: "down" "right" "A" exQueue.element(); // Returns "down" // exQueue is still:  "down" "right" "A" ` |
 | **peek()**    | `peek()`  Returns, but does not remove, the element at the head of the queue if the queue is not empty. Otherwise, returns null. | `// Assume exQueue is: "down" exQueue.peek(); // Returns "down" // exQueue is still:  "down" ` |
-
-### Practice exercise (not graded)
-
-Use the above methods to create a queue. Add at least 5 elements and practice several methods. Try to duplicate the same name and observe the response. 
 
 ## Deque interface
 
