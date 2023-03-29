@@ -14,9 +14,11 @@ A palindrome is a string that reads the same backwards and forwards. Use a deque
 The program reads a line, then outputs whether the input is a palindrome or not.
 
 __Expected input__
+
 senile felines!
 
 __Expected output__
+
 Yes, "senile felines!" is a palindrome.
 
 **Expected input**
