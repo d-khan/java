@@ -34,10 +34,9 @@ No, "rotostor" is not a palindrome.
 >Hint: The deque must be a Deque of Characters, but ordinary chars will be automatically converted to Characters when added to the deque.
 
 ## What to submit?
-
-1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. **(2 marks).**   
-2. What were your challenges in performing the lab (from design to the implementation phases)? **(2 marks)**.  
-3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. **(6 marks)**
+  
+1. What were your challenges in performing the lab (from design to the implementation phases)? **(2 marks)**.  
+2. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. **(8 marks)**
 
 ## How to submit it?
 
