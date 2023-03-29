@@ -29,7 +29,7 @@ __Expected output__
 
 No, "rotostor" is not a palindrome.
 
->Ignore punctuation and spacing. Assume all alphabetic characters will be lowercase.
+>**Note:** Ignore punctuation and spacing. Assume all alphabetic characters will be lowercase.
 >Special case: A one-character string is a palindrome.
 >Hint: The deque must be a Deque of Characters, but ordinary chars will be automatically converted to Characters when added to the deque.
 
