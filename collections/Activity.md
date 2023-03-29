@@ -2,7 +2,7 @@
 
 ## Objective
 
-Identify palindrome and implement deque 
+Identify palindrome and implement using deque 
 
 ## Pre-requisite
 
