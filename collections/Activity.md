@@ -10,7 +10,7 @@ Review the "Collections" lecture before attending the lab.
 
 ## Task
 
-A palindrome is a string that reads the same backwards and forwards. Use a deque to implement a program that tests whether a line of text is a palindrome. 
+A palindrome is a string that reads the same backwards and forwards. Write a code which uses deque and tests whether a line of text is a palindrome. 
 The program reads a line, then outputs whether the input is a palindrome or not.
 
 __Expected input__
