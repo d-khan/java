@@ -113,3 +113,179 @@ public class HistogramViewer {
 ```
 
 <img width="393" alt="image" src="https://user-images.githubusercontent.com/11669149/228694473-f6387c80-505f-4c56-9d20-09d77095dc2b.png">
+
+The program first creates a HistogramComponent object named histogramComponent and adds the object to the JFrame object using the add() method. Once added, the JFrame automatically calls the histogramComponent objects paintComponent() method whenever the JFrame object is updated, such as when the frame is resized.
+
+The HistogramComponent's paintComponent() uses Rectangle and Color objects to draw a simple histogram with three bins, using the operations:
+
+1. **Cast the Graphics object to Graphics2D**: The statement `Graphics2D graphicsObj = (Graphics2D) g;` converts the original Graphics object argument to a graphics object that supports drawing two-dimensional objects.
+2. **Create a Rectangle object**: A **Rectangle** object stores the location and size of a rectangle shape. A Rectangle's constructor accepts arguments for location and size (in pixel units) as specified by the constructor definition: `Rectangle(int x, int y, int width, int height)`.
+3. **Create a Color object**: A **Color** object represents a color in the red, green, blue color space. A Color constructor accepts an integer value between 0 to 255 for each color channel as specified by the constructor definition: `Color(int red, int green, int blue)`. For example, the statement `Color binColor1 = new Color(128, 128, 0);` creates a Color object with an olive color.
+4. **Set the color used by the Graphics2D object**: Graphic2D's setColor() method sets the color that the Graphics2D object will use for subsequent drawing operations.
+5. **Draw the shape**: A Graphic2D object provides different methods for drawing shapes. The draw() method will draw an outline of a shape, such as a Rectangle object, using the Graphic2D object's current color. The fill() method will draw a shape filling the interior of the shape with the Graphic2D object's current color.
+
+## Introduction to graphical user interfaces
+
+- Java supports a set of components, called **Swing GUI components**, for developing custom GUIs.
+- A GUI, or **graphical user interface**, enables the user to interface with a program via the use of graphical components such as windows, buttons, text boxes, etc. as opposed to text-based interfaces like the traditional command line. 
+- The following example calculates a yearly salary based on an hourly wage and utilizes Swing GUI components in order to create a GUI that displays the program's output.
+
+### Example - displaying a yearly salary using a GUI
+
+```java
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class SalaryGUI {
+    public static void main(String[] args) {
+        int hourlyWage;
+        JFrame topFrame = null;        // Application window
+        JTextField outputField = null; // Displays output salary
+
+        hourlyWage = 20;
+
+        // Create text field
+        outputField = new JTextField();
+        // Display program output using the text field
+        outputField.setText("An hourly wage of " + hourlyWage + "/hr" +
+                " yields $" + (hourlyWage * 40 * 50) + "/yr.");
+
+        // Prevent user from editing output text
+        outputField.setEditable(false);
+
+        // Create window
+        topFrame = new JFrame("Salary");
+
+        // Add text field to window
+        topFrame.add(outputField);
+
+        // Resize window to fit components
+        topFrame.pack();
+
+        // Set program to terminate when window is closed
+        topFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Display window
+        topFrame.setVisible(true);
+    }
+}
+```
+
+<img width="393" alt="Screen Shot 2023-03-29 at 9 08 30 PM" src="https://user-images.githubusercontent.com/11669149/228726719-e4c8bbbc-ce69-4ce0-a478-0900342400bb.png">
+
+- The above program utilizes two basic Swing GUI components: **JTextField** and **JFrame**. The resulting GUI consists of a window (i.e., a JFrame) and a text field (i.e., a JTextField), as illustrated by the screenshot above.
+- A JTextField is a Swing GUI component that enables a programmer to display a line of text and is available via the import statement `import javax.swing.JTextField;`.
+- The statement `outputField = new JTextField();` creates a JTextField object, which is represented by the variable outputField.
+- A programmer can then use JTextField's setText() method to specify the text that will be displayed, as in the statement `outputField.setText("An hourly ... ");`. 
+- By default, a JTextField allows users to modify the displayed text at runtime for the purposes of input (discussed elsewhere). However, the above program invokes JTextField's setEditable() method with the boolean literal false, as in `outputField.setEditable(false);`, to prevent users from editing the displayed text.
+- A JFrame is a **top-level container** of GUI components and serves as the application's main window. 
+- The JFrame class is available to programmers via the import statement `import javax.swing.JFrame;`. The statement `frame = new JFrame("Salary");` creates a window frame titled "Salary", as specified by the String literal within parentheses.
+- A frame must contain all GUI components that should be visible to the user. A programmer uses JFrame's add() method to add GUI components to the frame. For example, the statement `frame.add(outputField);` adds the JTextField component, outputField, to the frame. The outputField text field is contained within the frame and displayed within the application's window.
+
+- After adding all GUI components to a frame, a programmer then invokes JFrame's pack() method, as in `frame.pack();`, to automatically resize the frame to fit all of the contained components. Importantly, the pack() method resizes the window according to the current state of the contained components. Thus, modifying, adding, or removing GUI components after the call to pack() may result in a window that is not sized appropriately.
+
+JFrame's pack() method uses the preferred size of its contained components in order to determine the appropriate size for the window. Try removing the statement frame.pack() from the above program and observe the effect. Notice how the window no longer displays the entire text of the JTextField component. Instead, the window defaults to a default size without considering the size of the frame's contained components.
+
+Now restore the program to the original state and try moving the statement `outputField.setText("An hourly wage ...");` after the call to pack() (i.e., after the statement frame.pack();). Run the program once again and observe the output. Although the program invoked the pack() method, the text field is not displayed properly within the window. The statement order matters. The pack() method resizes the window according to the current state of the frame's components. Thus, changing the amount of text displayed by a JTextField component after the call to pack() will not automatically resize the window in order to fit the text. 
+
+- By default, closing a GUI window does not terminate the program. Thus, the statement `frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);` is required so that the program terminates properly when the GUI window is closed. Lastly, the statement `frame.setVisible(true);` makes the frame visible on the screen.
+
+In summary, the statements in the program's main() method construct a GUI as outlined by the following procedure:
+
+1. Create GUI components (e.g., JTextField)
+2. Create a top-level GUI component container (e.g., JFrame)
+3. Add GUI components to the top-level container
+4. Configure the top-level container (e.g., set the default close operation)
+5. Display the top-level container (e.g., make the frame visible)
+
+## Positioning GUI components using a GridBagLayout
+
+- A **layout manager** affords programmers control over the positioning and layout of GUI components within a JFrame or other such containers.
+- A **GridBagLayout** positions GUI components in a two-dimensional grid and is one of the layout managers supported by Java.
+
+### Example - Using a GridBagLayout to arrange GUI components
+
+```java
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class SalaryLabelGUI {
+
+    public static void main(String[] args) {
+        int hourlyWage;
+        JFrame topFrame = null;                // Application window
+        JLabel wageLabel = null;               // Label for hourly salary
+        JLabel salLabel = null;                // Label for yearly salary
+        JTextField salField = null;            // Displays hourly salary
+        JTextField wageField = null;           // Displays yearly salary
+        GridBagConstraints layoutConst = null; // GUI component layout
+
+        hourlyWage = 20;
+
+        // Set hourly and yearly salary
+        wageLabel = new JLabel("Hourly wage:");
+        salLabel = new JLabel("Yearly salary:");
+
+        wageField = new JTextField(15);
+        wageField.setEditable(false);
+        wageField.setText(Integer.toString(hourlyWage));
+
+        salField = new JTextField(15);
+        salField.setEditable(false);
+        salField.setText(Integer.toString((hourlyWage * 40 * 50)));
+
+        // Create frame and add components using GridBagLayout
+        topFrame = new JFrame("Salary");
+
+        // Use a GridBagLayout
+        topFrame.setLayout(new GridBagLayout());
+
+        // Create GridBagConstraints
+        layoutConst = new GridBagConstraints();
+
+        // Specify component's grid location
+        layoutConst.gridx = 0;
+        layoutConst.gridy = 0;
+
+        // 10 pixels of padding around component
+        layoutConst.insets = new Insets(10, 10, 10, 10);
+
+        // Add component using the specified constraints
+        topFrame.add(wageLabel, layoutConst);
+
+        layoutConst = new GridBagConstraints();
+        layoutConst.gridx = 1;
+        layoutConst.gridy = 0;
+        layoutConst.insets = new Insets(10, 10, 10, 10);
+        topFrame.add(wageField, layoutConst);
+
+        layoutConst = new GridBagConstraints();
+        layoutConst.gridx = 0;
+        layoutConst.gridy = 1;
+        layoutConst.insets = new Insets(10, 10, 10, 10);
+        topFrame.add(salLabel, layoutConst);
+
+        layoutConst = new GridBagConstraints();
+        layoutConst.gridx = 1;
+        layoutConst.gridy = 1;
+        layoutConst.insets = new Insets(10, 10, 10, 10);
+        topFrame.add(salField, layoutConst);
+
+        // Terminate program when window closes
+        topFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Resize window to fit components
+        topFrame.pack();
+
+        // Display window
+        topFrame.setVisible(true);
+    }
+}
+```
+
+<img width="425" alt="Screen Shot 2023-03-30 at 7 27 23 AM" src="https://user-images.githubusercontent.com/11669149/228868595-8db890e2-8307-48ba-84c7-fb705fc8576d.png">
+
