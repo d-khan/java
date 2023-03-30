@@ -10,7 +10,7 @@ Review the
 
 ## Tasks
 
-Using the above FlyDriveFrame program, enter the input "31 and 32". Notice that the JFormattedTextField component only extracts the first valid number from this incorrectly formatted input string. Also, notice that the JFormattedTextField component automatically formats the displayed text when the user clicks on another component (e.g., the button).
+Modify the below program to use a JTextField component, instead of a JFormattedTextField component, for the distance input. Remember to use the getText() method, as opposed to the getValue() method, in order to extract the distance, as in Double.parseDouble(distField.getText());. Compile and run the program. Enter an invalid input value such as "text". You should notice several error messages printed on the command-line, as a regular JTextField does not discard non-numerical values.
 
 
 ```java
