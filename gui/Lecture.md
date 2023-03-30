@@ -289,3 +289,24 @@ public class SalaryLabelGUI {
 
 <img width="425" alt="Screen Shot 2023-03-30 at 7 27 23 AM" src="https://user-images.githubusercontent.com/11669149/228868595-8db890e2-8307-48ba-84c7-fb705fc8576d.png">
 
+The above program displays an hourly wage and a yearly salary using the JTextField component's wageField and salaryField respectively. The statements creating the JTextField components (e.g., `wageField = new JTextField(15);`) now specify the fields' widths in number of columns, where a column is proportional to a character's pixel width given a particular font.
+
+Additionally, the program contains two JLabel Swing GUI components, which allow programmers to display text that is typically used for the purposes of describing, or labeling, other GUI components. For example, the statement `wageLabel = new JLabel("Hourly wage:");` creates a JLabel component that describes the value displayed in the wageField. The JLabel class is available to programmers via the import statement `import javax.swing.JLabel;`.
+
+Because the above program uses more than one Swing GUI component, a layout manager is necessary in order to specify the relative position of each component within the frame. A GridBagLayout is a layout manager that allows programmers to place components in individual cells within a two-dimensional grid. Each cell of this grid is indexed using one number for the column, x, and another number for the row, y. The top-left cell is at location (x=0, y=0), and column numbers increase going right, while row numbers increase going down. The programmer is additionally able to add padding (i.e., empty space) between Swing GUI components in order to make the GUI easier to understand as well as more aesthetically pleasing. The following animation illustrates the process of specifying the layout for each GUI component.
+
+<img width="618" alt="image" src="https://user-images.githubusercontent.com/11669149/228870981-e463687c-f230-41f7-a1d6-f9dbbf02d99e.png">
+
+<img width="640" alt="image" src="https://user-images.githubusercontent.com/11669149/228871112-19adebff-1d48-4991-a89f-a7e1c1c5a8ef.png">
+
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/11669149/228871313-19c84dbb-de34-4ceb-8840-ae12c7f39900.png">
+
+<img width="659" alt="image" src="https://user-images.githubusercontent.com/11669149/228871606-dee29fd7-617a-4195-867e-9e6ac7b27ffe.png">
+
+<img width="660" alt="image" src="https://user-images.githubusercontent.com/11669149/228871753-95bb788c-84ee-4804-8fac-5f8f8f9922ec.png">
+
+<img width="663" alt="image" src="https://user-images.githubusercontent.com/11669149/228871875-fae24e36-aea3-4001-a3fb-1e3dfe156b03.png">
+
+
+
+
