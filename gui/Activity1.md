@@ -2,7 +2,7 @@
 
 ## Objective
 
-Write a code which takes user input and perform calculations
+Write a code that takes user input and performs calculations
 
 ## Pre-requisite
 
