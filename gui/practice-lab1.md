@@ -2,7 +2,7 @@
 
 ## Objective
 
-Apply GUI in Java
+Apply Swing GUI components in Java
 
 ## Prerequisite
 
