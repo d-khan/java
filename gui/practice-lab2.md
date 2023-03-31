@@ -6,7 +6,7 @@ Apply GUI in Java
 
 ## Prerequisite
 
-Review the
+Review the [GUI](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/gui/Lecture.html) lecture.
 
 ## Tasks
 
