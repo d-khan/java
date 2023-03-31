@@ -1,4 +1,4 @@
-# Practice lab (This lab is not graded)
+# Practice lab 1 (This lab is not graded)
 
 ## Objective
 
