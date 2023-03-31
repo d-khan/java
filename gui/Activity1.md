@@ -6,7 +6,7 @@ Write a code that takes user input and performs calculations
 
 ## Pre-requisite
 
-Review the [GUI](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/gui/Lecture.html) lecture before attending the lab. 
+Review the [GUI](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/gui/Lecture.html) lecture before attending the lab.
 
 ## Task
 
