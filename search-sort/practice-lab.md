@@ -11,8 +11,12 @@ Review the [Searching and sorting](https://htmlpreview.github.io/?https://github
 ## Tasks
 Draw a graph and explain your observation on the following big O notations.
 
-a. $n*log(n)$
-b. $n^2$
-c. $n^3$
-d. $2^n$
+a. $n*log(n)$  \\
+
+b. $n^2$ \\
+
+c. $n^3$ \\
+
+d. $2^n$ \\
+
 e. $n!$
