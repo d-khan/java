@@ -16,7 +16,7 @@ Review the [Search and sort lecture](https://htmlpreview.github.io/?https://gith
 
 __Expected input__
 
-6 3 2 1 5 9 8
+`6 3 2 1 5 9 8`
 
 __Expected output__
 
