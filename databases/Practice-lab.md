@@ -56,7 +56,17 @@ describe course;
 ```
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/11669149/229570390-79a42021-17b4-4275-8def-4bf2eb783525.png">
 
-6. 
+6. Add data into an existing table __Student__ and verify
+``` sql
+insert into Student (ssn,firstname,lastname,birthDate)
+values ('123456789','Amanda','Jones','Sep 10, 1980')
+;
+```
+
+```sql
+select * from course;
+```
+<img width="1027" alt="image" src="https://user-images.githubusercontent.com/11669149/229571436-9eb9d4c5-1592-4fd5-9fdc-901c4564e808.png">
 
 
 
