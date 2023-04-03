@@ -79,5 +79,6 @@ where ssn = '123456789';
  ```
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/11669149/229572963-1af7c582-eb02-4381-b48a-4f4b816c7434.png">
 
+8. Add another record in the table __Student__ and verify.
 
 
