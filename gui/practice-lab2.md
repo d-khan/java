@@ -1,4 +1,4 @@
-# Practice lab (This lab is not graded)
+# Practice lab 2 (This lab is not graded)
 
 ## Objective
 
@@ -6,7 +6,7 @@ Apply GUI in Java
 
 ## Prerequisite
 
-Review the
+Review the [GUI](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/gui/Lecture.html) lecture.
 
 ## Tasks
 
