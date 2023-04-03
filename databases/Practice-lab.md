@@ -68,6 +68,16 @@ select * from course;
 ```
 <img width="852" alt="image" src="https://user-images.githubusercontent.com/11669149/229572297-4fa9e275-29a7-4e2a-9143-e34ec3bb8222.png">
 
+7. Update data into an existing table __Student__ and verify
+```sql
+update student
+set zipcode = '12345'
+where ssn = '123456789';
+```
+```sql
+ select * from student;
+ ```
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/11669149/229572963-1af7c582-eb02-4381-b48a-4f4b816c7434.png">
 
 
 
