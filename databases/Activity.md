@@ -12,8 +12,6 @@ Write a code to access and manipulate databases using MySQL J connector
 ## Task
 - Manipulate the record in the already created database __Miramar__ and the table __Student__.
 - Insert a record using the J connector; access the database and use SQL query inside the Java. Use the following data.
-- Update a record and change zip code to 92126
-
 ```
 SSN:          111222333
 First name:   Philip
@@ -25,6 +23,7 @@ Phone:        NA
 Zipcode:      NA
 deptID:       1234
 ```
+- Update a record and change zip code to 92126
 
 ## What to submit?
   
