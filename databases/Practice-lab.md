@@ -59,14 +59,15 @@ describe course;
 6. Add data into an existing table __Student__ and verify
 ``` sql
 insert into Student (ssn,firstname,lastname,birthDate)
-values ('123456789','Amanda','Jones','Sep 10, 1980')
+values ('123456789','Amanda','Jones','1980-12-20')
 ;
 ```
 
 ```sql
 select * from course;
 ```
-<img width="1027" alt="image" src="https://user-images.githubusercontent.com/11669149/229571436-9eb9d4c5-1592-4fd5-9fdc-901c4564e808.png">
+<img width="852" alt="image" src="https://user-images.githubusercontent.com/11669149/229572297-4fa9e275-29a7-4e2a-9143-e34ec3bb8222.png">
+
 
 
 
