@@ -7,7 +7,7 @@ Write a code to access and manipulate databases using MySQL J connector
 ## Pre-requisite
 
 - Review the [Databases](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/databases/Lecture.html) lecture.
-- Perform the [practice lab](https://github.com/d-khan/java/edit/main/databases/Practice-lab.md).
+- Perform the [practice lab](https://github.com/d-khan/java/blob/main/databases/Practice-lab.md).
 
 ## Task
 - Manipulate the record in the already created database __Miramar__ and the table __Student__.
