@@ -15,11 +15,11 @@ The program reads a line, then outputs whether the input is a palindrome or not.
 
 __Expected input__
 
-senile felines!
+civic
 
 __Expected output__
 
-Yes, "senile felines!" is a palindrome.
+Yes, civic is a palindrome.
 
 __Expected input__
 
