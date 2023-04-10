@@ -26,8 +26,9 @@ SELECT * from Auto
 
 ## What to submit?
   
-1. What were your challenges in performing the lab (from design to the implementation phases)? **(2 marks)**.  
-2. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. **(8 marks)**
+1. What were your challenges in performing the lab (from design to the implementation phases)?
+2. Submit all the codes and provide meaningful filenames.
+3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. 
 
 ## How to submit it?
 
@@ -41,6 +42,7 @@ The deadlines are posted on the Syllabus as well as on Canvas.
 
 ## Rubric
 
-- The video describes the code in detail. The code is working as per instruction, and the explanation of the questions is submitted (10 marks).  
-- The video is submitted, and the code is working, but a partial explanation of the questions is submitted. (8+ marks).  
+- The video describes each section clearly and the corresponding Java code and SQL statements are submitted. (100%)
+- The video is submitted, and the code is working, 
+- but a partial explanation of the questions is submitted. (8+ marks).  
 - The code is uploaded but not working regardless the video is submitted or not. (0 marks)
