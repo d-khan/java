@@ -4,39 +4,25 @@
 
 Automate the data insertion process in mySQL from the tab-separated value file using Java
 
-## Pre-requisite
+## Make sure you go through the following items
 
 - Review [Databases](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/databases/Lecture.html) lecture.
 - Perform [practice lab](https://github.com/d-khan/java/blob/main/databases/Practice-lab.md).
 - Review [GUI](https://github.com/d-khan/java/blob/main/gui/Lecture.md) lecture.
+- Review [SQL cheat sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
 ## Data set
 - [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original)
 - [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names)
 
 ## Task
-- Create a database in mySQL called 'Auto'.
-- Using Java to insert data using SQL statements. The data is in tab separated value file, [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original), and the details about the data and data types can be found at [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names).
-- Using GUI, create a text box which takes user input and another windows to display results. For example, if the text box says 'ALL' then you display the entire table. Under the hood, the corresponding SQL statement will be running.
+1. Create a database in mySQL called 'Auto'. **(2 marks)**
+2. Using Java to insert data using SQL statements. The data is in tab separated value file, [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original), and the details about the data and data types can be found at [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names). **(10 marks)**
+3. Using GUI, create a text box which takes user input and another windows to display results. For example, if the text box says 'ALL' then you display the entire table. Under the hood, the corresponding SQL statement in Java will be running. **(4 marks)**
 ```sql
 SELECT * from Auto
 ```
-
-
-- Manipulate the record in the already created database __Miramar__ and the table __Student__.
-- Insert a record using the J connector; access the database and use SQL query inside the Java. Use the following data.
-```
-SSN:          111222333
-First name:   Philip
-Middle name:  David Charles
-Last name:    Collins
-DOB:          Jan 30, 1951
-Street:       NA
-Phone:        NA
-Zipcode:      NA
-deptID:       1234
-```
-- Update a record and change zip code to 92126
+4. Use JSliders to create two sliders (MPG and horsepower). The user should select mpg and horsepower and the corresponding result will display. You need a WHERE clause to get the selected results. **(4 marks)**
 
 ## What to submit?
   
