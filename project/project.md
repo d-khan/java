@@ -9,7 +9,7 @@ Automate the data insertion process in mySQL from the tab-separated value file u
 - Review [Databases](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/databases/Lecture.html) lecture.
 - Perform [practice lab](https://github.com/d-khan/java/blob/main/databases/Practice-lab.md).
 - Review [GUI](https://github.com/d-khan/java/blob/main/gui/Lecture.md) lecture.
-- Review [SQL cheat sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+- Review [SQL cheat sheet](https://www.sqltutorial.org/sql-cheat-sheet/).
 
 ## Data set
 - [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original)
