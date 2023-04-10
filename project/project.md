@@ -9,9 +9,9 @@ Automate the data writing process in mySQL from the tab-separated value file usi
 - Review the [Databases](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/databases/Lecture.html) lecture.
 - Perform the [practice lab](https://github.com/d-khan/java/blob/main/databases/Practice-lab.md).
 - 
-## Files
+## Data set
 - [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original)
-- 
+- [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names)
 
 ## Task
 - Manipulate the record in the already created database __Miramar__ and the table __Student__.
