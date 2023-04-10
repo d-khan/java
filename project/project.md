@@ -43,6 +43,5 @@ The deadlines are posted on the Syllabus as well as on Canvas.
 ## Rubric
 
 - The video describes each section clearly and the corresponding Java code and SQL statements are submitted. (100%)
-- The video is submitted, and the code is working, 
-- but a partial explanation of the questions is submitted. (8+ marks).  
+- The video is submitted but not the code. (Score will be given based on the completed task).
 - The code is uploaded but not working regardless the video is submitted or not. (0 marks)
