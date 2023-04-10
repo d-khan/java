@@ -15,6 +15,7 @@ Automate the data insertion process in mySQL from the tab-separated value file u
 - [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names)
 
 ## Task
+- 
 - Manipulate the record in the already created database __Miramar__ and the table __Student__.
 - Insert a record using the J connector; access the database and use SQL query inside the Java. Use the following data.
 ```
