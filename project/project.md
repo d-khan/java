@@ -15,7 +15,14 @@ Automate the data insertion process in mySQL from the tab-separated value file u
 - [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names)
 
 ## Task
-- Using Java to insert data using SQL statements. The data is in tab separated value file, [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original), and the details about the data and data types can be found at [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names)
+- Create a database in mySQL called 'Auto'.
+- Using Java to insert data using SQL statements. The data is in tab separated value file, [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original), and the details about the data and data types can be found at [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names).
+- Using GUI, create a text box which takes user input and another windows to display results. For example, if the text box says 'ALL' then you display the entire table. Under the hood, the corresponding SQL statement will be running.
+```sql
+SELECT * from Auto
+```
+
+
 - Manipulate the record in the already created database __Miramar__ and the table __Student__.
 - Insert a record using the J connector; access the database and use SQL query inside the Java. Use the following data.
 ```
