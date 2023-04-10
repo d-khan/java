@@ -2,7 +2,7 @@
 
 ## Objective
 
-Automate the data writing process in mySQL from the tab-separated value file using Java
+Automate the data insertion process in mySQL from the tab-separated value file using Java
 
 ## Pre-requisite
 
