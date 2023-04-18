@@ -1954,6 +1954,8 @@ public class SeatReservationFrame extends JFrame implements ActionListener {
 }
 ```
 
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/11669149/232883147-74fcc6e8-3535-45c1-befc-517b934c6d75.png">
+
 The above program defines a SeatInfo class to store information regarding a particular reservation. The SeatInfo class declares fields for a person's first name, last name, and the amount paid for the particular seat. The SeatInfo class also declares methods that allow a programmer to reserve a seat, check if a seat is empty, or make the seat empty.
 
 The program creates an ArrayList of 5 Seat objects called seatResArr, which represents, for example, the entire theater or airplane. The program initializes all seats to empty, as indicated by a first and last name of "empty", and then allows the user to reserve a seat by entering the required seat information into the appropriate text fields and pressing the "Reserve" button. The table then displays information for each seat in a separate row.
