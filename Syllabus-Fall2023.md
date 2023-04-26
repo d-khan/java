@@ -14,7 +14,7 @@
 | Duration                 | Aug 21 – Dec 16 (16 weeks)                                   |
 | Professor                | Dr Danish Khan                                               |
 | Office hours             | Tue 12:35-1:35 pm (Room M-103)                               |
-| Email                    | dkhan1010@gmail.com                                          |
+| Email                    | Use Canvas Messaging System to send me an email              |
 
 ## __Important dates/deadline__
 
