@@ -52,13 +52,13 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 | 4     | 11 Sep | Input and output                    | Assignments due on 17 Sep    |
 | 5-6   | 18 Sep | Inheritance                         | Assignments Due on 1 Oct     |
 | 7     | 2 Oct  | Exceptions                          | Assignments due on 8 Oct     |
-| 8     | 9 Oct  | Revision, __Midterm on__            |                              |
+| 8     | 9 Oct  | Revision, __Midterm on Thu 12 Oct__ |                              |
 | 9     | 16 Oct | Collections                         | Assignments due on 22 Oct    |
 | 10-11 | 23 Oct | GUI                                 | Assignments due on 5 Nov     |
 | 12    | 6 Nov  | Searching and sorting               | Assignments due on 12 Nov    |
 | 13-14 | 13 Nov | Java database programming           | Assignments due on 3 Dec     |
 | 14-15 | 27 Nov | Project and revision                | Project submission on 10 Dec |
-| 16    | 11 Dec | __Final exam on__                   |                              |
+| 16    | 11 Dec | __Final exam on Thu 14 Dec__        |                              |
 
 ## __Textbook__
 
