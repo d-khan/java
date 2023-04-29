@@ -38,7 +38,7 @@ Unknown date __Grades:__ Deadline for instructors to submit final grades
 
 ## __Instructor communication policy__
 
-The best way to reach me is via my email __dkhan1010@gmail.com__  
+The best way to reach me is via Canvas Messaging System.  
 
 If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message to my email. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
 
