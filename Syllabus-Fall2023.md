@@ -86,7 +86,7 @@ I recommend following my notes and resources provided on the course site in Canv
 
 | Evaluation type        | Out of 100 |
 | :--------------------- | :--------- |
-| Weekly lab assignments | 20         |
+| Discussions/Weekly lab assignments | 20         |
 | Mid term               | 30         |
 | Project                | 20         |
 | Final exam             | 30         |
