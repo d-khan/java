@@ -127,7 +127,7 @@ create user 'testuser'@'localhost' identified by 'Pa$$word';
 #### Grant permissions (giving root permission to the user)
 
 ```sql
-grant all privileges on *.* to 'testuser'@'localhost'
+grant all privileges on *.* to 'testuser'@'localhost';
 ```
 
 <img width="557" alt="image" src="https://user-images.githubusercontent.com/11669149/229426204-0a199d71-7974-4486-a9d9-a7264344986a.png">
