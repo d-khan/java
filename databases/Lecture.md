@@ -207,7 +207,7 @@ values ('11113', 'CSCI', '3720', 'Database Systems', 3);
 #### Select records from the Course table
 
 ```sql
-select * from course;
+select * from Course;
 ```
 
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/11669149/229411191-0b94cfa6-1fc2-42f0-97a8-088b9c9eb296.png">
@@ -225,7 +225,7 @@ where courseID = '11113';
 #### Delete a record in the Course table
 
 ```sql
-delete from course where courseid = '11113';
+delete from Course where courseid = '11113';
 ```
 
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/11669149/229414632-ed198837-d718-46b7-b825-3db59372fb28.png">
@@ -271,7 +271,7 @@ public class SimpleJdbc {
     
     // Execute a statement
     ResultSet resultSet = statement.executeQuery
-      ("select * from course;");
+      ("select * from Course;");
       
       // Iterate through the result and print the student names
     while (resultSet.next())
