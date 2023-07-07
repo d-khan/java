@@ -6,8 +6,8 @@
 | ------------------------ | ------------------------------------------------------------ |
 | Course name              | CISC-191 Intermediate Java Programming                       |
 | Year                     | Fall 2023-24                                                 |
-| Class ID                 |                                                              |
-| Section                  |                                                              |
+| Class ID                 | 069904                                                             |
+| Section                  | 40863                                                             |
 | Location                 | Miramar College, M building, Room M-103                       |
 | In-person class schedule | Tue & Thu 11:10 am – 12:35 pm                                |
 | Course resource          | Course contents are available in Canvas <https://sdccd.instructure.com> |
