@@ -18,23 +18,18 @@
 
 ## __Important dates/deadline__
 
-**7 Aug 2023** Fall 2023 Primary 16-weeks session begins
-
-Unknown date __Student Add/Drop:__ Deadline to drop classes with no "W" recorded
-
-Unknown date __Pass/No Pass:__ Deadline for the student to select the P/NP option. __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.
-
-Instructor Drop/Census: All drops must be submitted by Noon
-
-**4 Sep 2023** Labor Day (College closed)
-
-**10 Nov 2023** Veterans Day (College closed)
-
-**23-24 Nov 2023** Thanksgiving (College closed)
-
-**16 Dec 2023** Session ends
-
-Unknown date __Grades:__ Deadline for instructors to submit final grades
+|<div style="width:100px"></div> ||
+|:----------------------|:--------------|
+|21 Aug                 |   Spring 2023 Primary 16-Week Session Begins |
+|1 Sep                  |   __Student Add/Drop:__ Deadline to drop classes with no "W" recorded|
+|1 Sep                  |   Deadline to drop classes and be eligible for a refund of Enrollment Fee and/or all applicable fees.
+|4 Sep                  |   __Labor Day (CAMPUS CLOSED)__ |
+|5 Sep                  |   Instructor Drop/Census: All drops must be submitted by Noon
+|27 Oct                 |   __Pass/No Pass:__ Deadline for the student to select the P/NP option. __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
+|10 Nov                 |   __Veterans Day (CAMPUS CLOSED)__ |
+|23-24 Nov              |   __Thanksgiving (CAMPUS CLOSED)__ |
+|16 Dec                 |   Session end|
+|5 Jan 2024             | __Grades:__ Deadline for instructors to submit final grades|
 
 ## __Instructor communication policy__
 
