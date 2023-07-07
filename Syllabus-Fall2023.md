@@ -14,7 +14,7 @@
 | Duration                 | Aug 21 – Dec 16 (16 weeks)                                   |
 | Professor                | Dr Danish Khan                                               |
 | Office hours             | Tue 12:35-1:35 pm (Room M-103)                               |
-| Email                    | Use Canvas Messaging System to send me an email              |
+| Email                    | Use Canvas Messaging System                                  |
 
 ## __Important dates/deadline__
 
@@ -88,7 +88,7 @@ I recommend following my notes and resources provided on the course site in Canv
 
 ## __Late/due work__
 
-You must submit your coursework by the due date indicated on the Schedule of Assignments shown in Canvas. Some modules may require more time to complete than others. It is your responsibility to allocate the time needed to complete your work. Be sure to begin your work before the due date. Late work is accepted **only if submitted within 24 hours** at the cost of a 50% reduction in the marks. 
+You must submit your coursework by the due date indicated on the Schedule of Assignments shown in Canvas. Some modules may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. Only on-time work is accepted. 
 
 ## __Attendance/Absences__
 
