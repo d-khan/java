@@ -8,7 +8,7 @@
 | Year                     | Fall 2023-24                                                 |
 | Class ID                 | 069904                                                             |
 | Section                  | 40863                                                             |
-| Location                 | Miramar College, M building, Room M-103                       |
+| Location                 | Miramar College, M building, Room M-104                       |
 | In-person class schedule | Tue & Thu 11:10 am – 12:35 pm                                |
 | Course resource          | Course contents are available in Canvas <https://sdccd.instructure.com> |
 | Duration                 | Aug 21 – Dec 16 (16 weeks)                                   |
