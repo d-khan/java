@@ -13,7 +13,7 @@
 | Course resource          | Course contents are available in Canvas <https://sdccd.instructure.com> |
 | Duration                 | Aug 21 – Dec 16 (16 weeks)                                   |
 | Professor                | Dr Danish Khan                                               |
-| Office hours             | Tue 12:35-1:35 pm (Room M-103)                               |
+| Office hours             | Tue 12:35-1:35 pm (Room M-104)                               |
 | Email                    | Use Canvas Messaging System                                  |
 
 ## __Important dates/deadline__
