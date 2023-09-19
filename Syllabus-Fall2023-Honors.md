@@ -1,6 +1,6 @@
 # Syllabus (CISC-191 Intermediate Java Programming) Honors Contract
 
-This syllabus is for Honors Contract Students only.
+__This syllabus is for Honors Contract Students only.__
 
 ## __Course description__
 This course is an intermediate-level study of the Java programming language. Topics include single and
