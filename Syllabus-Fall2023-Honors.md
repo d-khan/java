@@ -1,5 +1,4 @@
-# Syllabus (CISC-191 Intermediate Java Programming)  
-# Honors Contract
+# Syllabus (CISC-191 Intermediate Java Programming) Honors Contract
 
 This syllabus is for Honors Contract Students only.
 
