@@ -1,6 +1,12 @@
 # Syllabus (CISC-191 Intermediate Java Programming)
 
 ## __Course description__
+This course is an intermediate-level study of the Java programming language. Topics include single and
+multidimensional arrays; objects and classes; object-oriented programming; inheritance and
+polymorphism; exception handling and text input/output (I/O); abstract classes and interfaces; graphical
+user interfaces (GUIs); recursion; concurrency; and generic collections and data structures, such as
+linked lists, queues, and stacks. This course is intended for students majoring in computer and
+information sciences or anyone interested in learning more about the Java programming language.
 
 The students enrolled in the Honors Contract are expected to do independent research, extra assignments, and 1:1 meetings with the professor. The student will be involved in Work-Based Learning activities in which students get in touch with career services, improve resume writing and interviewing skills, and get in touch with professionals in the relevant field.
 
@@ -85,10 +91,12 @@ I recommend following my notes and resources provided on the course site in Canv
 
 | Evaluation type        | Out of 100 |
 | :--------------------- | :--------- |
-| Discussions/Weekly lab assignments | 20         |
-| Mid term               | 30         |
+| Weekly lab assignments | 20         |
+| Research work & meetings | 15       |
+| Career related activities | 5       |
+| Mid term               | 20         |
 | Project                | 20         |
-| Final exam             | 30         |
+| Final exam             | 20         |
 
 ## __Late/due work__
 
