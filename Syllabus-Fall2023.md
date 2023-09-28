@@ -16,7 +16,7 @@
 | Office hours             | Tue 12:35-1:35 pm (Room M-104)                               |
 | Email                    | Use Canvas Messaging System                                  |
 
-## Student learning outcome
+## Student learning outcomes
 - Demonstrate an ability to successfully follow a specification. Measurement Method: Development of classroom projects.  
 - Demonstrate an ability to successfully create electronic documents. Measurement Method: Performance on homework assignments.  
 
