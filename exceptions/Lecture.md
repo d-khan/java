@@ -351,6 +351,10 @@ public class CircleRadiusCalculator {
 
 - The main() method, which calls getArea(), uses a try/catch block to catch and handle the exception thrown by getArea().
 
+### Practice code
+
+> Modify the above code and add exceptions. For example, circle area cant be 0 and cant be negative. Modify the exception to create two seperate messages.
+
 ## Checked vs unchecked exceptions
 
 Java has two types of exceptions:
