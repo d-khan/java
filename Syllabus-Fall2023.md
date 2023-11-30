@@ -61,7 +61,6 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 ## __Textbook__
 
-I recommend following my notes and resources provided on the course site in Canvas. The following resources are for your reference.  
 
 - Liang, Y. Daniel. Intro to Java Programming, Comprehensive Version, 12th ed. Pearson, 2019, ISBN: 9780136529153
 
