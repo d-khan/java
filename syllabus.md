@@ -18,7 +18,7 @@
 
 ## __Important dates/deadline__
 
-|<div style="width200:px">Deadline</div> ||
+|<div style="width500:px">Deadline</div> ||
 |:----------------------|:--------------|
 |29 Jan                 |   Spring 2024 Primary 16-Week Session Begins |
 |9 Feb                  |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
