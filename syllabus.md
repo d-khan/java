@@ -43,23 +43,23 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 |Week|<div style="width:75px">Date</div>|Topics | Deadlines|
 |-|--|--|----|
-|1 |30 Jan |Java lang review | Assignments due on 5 Feb |
-|2  |6 Feb  |Object and classes | Assignments due on 12 Feb |
-|3  |13 Feb |Memory management | Assignments due on 19 Feb |
-|4  |20 Feb |Input and output | Assignments due on 26 Feb |
-|5  |27 Feb |Inheritance | Assignments Due on 5 Mar|
-|6  |6 Mar  |Recursion | Assignments due on 12 Mar|
-|7  |13 Mar |Exceptions| Assignments due on 19 Mar|
-|8  |20 Mar |Revision, __Midterm on Thu 23 Mar__|
-|||__Spring break (27 Mar - 1 Apr) - No classes__|
-|9  |3 Apr  |Collections| Assignments due on 9 Apr|
-|10 |10 Apr |GUI | Assignments due on 16 Apr|
-|11 |17 Apr |JavaFx | Assignments due on 23 Apr|
-|12 |24 Apr |Searching and sorting | Assignments due on 30 Apr |
-|13 |1 May  |Efficient algorithms | Assignments due on 7 May |
-|14 |8 May  | Databases | Assignments due on 14 May |
-|15 |15 May | Revision and project work | Project submission 26 May |
-|16 |22 May | __Final exam on Thu 25 May__
+|1  |29 Jan |Java lang review | Assignments due on 3 Feb |
+|2  |5 Feb  |Object and classes | Assignments due on 10 Feb |
+|3  |12 Feb |Memory management | Assignments due on 17 Feb |
+|4  |19 Feb |Input and output | Assignments due on 24 Feb |
+|5  |26 Feb |Inheritance | Assignments Due on 2 Mar|
+|6  |4 Mar  |Inheritance (contd.) | Assignments due on 9 Mar|
+|7  |11 Mar |Exceptions| Assignments due on 16 Mar|
+|8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
+|||__Spring break (25 - 29 Mar) - No classes__|
+|9  |1 Apr  |Collections | Assignments due on 6 Apr|
+|10  |8 Apr  |GUI| Assignments due on 13 Apr|
+|11 |15 Apr |GUI (contd.) | Assignments due on 20 Apr|
+|12 |22 Apr |Searching and sorting | Assignments due on 27 Apr |
+|13 |29 Apr  |Java database programming | Assignments due on 4 May |
+|14 |6 May  |Java database programming (contd.) & Project | Assignments due on 11 May |
+|15 |13 May |Project (contd.) | Project submission 18 May |
+|16 |20 May | __Final exam on Tue 21 May at 11:20 am__|
 
 ## __Textbook__
 
