@@ -25,12 +25,13 @@
 |                       |   __Student Drop:__ Deadline to drop class with no "W" recorded. |
 |                       |   __Refund Date:__ Deadline to drop classes and be eligible for refund of Enrollment Fee and/or all applicable fees.|
 |12 Feb                 |   __Instructor Drop/Census:__ All drops must be submitted by Noon
-|17-20 Feb              |   __Lincoln/Washington Day (CAMPUS CLOSED)__ |
-|31 Mar                 |   __Cesar Chavez Day (CAMPUS CLOSED)__
+|16-19 Feb              |   __President's Weekend (CAMPUS CLOSED)__ |
+|25-29 Mar              |   __Spring Break__
+|29 Mar                 |   __Cesar Chavez Day (CAMPUS CLOSED)__
 |12 Apr                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
 |25 May                 |   Session end|
-|29 May                 |   __Memorial Day (CAMPUS CLOSED)__ |
-|31 May                  |   __Grades:__ Deadline for instructors to submit final grades|
+|27 May                 |   __Memorial Day (CAMPUS CLOSED)__ |
+|31 May                 |   __Grades:__ Deadline for instructors to submit final grades|
 
 ## __Instructor communication policy__
 
