@@ -6,33 +6,35 @@
 |-------------------------------|-------------------------------------------|
 |   Course name                 |   CISC-191 Intermediate Java Programming|
 |   Year                        |   Spring 2023-24|
-|   Class ID                    |   25690|
-|   Section                     |   3004|
+|   Class ID                    |   54095|
+|   Section                     |   3003|
 |   Location                    |   Miramar College, M building, Room M-103|
 |   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm|
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
-|   Duration                    |   Jan 30 – May 27 (16 weeks)|
+|   Duration                    |   Jan 29 – May 25 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
 |   Office hours                |   Tue 12:35-1:35 pm (Room M-103)|
-|   Email                       |   dkhan1010@gmail.com |
+|   Contact                     |   Room xxx, Office phone: xxx-xxx-xxxx, Email: Use Canvas Messaging System |
 
 ## __Important dates/deadline__
 
 |<div style="width:100px"></div> ||
 |:----------------------|:--------------|
-|30 Jan                 |   Spring 2023 Primary 16-Week Session Begins |
-|10 Feb                 |   __Student Add/Drop:__ Deadline to drop classes with no "W" recorded|
-|13 Feb                 |   Instructor Drop/Census: All drops must be submitted by Noon
+|29 Jan                 |   Spring 2024 Primary 16-Week Session Begins |
+|9 Feb                  |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
+|                       |   __Student Drop:__ Deadline to drop class with no "W" recorded. |
+|                       |   __Refund Date:__ Deadline to drop classes and be eligible for refund of Enrollment Fee and/or all applicable fees.|
+|12 Feb                 |   __Instructor Drop/Census:__ All drops must be submitted by Noon
 |17-20 Feb              |   __Lincoln/Washington Day (CAMPUS CLOSED)__ |
 |31 Mar                 |   __Cesar Chavez Day (CAMPUS CLOSED)__
-|14 Apr                 |   __Pass/No Pass:__ Deadline for the student to select the P/NP option. __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
-|27 May                 |   Session end|
+|12 Apr                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
+|25 May                 |   Session end|
 |29 May                 |   __Memorial Day (CAMPUS CLOSED)__ |
-|2 Jun                  |   __Grades:__ Deadline for instructors to submit final grades|
+|31 May                  |   __Grades:__ Deadline for instructors to submit final grades|
 
 ## __Instructor communication policy__
 
-The best way to reach me is via my email __dkhan1010@gmail.com__  
+Please use the Canvas Messaging System  
 
 If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message to my email. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
 
