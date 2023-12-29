@@ -41,7 +41,7 @@
 
 Please use the Canvas Messaging System  
 
-If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message to my email. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
+If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message using the Canvas Messaging System. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
 
 ## __Course outline and schedule__
 
@@ -67,9 +67,10 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 ## __Textbook__
 
-I recommend following my notes and resources provided on the course site in Canvas. The following resources are for your reference.  
-
+The following is the textbook used for this course
 - Liang, Y. Daniel. Intro to Java Programming, Comprehensive Version, 12th ed. Pearson, 2019, ISBN: 9780136529153
+
+I recommend following my notes and resources provided on the course site in Canvas.  
 
 ## __Software and hardware resources__
 
