@@ -130,14 +130,19 @@ violation of Administrative Procedure 3100.3 Honest Academic Conduct, will recei
 
 ## __Honest Academic Conduct__
 
-- Students are expected to adhere to the Honest Academic Conduct policy at all times. Students who violate the Honest
-Academic Conduct policy may be removed from class by the faculty for the class meeting in which the behavior occurred, and the next class meeting.
-- __For online classes:__ Student access to class is removed for one week (5 instructional days).
-- Acceptance of make-up work during the removal will be decided by the instructor based on the incident.
-- Incidents involving removal of a student from class will be reported to the college disciplinary officer for follow up.
+You are expected to be honest and ethical at all times in the pursuit of academic goals. Students who are found to be in violation of Administrative Procedure 3100.3, Honest Academic Conduct, will receive a grade of zero on the assignment in question and may be referred for disciplinary action in accordance with Administrative Procedure 3100.2, Student Disciplinary Procedures.  
 
-> The Honest Academic Conduct policy can be found in Board of Trustees Policy, BP 5500, Student Rights, Responsibilities,
-Campus Safety and Administrative Due Process posted on the District website at:
+Plagiarism — to take and pass off as one’s own work or ideas of another — is a form of academic dishonesty.
+Plagiarism is any one of the following: 
+- Verbatim copying without proper acknowledgment on term papers, homework or tests/exams;
+- Paraphrasing without proper acknowledgment;
+- Putting together a “patchwork” paper from diverse sources, without proper acknowledgment of those sources;
+- Unacknowledged appropriation of information or of someone else’s ideas.
+
+Acts of plagiarism will result in no credit awarded for the assignment; remedial instruction; academic or
+administrative sanctions; and/or other consequences. 
+
+> The Honest Academic Conduct policy can be found in Board of Trustees Policy, BP 5500, Student Rights, Responsibilities, Campus Safety and Administrative Due Process posted on the District website at:
 <https://www.sdccd.edu/docs/District/procedures/Student%20Services/AP%203100_03.pdf>  
 ____
 Last updated on Jan 2024
