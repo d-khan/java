@@ -111,19 +111,8 @@ schedule, will receive an evaluative letter grade in this class. (A, B, C, D, F,
 
 ## __Accommodating Students with Disabilities__
 
-- Students with disabilities who may need academic accommodations are encouraged to discuss their authorized
-accommodations from Disability Support Programs and Services (DSPS) with their professors early in the semester so
-that accommodations may be implemented as soon as possible.
-- The faculty member will work with the DSPS Office to ensure that proper accommodations are made for each student.
-By law, it is up to the DSPS Office, through the interactive process with the student, to determine which
-accommodations are appropriate, not the instructor. This includes accommodations in a clinical setting.
-- Students that need evacuation assistance during campus emergencies should also meet with the instructor as soon as
-possible to ensure the health and safety of all students.
+Students with disabilities who may need academic accommodations should contact me as soon as possible.  You and I will work with the Disability Support Programs and Services (DSPS) department to identify your appropriate academic accommodations for this course.  DSPS is located in the K1 Student Services building, room K1-204 and can be reached at (619) 388-7312 or by email at miradsps@sdccd.edu. To register or to learn more about their services, please visit the DSPS website at www.sdmiramar.edu/dsps.
 
-> For more information, you may contact the DSPS Office on your campus or the website at
-<https://www.sdccd.edu/about/departments-and-offices/student-services-department/dsps/index.aspx> or refer to
-Administrative Procedure, AP 3105.1 Academic Accommodations and Disability Discrimination for Students with
-Disabilities.
 
 ## __Undocumented & Immigrant Student Services__
 
