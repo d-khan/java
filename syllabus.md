@@ -45,9 +45,9 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 ## __Course outline and schedule__
 
-|Week|<div style="width:75px">Week commencing date</div>|Topics | Deadlines|
-|-|--|--|----|
-|1  |29 Jan |Java lang review | Assignments due on 3 Feb |
+|Week|<div style="width:75px">Week commence</div>|Topics | Hands-on activities | Deadlines|
+|-|--|--|---|----|
+|1  |29 Jan |Java lang review | Apply arrays, loops, data types, methods | Assignments due on 3 Feb |
 |2  |5 Feb  |Object and classes | Assignments due on 10 Feb |
 |3  |12 Feb |Memory management | Assignments due on 17 Feb |
 |4  |19 Feb |Input and output | Assignments due on 24 Feb |
