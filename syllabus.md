@@ -50,20 +50,20 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |1  |29 Jan |Java lang review | Apply arrays, loops, data types, and methods | 3 Feb |
 |2  |5 Feb  |Object and classes | Write code based on OOP principles | 10 Feb |
 |3  |12 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 17 Feb |
-|4  |19 Feb |Input and output | Perform input/output operation on a text file using Java | Assignments due on 24 Feb |
+|4  |19 Feb |Input and output | Perform input/output operation on a text file using Java | 24 Feb |
 |5  |26 Feb |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| Assignments Due on 2 Mar|
-|6  |4 Mar  |Inheritance (contd.) | Hands-on activity (contd.) |Assignments due on 9 Mar|
-|7  |11 Mar |Exceptions| Assignments due on 16 Mar|
+|6  |4 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 9 Mar|
+|7  |11 Mar |Exceptions| Solve a task with and without exceptions | 16 Mar|
 |8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
 |||__Spring break (25 - 29 Mar) - No classes__|
-|9  |1 Apr  |Collections | Assignments due on 6 Apr|
-|10  |8 Apr  |GUI| Assignments due on 13 Apr|
-|11 |15 Apr |GUI (contd.) | Assignments due on 20 Apr|
-|12 |22 Apr |Searching and sorting | Assignments due on 27 Apr |
-|13 |29 Apr  |Java database programming | Assignments due on 4 May |
-|14 |6 May  |Java database programming (contd.) & Project | Assignments due on 11 May |
-|15 |13 May |Project (contd.) | Project submission 18 May |
-|16 |20 May | __Final exam on Tue 21 May at 11:20 am__|
+|9  |1 Apr  |Collections | Apply data structures using collections, profile and   | 6 Apr|
+|10  |8 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 13 Apr|
+|11 |15 Apr |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 20 Apr|
+|12 |22 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 27 Apr |
+|13 |29 Apr  |Java database programming | Install MySQL database and write basic MySQL queries | 4 May |
+|14 |6 May  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 11 May |
+|15 |13 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 18 May |
+|16 |20 May | | __Final exam on Tue 21 May at 11:20 am__|
 
 ## __Textbook__
 
