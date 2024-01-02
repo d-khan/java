@@ -1,4 +1,1 @@
-# How to access contents on this website
-
-- Each topic is organized under a folder. Go to a specific folder and click on 'readme' file which has all the contents covered for the topic.
-- In order to access the lab, go to the relevant lab folder of the topic.
+Please use Canvas. I am using GitHub as a content repo, and it is quite possible that the contents may not organized according to the syllabus.
