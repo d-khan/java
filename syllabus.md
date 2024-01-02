@@ -70,7 +70,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 The following is the textbook used for this course
 - Liang, Y. Daniel. Intro to Java Programming, Comprehensive Version, 12th ed. Pearson, 2019, ISBN: 9780136529153
 
-I recommend following my notes and resources provided on the course site in Canvas.  
+I would recommend that you follow my notes and resources provided on the course site in Canvas.  
 
 ## __Software and hardware resources__
 
@@ -100,13 +100,15 @@ I recommend following my notes and resources provided on the course site in Canv
 
 ## __Late/due work__
 
-Please submit your coursework by the due date. The assignment deadlines are posted in the syllabus and also shown in Canvas. Some modules may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. Only on-time work is accepted.
+Please submit your coursework by the due date. The assignment deadlines are posted in the syllabus and also shown in Canvas. Some assignments may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. The late work is deducted 10% when submitted within 24 hours past the due date. Any work submitted past 24 hours of the due date will be graded 0.
 
 ## __Attendance/Absences__
 
-- It is the student’s responsibility to drop all classes in which they are no longer participating __(for online classes)__.
-- It is the student’s responsibility to drop all classes in which they are no longer attending __(for on campus classes)__.
-- It is the instructor’s discretion to withdraw a student after the add/drop deadline due to excessive absences.
+- __(For online classes):__ It is the student’s responsibility to drop all classes in which they are no longer participating.
+- __(For online classes):__ Students who have not logged into the course for three days before the add/drop deadline will be dropped for non-attendance. 
+- __(For inperson classes):__ It is the student’s responsibility to drop all classes in which they are no longer attending.
+- __(For inperson classes):__ The instructor will drop the student if a student is absent in the first two weeks.
+- It is the instructor’s discretion to withdraw a student after the add/drop deadline due to absences (more than 75%).
 - Students who remain enrolled in a class beyond the published withdrawal deadline, as stated in the class
 schedule, will receive an evaluative letter grade in this class. (A, B, C, D, F, P, NP)
 
