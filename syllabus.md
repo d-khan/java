@@ -55,7 +55,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |6  |4 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 9 Mar|
 |7  |11 Mar |Exceptions| Solve a task with and without exceptions | 16 Mar|
 |8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
-__Spring break (25 - 29 Mar) - No classes__
+|||__Spring break (25 - 29 Mar) - No classes__|
 |9  |1 Apr  |Collections | Apply data structures using collections and perform code profiling  | 6 Apr|
 |10  |8 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 13 Apr|
 |11 |15 Apr |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 20 Apr|
