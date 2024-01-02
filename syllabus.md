@@ -47,9 +47,9 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 |Week|<div style="width:75px">Week commence</div>|Topics | Hands-on activities | Deadlines|
 |-|--|--|---|----|
-|1  |29 Jan |Java lang review | Apply arrays, loops, data types, methods | Assignments due on 3 Feb |
-|2  |5 Feb  |Object and classes | Assignments due on 10 Feb |
-|3  |12 Feb |Memory management | Assignments due on 17 Feb |
+|1  |29 Jan |Java lang review | Apply arrays, loops, data types, and methods | Due on 3 Feb |
+|2  |5 Feb  |Object and classes | Write code based on OOP principles | Due on 10 Feb |
+|3  |12 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | Due on 17 Feb |
 |4  |19 Feb |Input and output | Assignments due on 24 Feb |
 |5  |26 Feb |Inheritance | Assignments Due on 2 Mar|
 |6  |4 Mar  |Inheritance (contd.) | Assignments due on 9 Mar|
