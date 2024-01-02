@@ -56,11 +56,11 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |7  |11 Mar |Exceptions| Solve a task with and without exceptions | 16 Mar|
 |8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
 |||__Spring break (25 - 29 Mar) - No classes__|
-|9  |1 Apr  |Collections | Apply data structures using collections, profile and   | 6 Apr|
+|9  |1 Apr  |Collections | Apply data structures using collections and perform code profiling  | 6 Apr|
 |10  |8 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 13 Apr|
 |11 |15 Apr |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 20 Apr|
 |12 |22 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 27 Apr |
-|13 |29 Apr  |Java database programming | Install MySQL database and write basic MySQL queries | 4 May |
+|13 |29 Apr  |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 4 May |
 |14 |6 May  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 11 May |
 |15 |13 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 18 May |
 |16 |20 May | | __Final exam on Tue 21 May at 11:20 am__|
