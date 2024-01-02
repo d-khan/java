@@ -51,8 +51,8 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |2  |5 Feb  |Object and classes | Write code based on OOP principles | 10 Feb |
 |3  |12 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 17 Feb |
 |4  |19 Feb |Input and output | Perform input/output operation on a text file using Java | Assignments due on 24 Feb |
-|5  |26 Feb |Inheritance | Demonstrate inheritance concepts and write a code which uses inheritance and identify when to use inheritance| Assignments Due on 2 Mar|
-|6  |4 Mar  |Inheritance (contd.) | Assignments due on 9 Mar|
+|5  |26 Feb |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| Assignments Due on 2 Mar|
+|6  |4 Mar  |Inheritance (contd.) | Hands-on activity (contd.) |Assignments due on 9 Mar|
 |7  |11 Mar |Exceptions| Assignments due on 16 Mar|
 |8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
 |||__Spring break (25 - 29 Mar) - No classes__|
