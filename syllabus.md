@@ -63,7 +63,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |13 |29 Apr  |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 4 May |
 |14 |6 May  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 11 May |
 |15 |13 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 18 May |
-|16 |20 May | | __Final exam on Tue 21 May at 11:20 am__|
+|16 |20 May |__Final exam on Tue 21 May at 11:20 am__ | |
 
 ## __Textbook__
 
