@@ -153,7 +153,7 @@ One consideration in evaluating algorithms is that the efficiency of the algorit
 | log N    | 3.3 μs | 5.65 μs    | 6.6 μs  | 9.9 μs   | 13.3 μs    | 16.6 μs    |
 | N        | 10 μs  | 50 μs      | 100 μs  | 1000 μs  | 10 ms      | 0.1 s      |
 | N log N  | .03 ms | .28 ms     | .66 ms  | .099 s   | .132 s     | 1.66 s     |
-| $(N^2)       | .1 ms  | 2.5 ms     | 10 ms   | 1 s      | 100 s      | 2.7 hours  |
+| $(N ^2)       | .1 ms  | 2.5 ms     | 10 ms   | 1 s      | 100 s      | 2.7 hours  |
 | $(N^3)       | 1 ms   | .125 s     | 1 s     | 16.7 min | 11.57 days | 31.7 years |
 | $(2^N)       | .001 s | 35.7 years | *       | *        | *          | *          |
 
