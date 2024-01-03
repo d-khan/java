@@ -165,7 +165,7 @@ Many commonly used algorithms have running time functions that belong to one of 
 
 ### Runtime complexities for various pseudocode examples.
 
-***Notation: $O(1)$ - Constant***
+***Notation: O(1) - Constant***
 
 **Pseudocode**
 
@@ -180,7 +180,7 @@ FindMin(x, y) {
 }
 ```
 
-***Notation: $O(log N)$ - Log***
+***Notation: O(log N) - Log***
 
 **Pseudocode**
 
@@ -209,7 +209,7 @@ BinarySearch(numbers, N, key) {
 }
 ```
 
-***Notation: $O(N)$ - Linear***
+***Notation: O(N) - Linear***
 
 **Pseudocode**
 
@@ -225,7 +225,7 @@ LinearSearch(numbers, N, key) {
 }
 ```
 
-***Notation: $O(N Log N)$ - Log-linear***
+***Notation: O(N Log N) - Log-linear***
 
 **Pseudocode**
 
