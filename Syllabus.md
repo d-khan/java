@@ -1,5 +1,17 @@
 # Syllabus (CISC-191 Intermediate Java Programming)
 
+## __Course description__
+This course is an intermediate-level study of the Java programming language. Topics include single and
+multidimensional arrays; objects and classes; object-oriented programming; inheritance and
+polymorphism; exception handling and text input/output (I/O); abstract classes and interfaces; graphical
+user interfaces (GUIs); recursion; concurrency; and generic collections and data structures, such as
+linked lists, queues, and stacks. This course is intended for students majoring in computer and
+information sciences or anyone interested in learning more about the Java programming language.
+
+## Student learning outcomes
+- Demonstrate an ability to successfully follow a specification. Measurement Method: Development of classroom projects.  
+- Demonstrate an ability to successfully create electronic documents. Measurement Method: Performance on homework assignments.
+
 ## __Course information__
 
 |                               |                                           |
@@ -15,10 +27,6 @@
 |   Professor                   |   Dr Danish Khan|
 |   Office hours                |   Tue 12:35-1:35 pm (Room M-103)|
 |   Contact                     |   Room xxx, Office phone: xxx-xxx-xxxx, Email: Use Canvas Messaging System |
-
-## Student learning outcomes
-- Demonstrate an ability to successfully follow a specification. Measurement Method: Development of classroom projects.  
-- Demonstrate an ability to successfully create electronic documents. Measurement Method: Performance on homework assignments.
 
 ## __Important dates/deadline__
 
