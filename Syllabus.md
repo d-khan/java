@@ -93,12 +93,12 @@ I would recommend that you follow my notes and resources provided on the course 
 |Evaluation type|Out of 100|
 |:-|:-|
 |Weekly lab assignments|20|
-|Quizzes$ ^* $ |10|
+|Quizzes* |10|
 |Mid term|30|
 |Project|10|
 |Final exam|30|
 
-$*$ Surprise quiz
+$*$ There will be four surprise quizzes during scheduled class timings.
 
 ## __Late/due work__
 
