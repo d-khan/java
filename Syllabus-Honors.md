@@ -18,64 +18,71 @@ The students enrolled in the Honors Contract are expected to do independent rese
 
 ## __Course information__
 
-|                          |                                                              |
-| ------------------------ | ------------------------------------------------------------ |
-| Course name              | CISC-191 Intermediate Java Programming                       |
-| Year                     | Fall 2023-24                                                 |
-| Class ID                 | 069904                                                             |
-| Section                  | 40863                                                             |
-| Location                 | Miramar College, M building, Room M-104                       |
-| In-person class schedule | Tue & Thu 11:10 am – 12:35 pm                                |
-| Course resource          | Course contents are available in Canvas <https://sdccd.instructure.com> |
-| Duration                 | Aug 21 – Dec 16 (16 weeks)                                   |
-| Professor                | Dr Danish Khan                                               |
-| Office hours             | Tue 12:35-1:35 pm (Room M-104)                               |
-| Email                    | Use Canvas Messaging System                                  |
+|                               |                                           |
+|-------------------------------|-------------------------------------------|
+|   Course name                 |   CISC-191 Intermediate Java Programming|
+|   Year                        |   Spring 2023-24|
+|   Class ID                    |   54095|
+|   Section                     |   3003|
+|   Location                    |   Miramar College, M building, Room M-103|
+|   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm|
+|   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
+|   Duration                    |   Jan 29 – May 25 (16 weeks)|
+|   Professor                   |   Dr Danish Khan|
+|   Office hours                |   Tue 12:35-1:35 pm (Room M-103)|
+|   Contact                     |   Room xxx, Office phone: xxx-xxx-xxxx, Email: Use Canvas Messaging System |
 
 ## __Important dates/deadline__
 
-|<div style="width:100px"></div> ||
+|<div style="width500:px"></div> ||
 |:----------------------|:--------------|
-|21 Aug                 |   Fall 2023 Primary 16-Week Session Begins |
-|1 Sep                  |   __Student Add/Drop:__ Deadline to drop classes with no "W" recorded|
-|1 Sep                  |   Deadline to drop classes and be eligible for a refund of Enrollment Fee and/or all applicable fees.
-|4 Sep                  |   __Labor Day (CAMPUS CLOSED)__ |
-|5 Sep                  |   Instructor Drop/Census: All drops must be submitted by Noon
-|27 Oct                 |   __Pass/No Pass:__ Deadline for the student to select the P/NP option. __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
-|10 Nov                 |   __Veterans Day (CAMPUS CLOSED)__ |
-|23-24 Nov              |   __Thanksgiving (CAMPUS CLOSED)__ |
-|16 Dec                 |   Session end|
-|5 Jan 2024             | __Grades:__ Deadline for instructors to submit final grades|
+|29 Jan                 |   Spring 2024 16-Week Session Begins |
+|9 Feb                  |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
+|                       |   __Student Drop:__ Deadline to drop class with no "W" recorded. |
+|                       |   __Refund Date:__ Deadline to drop classes and be eligible for refund of Enrollment Fee and/or all applicable fees.|
+|12 Feb                 |   __Instructor Drop/Census:__ All drops must be submitted by Noon
+|16-19 Feb              |   __President's Weekend (CAMPUS CLOSED)__ |
+|25-29 Mar              |   __Spring Break__
+|29 Mar                 |   __Cesar Chavez Day (CAMPUS CLOSED)__
+|12 Apr                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
+|25 May                 |   Session end|
+|27 May                 |   __Memorial Day (CAMPUS CLOSED)__ |
+|31 May                 |   __Grades:__ Deadline for instructors to submit final grades|
 
 ## __Instructor communication policy__
 
-The best way to reach me is via Canvas Messaging System.  
+Please use the Canvas Messaging System  
 
-If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message to my email. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
+If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message using the Canvas Messaging System. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
 
 ## __Course outline and schedule__
 
-| Week  | Date   | Topics                              | Deadlines                    |
-| ----- | ------ | ----------------------------------- | ---------------------------- |
-| 1     | 21 Aug | Basic Java revision                 | Assignments due on 27 Aug    |
-| 2     | 28 Aug | Introduction to objects and classes | Assignments due on 3 Sep     |
-| 3     | 4 Sep  | Memory management                   | Assignments due on 10 Sep    |
-| 4     | 11 Sep | Input and output                    | Assignments due on 17 Sep    |
-| 5-6   | 18 Sep | Inheritance                         | Assignments Due on 1 Oct     |
-| 7     | 2 Oct  | Exceptions                          | Assignments due on 8 Oct     |
-| 8     | 9 Oct  | Revision, __Midterm on Thu 12 Oct__ |                              |
-| 9     | 16 Oct | Collections                         | Assignments due on 22 Oct    |
-| 10-11 | 23 Oct | GUI                                 | Assignments due on 5 Nov     |
-| 12    | 6 Nov  | Searching and sorting               | Assignments due on 12 Nov    |
-| 13-14 | 13 Nov | Java database programming           | Assignments due on 3 Dec     |
-| 14-15 | 27 Nov | Project and revision                | Project submission on 10 Dec |
-| 16    | 11 Dec | __Final exam on Thu 14 Dec__        |                              |
+|Week|<div style="width:75px">Week commence from Monday </div>|Topics | Hands-on activities | Deadlines|
+|-|--|--|---|----|
+|1  |29 Jan |Java lang review | Apply arrays, loops, data types, and methods | 3 Feb |
+|2  |5 Feb  |Object and classes | Write code based on OOP principles | 10 Feb |
+|3  |12 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 17 Feb |
+|4  |19 Feb |Input and output | Perform input/output operation on a text file using Java | 24 Feb |
+|5  |26 Feb |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 2 Mar|
+|6  |4 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 9 Mar|
+|7  |11 Mar |Exceptions| Solve a task with and without exceptions | 16 Mar|
+|8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
+|||__Spring break (25 - 29 Mar) - No classes__|
+|9  |1 Apr  |Collections | Apply data structures using collections and perform code profiling  | 6 Apr|
+|10  |8 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 13 Apr|
+|11 |15 Apr |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 20 Apr|
+|12 |22 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 27 Apr |
+|13 |29 Apr  |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 4 May |
+|14 |6 May  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 11 May |
+|15 |13 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 18 May |
+|16 |20 May |__Final exam on Tue 21 May at 11:20 am__ | |
 
 ## __Textbook__
 
-I recommend following my notes and resources provided on the course site in Canvas. The following resources are for your reference.  
-
+The following is the textbook used for this course
 - Liang, Y. Daniel. Intro to Java Programming, Comprehensive Version, 12th ed. Pearson, 2019, ISBN: 9780136529153
+
+I would recommend that you follow my notes and resources provided on the course site in Canvas.  
 
 ## __Software and hardware resources__
 
@@ -85,68 +92,67 @@ I recommend following my notes and resources provided on the course site in Canv
 
 ## __Grading scheme__
 
-| Grade | Percent | Description                                                  |
-| ----- | ------- | ------------------------------------------------------------ |
-| A     | >90     | Work of genuinely superior quality.                          |
-| B     | 80-89   | Passing performance falls approximately in the upper distribution of passing grades. |
-| C     | 71-79   | Passing performance falls approximately in the center of the distribution of all passing grades. |
-| D     | 65-70   | Passing performance falls approximately in the lower distribution of passing grades. |
-| F     | <65     | Failing performance that does not satisfy the basic requirements of the course and needs to be improved in significant ways. |
+|Grade|Percent|Description
+|-|-----|-|
+|A|>90|Work of genuinely superior quality.|
+|B|80-89|Passing performance falls approximately in the upper distribution of passing grades.|
+|C|71-79|Passing performance falls approximately in the center of the distribution of all passing grades.|
+|D|65-70|Passing performance falls approximately in the lower distribution of passing grades.|
+|F|<65|Failing performance that does not satisfy the basic requirements of the course and needs to be improved in significant ways.|
 
 ## __Course evaluation schemes__
 
-| Evaluation type        | Out of 100 |
-| :--------------------- | :--------- |
-| Weekly lab assignments | 20         |
-| Research work & meetings | 15       |
-| Career related activities | 5       |
-| Mid term               | 20         |
-| Project                | 20         |
-| Final exam             | 20         |
+|Evaluation type|Out of 100|
+|:-|:-|
+|Weekly lab assignments|20|
+|Quizzes* |10|
+|Mid term|30|
+|Project|10|
+|Final exam|30|
+
+$*$ There will be four surprise quizzes during scheduled class timings.
 
 ## __Late/due work__
 
-You must submit your coursework by the due date indicated on the Schedule of Assignments shown in Canvas. Some modules may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. Only on-time work is accepted. 
+Please submit your coursework by the due date. The assignment deadlines are posted in the syllabus and also shown in Canvas. Some assignments may require more time to complete than others. It's your responsibility to allocate the time needed to finish your work. Be sure to begin your work before the due date. The late work is deducted 10% when submitted within 24 hours past the due date. Any work submitted past 24 hours of the due date will be graded 0.
 
 ## __Attendance/Absences__
 
-- It is the student’s responsibility to drop all classes in which they are no longer participating __(for online classes)__.
-- It is the student’s responsibility to drop all classes in which they are no longer attending __(for on-campus classes)__.
-- It is the instructor’s discretion to withdraw a student after the add/drop deadline due to excessive absences.
-- Students who remain enrolled in a class beyond the published withdrawal deadline, as stated in the class
-schedule, will receive an evaluative letter grade in this class. (A, B, C, D, F, P, NP)
+-  It is the student’s responsibility to drop all classes in which they are no longer participating/attending.
+-  It is the instructor’s discretion to withdraw a student after the add/drop deadline due to absences (more than 75%).
+- __(For online classes):__ Students who have not logged into the course for three days before the add/drop deadline will be dropped for non-attendance. 
+- __(For inperson classes):__ The instructor will drop the student if a student is absent in the first two weeks.
+- Students who remain enrolled in a class beyond the published withdrawal deadline, as stated in the class schedule, will receive an evaluative letter grade in this class. (A, B, C, D, F, P, NP)
 
 ## __Accommodating Students with Disabilities__
 
-- Students with disabilities who may need academic accommodations are encouraged to discuss their authorized
-accommodations from Disability Support Programs and Services (DSPS) with their professors early in the semester so
-that accommodations may be implemented as soon as possible.
-- The faculty member will work with the DSPS Office to ensure that proper accommodations are made for each student.
-By law, it is up to the DSPS Office, through the interactive process with the student, to determine which
-accommodations are appropriate, not the instructor. This includes accommodations in a clinical setting.
-- Students that need evacuation assistance during campus emergencies should also meet with the instructor as soon as
-possible to ensure the health and safety of all students.
+Students with disabilities who may need academic accommodations should contact me as soon as possible.  You and I will work with the Disability Support Programs and Services (DSPS) department to identify your appropriate academic accommodations for this course. 
 
-> For more information, you may contact the DSPS Office on your campus or the website at
-> <https://www.sdccd.edu/about/departments-and-offices/student-services-department/dsps/index.aspx> or refer to
-> Administrative Procedure, AP 3105.1 Academic Accommodations and Disability Discrimination for Students with
-> Disabilities.
+> DSPS is located in the K1 Student Services building, room K1-204 and can be reached at (619) 388-7312 or by email at miradsps@sdccd.edu. To register or to learn more about their services, please visit the DSPS website at www.sdmiramar.edu/dsps.
 
-## __Cheating/Plagiarism__
 
-Students are expected to be honest and ethical at all times in the pursuit of academic goals. Students who are found to be in
-violation of Administrative Procedure 3100.3 Honest Academic Conduct, will receive a grade of zero on the assignment, quiz, or exam in question and may be referred for disciplinary action in accordance with Administrative Procedure 3100.2, Student Disciplinary Procedures.
+## __Undocumented & Immigrant Student Services__
+
+Undocumented and immigrant students are welcome in this class. As an educator, I strive to be an ally and provide a safe learning environment for you regardless of your immigration status. Your legal status should not be an obstacle to you in my classroom or to your educational success.
+The Miramar Dreamers Support Office provides programs and services to undocumented and immigrant students. The Dreamers staff can meet with you for one-on-one support sessions, connect you to financial aid and scholarship resources, provide information about how to earn money, and host weekly engagement activities. Every student who needs one gets a FREE immigration-related legal consultation with our partners at the Higher Education Legal Services, too!
+
+> Visit the Dreamers Support Office in the Student Services Building, room K1-304 (third floor), or online at <https://sdmiramar.edu/services/dreamers>. Schedule an appointment at <https://bit.ly/dreamerappt>.
 
 ## __Honest Academic Conduct__
 
-- Students are expected to adhere to the Honest Academic Conduct policy at all times. Students who violate the Honest
-Academic Conduct policy may be removed from class by the faculty for the class meeting in which the behavior occurred, and the next class meeting.
-- __For online classes:__ Student access to class is removed for one week (5 instructional days).
-- Acceptance of make-up work during the removal will be decided by the instructor based on the incident.
-- Incidents involving removal of a student from class will be reported to the college disciplinary officer for follow up.
+You are expected to be honest and ethical at all times in the pursuit of academic goals. Students who are found to be in violation of Administrative Procedure 3100.3, Honest Academic Conduct, will receive a grade of zero on the assignment in question and may be referred for disciplinary action in accordance with Administrative Procedure 3100.2, Student Disciplinary Procedures.  
 
-> The Honest Academic Conduct policy can be found in Board of Trustees Policy, BP 5500, Student Rights, Responsibilities,
-> Campus Safety and Administrative Due Process posted on the District website at:
-> <https://www.sdccd.edu/docs/District/procedures/Student%20Services/AP%203100_03.pdf>  
+Plagiarism — to take and pass off as one’s own work or ideas of another — is a form of academic dishonesty.
+Plagiarism is any one of the following: 
+- Verbatim copying without proper acknowledgment on term papers, homework or tests/exams;
+- Paraphrasing without proper acknowledgment;
+- Putting together a “patchwork” paper from diverse sources, without proper acknowledgment of those sources;
+- Unacknowledged appropriation of information or of someone else’s ideas.
+
+Acts of plagiarism will result in no credit awarded for the assignment; remedial instruction; academic or
+administrative sanctions; and/or other consequences. 
+
+> The Honest Academic Conduct policy can be found in Board of Trustees Policy, BP 5500, Student Rights, Responsibilities, Campus Safety and Administrative Due Process posted on the District website at:
+<https://www.sdccd.edu/docs/District/procedures/Student%20Services/AP%203100_03.pdf>  
 ____
-Last updated on Aug 2023
+Last updated on Jan 2024
