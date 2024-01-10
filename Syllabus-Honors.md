@@ -82,7 +82,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 The following is the textbook used for this course
 - Liang, Y. Daniel. Intro to Java Programming, Comprehensive Version, 12th ed. Pearson, 2019, ISBN: 9780136529153
 
-I would recommend that you follow my notes and resources provided on the course site in Canvas.  
+I would like you to follow my notes and the resources provided on the course site on Canvas. 
 
 ## __Software and hardware resources__
 
