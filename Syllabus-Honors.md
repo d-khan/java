@@ -63,16 +63,20 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |2  |5 Feb  |Object and classes | Write code based on OOP principles | 10 Feb |
 |3  |12 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 17 Feb |
 |4  |19 Feb |Input and output | Perform input/output operation on a text file using Java | 24 Feb |
+|   |        |__Quiz 1 on Tue 20 Feb__| |
 |5  |26 Feb |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 2 Mar|
 |6  |4 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 9 Mar|
 |7  |11 Mar |Exceptions| Solve a task with and without exceptions | 16 Mar|
+|   |        |__Quiz 2 on Tue 12 Mar__| |
 |8  |18 Mar |__Midterm on Tue 19 Mar at 11:20 am__|
 |||__Spring break (25 - 29 Mar) - No classes__|
 |9  |1 Apr  |Collections | Apply data structures using collections and perform code profiling  | 6 Apr|
 |10  |8 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 13 Apr|
 |11 |15 Apr |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 20 Apr|
+|   |        |__Quiz 3 on Tue 16 Apr__| |
 |12 |22 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 27 Apr |
 |13 |29 Apr  |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 4 May |
+|   |        |__Quiz 4 on Tue 30 Apr__| |
 |14 |6 May  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 11 May |
 |15 |13 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 18 May |
 |16 |20 May |__Final exam on Tue 21 May at 11:20 am__ | |
@@ -107,12 +111,10 @@ I would like you to follow my notes and the resources provided on the course sit
 |Weekly lab assignments|20|
 |Research work and meetings|15|
 |Career related activities|5|
-|Quizzes* |10|
+|Quizzes |10|
 |Mid term|20|
 |Project|10|
 |Final exam|20|
-
-$*$ There will be four surprise quizzes during scheduled class timings.
 
 ## __Late/due work__
 
