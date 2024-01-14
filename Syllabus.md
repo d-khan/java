@@ -17,7 +17,7 @@ information sciences or anyone interested in learning more about the Java progra
 |                               |                                           |
 |-------------------------------|-------------------------------------------|
 |   Course name                 |   CISC-191 Intermediate Java Programming|
-|   Year                        |   Spring 2023-24|
+|   Year                        |   Spring 2024|
 |   Class ID                    |   54095|
 |   Section                     |   3003|
 |   Location                    |   Miramar College, M building, Room M-103|
