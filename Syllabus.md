@@ -19,14 +19,14 @@ information sciences or anyone interested in learning more about the Java progra
 |   Course name                 |   CISC-191 Intermediate Java Programming|
 |   Year                        |   Spring 2024|
 |   Class ID                    |   54095|
-|   Section                     |   3003|
 |   Location                    |   Miramar College, M building, Room M-103|
 |   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm|
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
 |   Duration                    |   Jan 29 – May 25 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
-|   Office hours                |   Tue 12:35-1:35 pm (Room M-103)|
-|   Contact                     |   Room xxx, Office phone: xxx-xxx-xxxx, Email: Use Canvas Messaging System |
+|   Office hours                |   Mon, Tue, Wed & Thu 12:35-1:35 pm (Room M-103)|
+|                               |   Mon 8:30 - 9:30 am in Zoom|
+|   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu
 
 ## __Important dates/deadline__
 
