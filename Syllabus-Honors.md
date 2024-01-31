@@ -29,7 +29,8 @@ The students enrolled in the Honors Contract are expected to do independent rese
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
 |   Duration                    |   Jan 29 – May 25 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
-|   Office hours                |   Tue 12:35-1:35 pm (Room M-103)|
+|   Office hours                |   Mon, Tue, Wed & Thu 12:35-1:00 pm (Room M-103)|
+|                               |   Mon & Wed 8:30 - 9:30 am in Zoom (Meeting ID: 835 8008 1648)
 |   Contact                     |   Room xxx, Office phone: xxx-xxx-xxxx, Email: Use Canvas Messaging System |
 
 ## __Important dates/deadline__
