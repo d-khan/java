@@ -136,7 +136,7 @@ The Miramar Dreamers Support Office provides programs and services to undocument
 
 > Visit the Dreamers Support Office in the Student Services Building, room K1-304 (third floor), or online at <https://sdmiramar.edu/services/dreamers>. Schedule an appointment at <https://bit.ly/dreamerappt>.
 
-## __Cheating/Plagiarism
+## Cheating/Plagiarism
 Students are expected to be honest and ethical at all times in the pursuit of academic goals. Students who are found to be in violation of Administrative Procedure 3100.3 Honest Academic Conduct, will receive a grade of zero on the assignment, quiz, or exam in question and may be referred for disciplinary action in accordance with Administrative Procedure 5520, Student Disciplinary Procedures.
 
 ## __Honest Academic Conduct__
