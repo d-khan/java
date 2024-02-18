@@ -12,6 +12,8 @@ information sciences or anyone interested in learning more about the Java progra
 
 The students enrolled in the Honors Contract are expected to do independent research, extra assignments, and 1:1 meetings with the professor. The student will be involved in Work-Based Learning activities in which students get in touch with career services, improve resume writing and interviewing skills, and get in touch with professionals in the relevant field.
 
+You can find more information about the Honors Contract [here](https://sdmiramar.edu/services/honors).
+
 ## Student learning outcomes
 - Demonstrate an ability to successfully follow a specification. Measurement Method: Development of classroom projects.  
 - Demonstrate an ability to successfully create electronic documents. Measurement Method: Performance on homework assignments.
