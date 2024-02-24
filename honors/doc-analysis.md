@@ -4,6 +4,7 @@
 Analyze the document
 
 ## Tasks
+Your job is to write a program which takes a file in .txt format
 Define a method named sortArray that takes an array of integers and the number of elements in the array as parameters. 
 Method ```sortArray()``` modifies the array parameter by sorting the elements in descending order (highest to lowest). 
 Then write a main program that reads a list of integers from input, stores the integers in an array, calls ```sortArray()```, and outputs the sorted array. 
