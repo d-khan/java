@@ -13,7 +13,7 @@ Use well the days.
 
 The example output will be something like this:
 
-Use:2
+Use:2  
 well:3
 
 ## What to submit?
