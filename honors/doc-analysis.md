@@ -18,7 +18,7 @@ well:3
 
 The file with the preselected content is available [here](https://github.com/d-khan/java/blob/main/honors/song.txt)  
 
-__Please note that your code should be able to analyze any text file__
+__Please note that your code should be able to analyze any text file.__
 
 ## What to submit?
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks)
@@ -34,4 +34,4 @@ The deadlines are posted on the Syllabus as well as on Canvas.
 ## Rubric
 - The video describes the code in detail. The code is working as per instruction, and the explanation of the questions is submitted (10 marks)
 - The video is submitted, and the code is working, but a partial explanation of the questions is submitted. (6+ marks)
-- The code is uploaded but not working regardless the video is submitted or not. (0 marks)
+- The code is uploaded but not working, regardless of whether the video is submitted. (0 marks)
