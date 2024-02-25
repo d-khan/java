@@ -1,7 +1,7 @@
 # Lab: Document analysis (Honors contract)
 
 ## Objectives
-Parse the document
+Document analyzer
 
 ## Tasks
 Your job is to write a program that takes a file in .txt format and counts the number of English words that appear in the document. The output should be saved in another text file. For example, the file has the following contents:
