@@ -16,7 +16,9 @@ The example output will be something like this:
 Use:2  
 well:3
 
-The file with preselected content is available [here](https://github.com/d-khan/java/blob/main/honors/song.txt)  
+The file with the preselected content is available [here](https://github.com/d-khan/java/blob/main/honors/song.txt)  
+
+__Please note that your code should be able to analyze any text file__
 
 ## What to submit?
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks)
