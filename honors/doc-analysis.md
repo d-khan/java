@@ -1,33 +1,25 @@
 # Lab: Document analysis (Honors contract)
 
 ## Objectives
-Analyze the document
+Parse the document
 
 ## Tasks
-Your job is to write a program which takes a file in .txt format
-Define a method named sortArray that takes an array of integers and the number of elements in the array as parameters. 
-Method ```sortArray()``` modifies the array parameter by sorting the elements in descending order (highest to lowest). 
-Then write a main program that reads a list of integers from input, stores the integers in an array, calls ```sortArray()```, and outputs the sorted array. 
-The first input integer indicates how many numbers are in the list. Assume that the list will always contain less than 20 integers.
+Your job is to write a program that takes a file in .txt format and counts the number of English words that appear in the document. The output should be saved in another text file. For example, the file has the following contents:
 
-Your program must define and call the following method:
-``` public static void sortArray(int[] myArr, int arrSize)```
+Use well the days,
+Use well the days...
+Turn your face to the green world,
+Use well the days.
 
-## Example input
-5 10 4 39 12 2
+The example output will be something like this:
 
-## Example output
-39,12,10,4,2
-
-## Notes
-Sorting an array can be done in many ways. You are welcome to look up and use any existing algorithm. 
-Some believe the simplest to code is bubble sort, but you are welcome to try others.
+Use:2
+well:3
 
 ## What to submit?
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks)
-2. Explain why did you select a particular sorting algorithm. (1 mark)
-3. What were your challenges in performing the lab (from design to the implementation phases)? (1 mark)
-4. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. (6 marks)
+2. What were your challenges in performing the lab (from design to the implementation phases)? (1 mark)
+3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. (6 marks)
 
 ## How to submit it?
 Upload your work in the .pdf format and clearly define your responses. Use headings when possible. Upload the code in the .java extension.
