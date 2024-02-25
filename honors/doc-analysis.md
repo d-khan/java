@@ -6,10 +6,10 @@ Parse the document
 ## Tasks
 Your job is to write a program that takes a file in .txt format and counts the number of English words that appear in the document. The output should be saved in another text file. For example, the file has the following contents:
 
-Use well the days,
-Use well the days...
-Turn your face to the green world,
-Use well the days.
+Use well the days,  
+Use well the days...  
+Turn your face to the green world,  
+Use well the days.  
 
 The example output will be something like this:
 
