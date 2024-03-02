@@ -28,7 +28,7 @@ information sciences or anyone interested in learning more about the Java progra
 |                               |   Mon & Wed 8:30 - 9:30 am in Zoom (Meeting ID: 835 8008 1648)|
 |   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu|
 
-## Important dates/deadline
+## Important dates/deadlines
 
 |<div style="width500:px"></div> ||
 |:----------------------|:--------------|
