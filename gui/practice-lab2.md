@@ -13,7 +13,7 @@ Review the [GUI](https://github.com/d-khan/java/blob/main/gui/Lecture.md) lectur
 Write a program that takes user input (hourly wage) and displays output (yearly salary). You can assume 40 hours/week and 50 weeks/year for the yearly salary. Use two JButtons: ```Calculate``` to display the result and ```Reset``` to reset all the displays.
 The display should look like this:
 
-![Output](https://github.com/d-khan/java/blob/main/gui/JButton.png)
+![Output]("https://github.com/d-khan/java/blob/main/gui/JButton.png" width=50% height=50%)
 
 
 ### Solution (Do not look at the code below - try first)
