@@ -2,7 +2,7 @@
 
 ## Objective
 
-Apply GUI in Java
+Practice JButton in Java
 
 ## Prerequisite
 
@@ -10,173 +10,125 @@ Review the [GUI](https://github.com/d-khan/java/blob/main/gui/Lecture.md) lectur
 
 ## Tasks
 
-Modify the above program to allow the user to enter (or select) a dog's age in increments of 0.5. This requires changes to the spinner model and the stateChanged() method. In the stateChanged() method, make sure to use the appropriate data type for the spinner value (i.e., Double instead of Integer), and add more cases to the switch statement. You can use interpolation to determine the appropriate human age. For example, a dog age of 1.5 years results in a human age of (15 + 24) / 2 = 19.5 years.
+Write a program that takes user input (hourly wage) and displays output (yearly salary). You can assume 40 hours/week and 50 weeks/year for the yearly salary. Use two JButtons: ''Calculate``` to display the result and ``Reset``` to reset all the displays.
 
+
+### Solution (Do not look at the code below - try first)
 
 ```java
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JSpinner;
 import javax.swing.JTextField;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 
-public class DogYearsFrame extends JFrame implements ChangeListener {
-    private JSpinner yearsSpinner;    // Triggers travel time calculation
-    private JTextField ageHumanField; // Displays dog's age in human years
-    private JLabel yearsLabel;        // Label for dog years
-    private JLabel ageHumanLabel;     // Label for human years
+public class SalaryCalcButtonFrame extends JFrame implements ActionListener {
+    private JLabel wageLabel;     // Label for hourly salary
+    private JLabel salLabel;      // Label for yearly salary
+    private JTextField salField;  // Displays hourly salary
+    private JTextField wageField; // Displays yearly salary
+    private JButton calcButton;   // Triggers salary calculation
+    private JButton REcalcButton;
 
     /* Constructor creates GUI components and adds GUI components
        using a GridBagLayout. */
-    DogYearsFrame() {
-        int initYear;     // Spinner initial value display
-        int minYear;      // Spinner min value
-        int maxYear;      // Spinner max value
-        int stepVal;      // Spinner step
-
-        initYear = 0;
-        minYear = 0;
-        maxYear = 30;
-        stepVal = 1;
-
+    SalaryCalcButtonFrame() {
         // Used to specify GUI component layout
-        GridBagConstraints layoutConst = null;
-
-        // Specifies the types of values displayed in spinner
-        SpinnerNumberModel spinnerModel = null;
+        GridBagConstraints positionConst = null;
 
         // Set frame's title
-        setTitle("Dog's age in human years");
+        setTitle("Salary");
 
-        // Create labels
-        yearsLabel = new JLabel("Select dog's age (years):");
-        ageHumanLabel = new JLabel("Age (human years):");
+        // Set hourly and yearly salary labels
+        wageLabel = new JLabel("Hourly wage:");
+        salLabel = new JLabel("Yearly salary:");
 
-        // Create a spinner model, the spinner, and set the change listener
-        spinnerModel = new SpinnerNumberModel(initYear, minYear, maxYear, stepVal);
-        yearsSpinner = new JSpinner(spinnerModel);
-        yearsSpinner.addChangeListener(this);
+        wageField = new JTextField(15);
+        wageField.setEditable(true);
+        wageField.setText("0");
 
-        // Create field
-        ageHumanField = new JTextField(15);
-        ageHumanField.setEditable(false);
-        ageHumanField.setText("0 - 15");
+        salField = new JTextField(15);
+        salField.setEditable(false);
+
+        // Create a "Calculate" button
+        calcButton = new JButton("Calculate");
+        REcalcButton = new JButton("Reset");
+
+        // Use "this" class to handle button presses
+        calcButton.addActionListener(this);
+
+        REcalcButton.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent ae){
+                wageField.setText("0");
+                salField.setText("0");
+            }
+        });
 
         // Use a GridBagLayout
         setLayout(new GridBagLayout());
+        positionConst = new GridBagConstraints();
 
         // Specify component's grid location
-        layoutConst = new GridBagConstraints();
-        layoutConst.insets = new Insets(10, 10, 10, 1);
-        layoutConst.anchor = GridBagConstraints.LINE_END;
-        layoutConst.gridx = 0;
-        layoutConst.gridy = 0;
-        add(yearsLabel, layoutConst);
+        positionConst.gridx = 0;
+        positionConst.gridy = 0;
 
-        layoutConst = new GridBagConstraints();
-        layoutConst.insets = new Insets(10, 1, 10, 10);
-        layoutConst.fill = GridBagConstraints.HORIZONTAL;
-        layoutConst.gridx = 1;
-        layoutConst.gridy = 0;
-        add(yearsSpinner, layoutConst);
+        // 10 pixels of padding around component
+        positionConst.insets = new Insets(10, 10, 10, 10);
 
-        layoutConst = new GridBagConstraints();
-        layoutConst.insets = new Insets(10, 10, 10, 1);
-        layoutConst.anchor = GridBagConstraints.LINE_END;
-        layoutConst.gridx = 0;
-        layoutConst.gridy = 1;
-        add(ageHumanLabel, layoutConst);
+        // Add component using the specified constraints
+        add(wageLabel, positionConst);
 
-        layoutConst = new GridBagConstraints();
-        layoutConst.insets = new Insets(10, 1, 10, 10);
-        layoutConst.fill = GridBagConstraints.HORIZONTAL;
-        layoutConst.gridx = 1;
-        layoutConst.gridy = 1;
-        add(ageHumanField, layoutConst);
+        positionConst.gridx = 1;
+        positionConst.gridy = 0;
+        positionConst.insets = new Insets(10, 10, 10, 10);
+        add(wageField, positionConst);
+
+        positionConst.gridx = 0;
+        positionConst.gridy = 1;
+        positionConst.insets = new Insets(10, 10, 10, 10);
+        add(salLabel, positionConst);
+
+        positionConst.gridx = 1;
+        positionConst.gridy = 1;
+        positionConst.insets = new Insets(10, 10, 10, 10);
+        add(salField, positionConst);
+
+        positionConst.gridx = 0;
+        positionConst.gridy = 2;
+        positionConst.insets = new Insets(10, 10, 10, 10);
+        add(calcButton, positionConst);
+
+        positionConst.gridx = 1;
+        positionConst.gridy = 2;
+        positionConst.insets = new Insets(10, 10, 10, 10);
+        add(REcalcButton, positionConst);
     }
 
+    /* Method is automatically called when an event
+       occurs (e.g, button is pressed) */
     @Override
-    public void stateChanged(ChangeEvent event) {
-        Integer dogAgeYears;     // Dog age input
+    public void actionPerformed(ActionEvent event) {
+        String userInput;      // User specified hourly wage
+        int hourlyWage;        // Hourly wage
 
-        dogAgeYears = (Integer) yearsSpinner.getValue();
+        // Get user's wage input
+        userInput = wageField.getText();
 
-        // Choose output based on dog's age component
-        switch (dogAgeYears) {
-            case 0:
-                ageHumanField.setText("0 - 15");
-                break;
+        // Convert from String to an integer
+        hourlyWage = Integer.parseInt(userInput);
 
-            case 1:
-                ageHumanField.setText("15");
-                break;
-
-            case 2:
-                ageHumanField.setText("24");
-                break;
-
-            case 3:
-                ageHumanField.setText("28");
-                break;
-
-            case 4:
-                ageHumanField.setText("32");
-                break;
-
-            case 5:
-                ageHumanField.setText("37");
-                break;
-
-            case 6:
-                ageHumanField.setText("42");
-                break;
-
-            case 7:
-                ageHumanField.setText("47");
-                break;
-
-            case 8:
-                ageHumanField.setText("52");
-                break;
-
-            case 9:
-                ageHumanField.setText("57");
-                break;
-
-            case 10:
-                ageHumanField.setText("62");
-                break;
-
-            case 11:
-                ageHumanField.setText("67");
-                break;
-
-            case 12:
-                ageHumanField.setText("72");
-                break;
-
-            case 13:
-                ageHumanField.setText("77");
-                break;
-
-            case 14:
-                ageHumanField.setText("82");
-                break;
-
-            default:
-                ageHumanField.setText("That's a long life!");
-        }
+        // Display calculated salary
+        salField.setText(Integer.toString(hourlyWage * 40 * 50)); //40 hours per week and 50 weeks per year
     }
 
-    /* Creates a DogYearsFrame and makes it visible */
+    /* Creates a SalaryCalculatorFrame and makes it visible */
     public static void main(String[] args) {
-        // Creates DogYearsFrame and its components
-        DogYearsFrame myFrame = new DogYearsFrame();
+        // Creates SalaryLabelFrame and its components
+        SalaryCalcButtonFrame myFrame = new SalaryCalcButtonFrame();
 
         myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         myFrame.pack();
