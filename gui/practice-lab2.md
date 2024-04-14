@@ -18,7 +18,19 @@ The display should look like this:
 </p>
 
 >### Solution (Do not look at the code below - try first)
-&nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
+&nbsp;   
+&nbsp;   
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
 
 <details>
   <summary>Are you really giving up to see the answer below???</summary>
