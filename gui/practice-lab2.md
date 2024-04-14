@@ -10,7 +10,7 @@ Review the [GUI](https://github.com/d-khan/java/blob/main/gui/Lecture.md) lectur
 
 ## Tasks
 
-Write a program that takes user input (hourly wage) and displays output (yearly salary). You can assume 40 hours/week and 50 weeks/year for the yearly salary. Use two JButtons: ''Calculate``` to display the result and ``Reset``` to reset all the displays.
+Write a program that takes user input (hourly wage) and displays output (yearly salary). You can assume 40 hours/week and 50 weeks/year for the yearly salary. Use two JButtons: ```Calculate``` to display the result and ```Reset``` to reset all the displays.
 
 
 ### Solution (Do not look at the code below - try first)
