@@ -18,9 +18,15 @@ The display should look like this:
 </p>
 
 >### Solution (Do not look at the code below - try first)
+&nbsp;   
+&nbsp;   
 &nbsp;  
-&nbsp;   
-&nbsp;   
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
 
 
