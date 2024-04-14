@@ -17,18 +17,8 @@ The display should look like this:
 <img src="https://github.com/d-khan/java/blob/main/gui/JButton.png" width=50% height=50%>
 </p>
 
-### Solution (Do not look at the code below - try first)
-&nbsp;   
-&nbsp;   
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-
-
+>### Solution (Do not look at the code below - try first)
+&nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
 
 <details>
   <summary>Are you really giving up to see the answer below???</summary>
