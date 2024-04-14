@@ -19,7 +19,8 @@ The display should look like this:
 
 ### Solution (Do not look at the code below - try first)
 
-<details> 
+<details>
+  <summary>Click me</summary>
 
 ```java
 import java.awt.GridBagConstraints;
@@ -142,3 +143,4 @@ public class SalaryCalcButtonFrame extends JFrame implements ActionListener {
     }
 }
 ```
+</details>
