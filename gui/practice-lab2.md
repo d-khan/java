@@ -23,8 +23,7 @@ The display should look like this:
 
 
 
-
-
+  
 <details>
   <summary>Are you really giving up to see the answer below???</summary>
 
