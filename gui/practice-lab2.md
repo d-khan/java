@@ -20,7 +20,8 @@ The display should look like this:
 ### Solution (Do not look at the code below - try first)
 
 <Details> 
-<summary> This is a solution
+<summary> 
+    This is a solution
 
 ```java
 import java.awt.GridBagConstraints;
