@@ -19,7 +19,7 @@ The display should look like this:
 
 ### Solution (Do not look at the code below - try first)
 
-<Details> 
+<details> 
 <summary> 
     This is a solution
 
