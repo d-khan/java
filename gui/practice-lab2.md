@@ -18,12 +18,9 @@ The display should look like this:
 </p>
 
 >### Solution (Do not look at the code below - try first)
+<br> <br> <br>
 
 
-
-
-
-  
 <details>
   <summary>Are you really giving up to see the answer below???</summary>
 
