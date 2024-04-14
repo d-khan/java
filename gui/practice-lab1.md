@@ -6,7 +6,7 @@ Apply Swing GUI components in Java
 
 ## Prerequisite
 
-Review the [GUI](https://htmlpreview.github.io/?https://github.com/d-khan/java/blob/main/gui/Lecture.html) lecture.
+Review the [GUI](https://github.com/d-khan/java/blob/main/gui/Lecture.md) lecture.
 
 ## Tasks
 Experiment the following code, and change the values, logical values and observe the output.
