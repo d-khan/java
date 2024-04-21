@@ -41,7 +41,7 @@ information sciences or anyone interested in learning more about the Java progra
 |3 Sep                  |   __Instructor Drop/Census:__ All drops must be submitted by Noon
 |25 Oct                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
 |11 Nov                 |   __Veterans Day (CAMPUS CLOSED)__ |
-|25 Nov - 1 Dec         |   __Thanksgiving (CAMPUS CLOSED)__ |
+|25 Nov - 1 Dec         |   __Thanksgiving (NO CLASSES)__ |
 |16 Dec                 |   __Session end__|
 |3 Jan 2025             |   __Grades:__ Deadline for instructors to submit final grades|
 
