@@ -242,7 +242,7 @@ MergeSort(numbers, i, k) {
 }
 ```
 
-***Notation: $O(N^2)$ - Quadratic***
+***Notation: $`O(N^2)`$ - Quadratic***
 
 **Pseudocode**
 
