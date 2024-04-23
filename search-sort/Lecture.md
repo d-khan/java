@@ -263,7 +263,7 @@ SelectionSort(numbers, N) {
 }
 ```
 
-***Notation: $O(c^N)$ - Exponential***
+***Notation: $`O(c^N)`$ - Exponential***
 
 **Pseudocode**
 
