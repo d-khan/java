@@ -77,7 +77,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |14 |18 Nov  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 23 Nov |
 |||__Thanksgiving week (25 Nov - 1 Dec) - No classes__|
 |15 |2 Dec |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 7 Dec |
-|16 |9 Dec |__Final exam on Thu 12 Dec at 11:20 am__ | |
+|16 |9 Dec |__Final exam on Tue 10 Dec at 11:20 am__ | |
 
 ## Textbook
 
