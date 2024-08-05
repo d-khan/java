@@ -108,9 +108,9 @@ I would recommend that you follow my notes and resources provided on the course 
 |:-|:-|
 |Weekly lab assignments|20|
 |Quizzes |10|
-|Mid term|30|
-|Project|10|
-|Final exam|30|
+|Hands-on exam|30|
+|Project|20|
+|Final exam|20|
 
 ## Late/due work
 
