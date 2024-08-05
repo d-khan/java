@@ -29,8 +29,8 @@ Some believe the simplest to code is bubble sort, but you are welcome to try oth
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks)
 2. Explain why you selected a particular sorting algorithm. (1 mark)
 3. What were your challenges in performing the lab (from design to the implementation phases)? (1 mark)
-4. Create a video explaining how the code works. The video should show your face on one side of the screen (preferably the top or bottom right of the screen).
-5. Upload the working code. (6 marks)
+4. Create a video explaining how the code works. The video should show your face on one side of the screen preferably the top or bottom right of the screen. (1 mark)
+5. Upload the working code. (5 marks)
 
 ## How to submit it?
 Upload your work to your Github account and share the link on Canvas.
