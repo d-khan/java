@@ -45,6 +45,8 @@ information sciences or anyone interested in learning more about the Java progra
 |16 Dec                 |   __Session end__|
 |3 Jan 2025             |   __Grades:__ Deadline for instructors to submit final grades|
 
+Please visit the [district website](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the deadlines.
+
 ## Instructor communication policy
 
 Please use the Canvas Messaging System  
