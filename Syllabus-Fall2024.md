@@ -66,7 +66,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |6  |23 Sep  |Inheritance (contd.) | Hands-on activity (contd.) | 28 Sep|
 |7  |30 Sep |Exceptions| Solve a task with and without exceptions | 5 Oct|
 |   |        |__Quiz 2 on Thu 3 Oct__| |
-|8  |7 Oct |__Midterm on Thu 10 Oct at 11:20 am__|
+|8  |7 Oct |__Hands-on exam Thu 10 Oct at 11:20 am__|
 |9  |14 Oct  |Collections | Apply data structures using collections and perform code profiling  | 19 Oct|
 |10 |21 Oct  |GUI| Create user interface using JFrame and Swing GUI components | 26 Oct|
 |11 |28 Oct |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 2 Nov|
