@@ -270,11 +270,11 @@ public class IncomeTaxMain {
 ## What to submit?
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks).   
 2. What were your challenges in performing the lab (from design to the implementation phases)? (2 mark).  
-3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. (6 marks)
+3. Create a video explaining how the code works. The video should show your face on one side of the screen preferably the top or bottom right of the screen. (1 mark)
+4. Upload the working code. (5 marks)
 
 ## How to submit it?
-- Upload your work in the .pdf format and clearly define your responses.  
-- Use headings when possible. Upload the code in the .java extension.
+Upload your work to your Github account and share the link on Canvas.
 
 ## Deadline
 The deadlines are posted on the Syllabus as well as on Canvas.
