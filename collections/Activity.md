@@ -29,7 +29,7 @@ __Expected output__
 
 No, "rotostor" is not a palindrome.
 
->**Note:** Ignore punctuation and spacing. Assume all alphabetic characters will be lowercase.
+>**Note:** Ignore punctuation and spacing. Assume all alphabetic characters are lowercase.
 >
 >Special case: A one-character string is a palindrome.
 >
