@@ -40,10 +40,9 @@ No, "rotostor" is not a palindrome.
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks).
 2. What were your challenges in performing the lab (from design to the implementation phases)? (2 marks).  
 3. Create a video explaining how the code works. The video should show your face on one side of the screen preferably the top or bottom right of the screen. (1 mark)
-4. 4. Upload the working code. (5 marks)
+4. Upload the working code. (5 marks)
 
 ## How to submit it?
-
 Upload your work to your Github account and share the link on Canvas.
 
 ## Deadline
