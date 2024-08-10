@@ -29,4 +29,5 @@ Select the **horizontal lines next to the course name -> Home -> Welcome to the 
 ## 4. Review the Course Syllabus
 Review the course [Course Syllabus](https://github.com/d-khan/java/blob/main/Syllabus-Fall2024.md) to learn about the course, important dates/deadline, schedule, textbook, etc.
 
+___
 **End of message**
