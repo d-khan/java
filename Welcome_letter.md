@@ -4,8 +4,7 @@ Hi, and welcome to CISC 191 Intermediate Java Programming class. Thanks for enro
 ## First thing to do - setup SDCCD email address
 [Setup your student email and Microsoft 365](https://mysdccd.atlassian.net/wiki/x/AYARcg)
 
->
-Starting June 28th, 2023, your student.sdccd.edu email will be the official form of communication for all campus business. Students are expected to check their official email address on a frequent and consistent basis in order to stay current with the College communications. The College recommends checking email daily since certain communication may be time critical (e.g. Class Waitlist activity.)
+> Starting June 28th, 2023, your student.sdccd.edu email will be the official form of communication for all campus business. Students are expected to check their official email address on a frequent and consistent basis in order to stay current with the College communications. The College recommends checking email daily since certain communication may be time critical (e.g. Class Waitlist activity.)
 
 If you need assistance setting this up:
 
