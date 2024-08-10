@@ -12,8 +12,8 @@ Email us at support@student.sdccd.edu
 Call us at 619-388-1140
 e
 ## 2. Login to Canvas
-Use [Canvas login help](https://www.sdccd.edu/about/departments-and-offices/instructional-services-division/online-learning-pathways-1/students/students%20login.aspx) to login on Canvas.
-If you are enrolled in the course, you should be able to see it on the Canvas Dashboard (if the Dashboard is set up as Card View).
+Use [Canvas login help](https://www.sdccd.edu/about/departments-and-offices/instructional-services-division/online-learning-pathways-1/students/students%20login.aspx) to log on to Canvas.
+If you are enrolled in the course successfully, you should be able to see it on the Canvas Dashboard (if the Dashboard is set up as Card View).
 
 <img src="https://github.com/d-khan/java/blob/main/Java%20canvas%20logo.png" alt="drawing" width="200"/>
 
