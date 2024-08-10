@@ -1,6 +1,6 @@
 # Course start date is Aug 19, 2024 (12:01 am PST)
 
-# Welcome to CISC 191 Intermediate Java Programming course
+## Welcome to CISC 191 Intermediate Java Programming course
 Hi, and welcome to CISC 191 Intermediate Java Programming class. Thanks for enrolling. I am looking forward to going through the course with you. My name is Dr Danish Khan, and you can contact me via an [email](dkhan@sdccd.edu).  
 
 ## 1. The first thing to do - setup SDCCD email address
