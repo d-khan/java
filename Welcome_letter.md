@@ -8,7 +8,7 @@ Hi, and welcome to CISC 191 Intermediate Java Programming class. Thanks for enro
 > If you need assistance setting this up:  
 Email us at support@student.sdccd.edu  
 Call us at 619-388-1140
-e
+
 ## 2. Login to Canvas
 Use [Canvas login help](https://www.sdccd.edu/about/departments-and-offices/instructional-services-division/online-learning-pathways-1/students/students%20login.aspx) to log on to Canvas.
 If you are enrolled in the course successfully, you should be able to see it on the Canvas Dashboard (if the Dashboard is set up as Card View).
