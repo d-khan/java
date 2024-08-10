@@ -9,7 +9,7 @@ Starting June 28th, 2023, your student.sdccd.edu email will be the official form
 
 If you need assistance setting this up:
 
-Email us at support@student.sdccd.edu
+Email us at support@student.sdccd.edu  
 Call us at 619-388-1140
 
 ## Login to Canvas
