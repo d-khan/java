@@ -25,5 +25,5 @@ Select the **horizontal lines next to the course name -> Home -> Welcome to the 
 
 <img src="https://github.com/d-khan/java/blob/main/Course%20homepage.png" alt="drawing" width="600"/>
 
-## 4. Review the [Course syllabus](https://github.com/d-khan/java/blob/main/Syllabus-Fall2024.md)
-
+## 4. Review the Course syllabus
+Review the course [Course syllabus](https://github.com/d-khan/java/blob/main/Syllabus-Fall2024.md) to learn about the course, important dates/deadline, schedule, textbook, etc.
