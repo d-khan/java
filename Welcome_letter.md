@@ -15,7 +15,7 @@ Call us at 619-388-1140
 After successfully setting up your email address, [login to Canvas](https://sdccd.instructure.com/)
 If you are enrolled in the course, you should be able to see it on the Canvas Dashboard (if the Dashboard is set up as Card View).
 
-![Alt text](https://github.com/d-khan/java/blob/main/Java%20canvas%20logo.png "a title")
+![Alt text](https://github.com/d-khan/java/blob/main/Java%20canvas%20logo.png "a title"){ width: 200px; }
 
 
 
