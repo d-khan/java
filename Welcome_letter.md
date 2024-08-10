@@ -1,5 +1,4 @@
 # The course start date is Monday, Aug 19, 2024 (12:01 am PST)
-___
 
 ## Welcome to CISC 191 Intermediate Java Programming course
 
