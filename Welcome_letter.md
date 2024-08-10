@@ -18,7 +18,8 @@ On the course start date **19 Aug 2024**, you should be able to see the course o
 
 > **Note:** If you do not see the course on Canvas, you are either not enrolled or enrolled recently, but the course will appear later on Canvas.
 
-## 3. 
+## 3. Where do I go when I am on the course site?
+
 
 
 
