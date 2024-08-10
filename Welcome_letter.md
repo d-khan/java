@@ -21,5 +21,5 @@ On the course start date **19 Aug 2024**, you should be able to see the course o
 ## 3. Where do I go when I am on the course site?
 Select the horizontal lines next to the course name -> Home -> Welcome to the CISC 191 course! See the image below.
 
-<img src="https://github.com/d-khan/java/blob/main/Course%20homepage.png" alt="drawing" width="400"/>
+<img src="https://github.com/d-khan/java/blob/main/Course%20homepage.png" alt="drawing" width="600"/>
 
