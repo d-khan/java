@@ -18,11 +18,7 @@ If you are enrolled in the course, you should be able to see it on the Canvas Da
 
 You could just use some HTML in your Markdown:
 
-<img src="https://github.com/d-khan/java/blob/main/Java%20canvas%20logo.png" alt="drawing" width="200"/>
-
-
-![Alt text](https://github.com/d-khan/java/blob/main/Java%20canvas%20logo.png "a title"){ width: 200px; }
-
+<img src="https://github.com/d-khan/java/blob/main/Java%20canvas%20logo.png" alt="drawing" width="150"/>
 
 
 
