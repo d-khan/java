@@ -3,7 +3,6 @@
 ## Welcome to CISC 191 Intermediate Java Programming course
 Hi, and welcome to CISC 191 Intermediate Java Programming class. Thanks for enrolling. I am looking forward to going through the course with you. My name is Dr Danish Khan, and you can contact me via **dkhan@sdccd.edu**  
 
-Perform the following in sequence.
 
 ## 1. The first thing to do - setup SDCCD email address
 [Setup your student email and Microsoft 365](https://www.sdccd.edu/students/student-email.aspx)
@@ -22,7 +21,7 @@ On the course start date, you should be able to see the course on the Canvas Das
 
 > **Note:** If you do not see the course on Canvas, you are either not enrolled or enrolled recently, but the course will appear later on Canvas.
 
-## 3. Where do I go when I am on the course site?
+## 3. Where do I go when I am on the course site on Canvas?
 Select the **horizontal lines next to the course name -> Home -> Welcome to the CISC 191 course!** The video explains the course in detail. Please take a look at the image below.
 
 <img src="https://github.com/d-khan/java/blob/main/Course%20homepage.png" alt="drawing" width="600"/>
