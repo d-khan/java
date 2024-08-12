@@ -25,7 +25,7 @@ information sciences or anyone interested in learning more about the Java progra
 |   Duration                    |   Jan 29 – May 25 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
 |   Office hours                |   Mon, Tue, Wed & Thu 12:35-1:00 pm (Room M-103)|
-|                               |   Mon & Wed 8:30 - 9:30 am in Zoom (Meeting ID: 835 8008 1648)|
+|                               |   Mon & Wed 8:30 - 9:30 am in Zoom (https://sdccd-edu.zoom.us/j/84358409903)|
 |   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu|
 
 ## Important dates/deadlines
