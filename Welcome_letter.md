@@ -34,5 +34,7 @@ Review the course [Course Syllabus](https://github.com/d-khan/java/blob/main/Syl
 
 ## 5. How will my class be conducted?
 **Partially online:** Some required class time (in-person theory, labs, hands-on assessments, and tests) will be conducted on campus. The remainder of the class will be online. Attending in-person classes and labs is mandatory to avoid dropping or withdrawing from the course.
+
+### <div align="center">Bring a laptop with you!.</div> 
 ___
 **End of message**
