@@ -1,4 +1,5 @@
-# The course start date is Monday, Aug 19, 2024 (12:00 am PST)
+# The course will be available in Canvas on Monday, Aug 19, 2024 (12:00 am PST)
+**Please join in-person class in Miramar College, M building, Room M-103, on Tuesday, Aug 20, 2024 at 11:00am PST**
 
 ## Welcome to CISC 191 Intermediate Java Programming course
 
