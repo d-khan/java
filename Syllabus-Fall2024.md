@@ -26,7 +26,7 @@ information sciences or anyone interested in learning more about the Java progra
 |   Professor                   |   Dr Danish Khan|
 |   Office hours                |   Mon & Wed 12:35 - 1:35 pm (Room M-110)|   
 |                               |   Tue & Thu 12:35 - 1:35 pm (Room M-103)|
-|                               |   Mon 8:00 - 9:00 am in Zoom (Meeting ID: 835 8008 1648)|
+|                               |   Mon 8:00 - 9:00 am in Zoom (https://sdccd-edu.zoom.us/j/84358409903)|
 |   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu|
 
 ## Important dates/deadlines
