@@ -1,5 +1,5 @@
 # The course will be available in Canvas on Monday, Aug 19, 2024 (12:00 am PST)
-**Please join in-person class in Miramar College, M building, Room M-103, on Tuesday, Aug 20, 2024 at 11:00am PST**
+**Please join an in-person class in Miramar College, M building, Room M-103, on Tuesday, Aug 20, 2024, at 11:10 am PST. The class runs every Tuesdays and Thursdays.**
 
 ## Welcome to CISC 191 Intermediate Java Programming course
 
