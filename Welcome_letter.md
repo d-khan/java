@@ -37,4 +37,5 @@ Review the course [Course Syllabus](https://github.com/d-khan/java/blob/main/Syl
 
 ### <div align="center">Bring a laptop with you!.</div> 
 ___
-**End of message**
+**<div align="center">The End**</div> 
+
