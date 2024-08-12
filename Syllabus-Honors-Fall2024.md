@@ -59,7 +59,7 @@ Please use the Canvas Messaging System
 
 If I have not responded to your message within 24 hours, Monday through Friday, or within 48 hours on the weekend, then please resend the message using the Canvas Messaging System. Messages sent on Friday evening, Saturday, Sunday, or during holidays may have a slower response time.
 
-## Course outline and schedule
+## __Course outline and schedule__
 
 |Week|<div style="width:75px">Week commence from Monday </div>|Topics | Hands-on activities | Deadlines|
 |-|--|--|---|----|
@@ -67,23 +67,23 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |2  |26 Aug  |Object and classes | Write code based on OOP principles | 31 Aug |
 |3  |2 Sep |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 7 Sep |
 |4  |9 Sep |Input and output | Perform input/output operation on a text file using Java | 14 Sep |
-|   |        |__Quiz 1 on Thu 12 Sep__| |
+|   |        |__Quiz 1 on Thu 12 Sep at 11:20 am__| |
 |5  |16 Sep |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 21 Sep |
 |6  |23 Sep  |Inheritance (contd.) | Hands-on activity (contd.) | 28 Sep|
 |7  |30 Sep |Exceptions| Solve a task with and without exceptions | 5 Oct|
-|   |        |__Quiz 2 on Thu 3 Oct__| |
-|8  |7 Oct |__Midterm on Thu 10 Oct at 11:20 am__|
+|   |        |__Quiz 2 on Thu 3 Oct at 11:20 am__| |
+|8  |7 Oct |__Hands-on exam Thu 10 Oct at 11:20 am__|
 |9  |14 Oct  |Collections | Apply data structures using collections and perform code profiling  | 19 Oct|
 |10 |21 Oct  |GUI| Create user interface using JFrame and Swing GUI components | 26 Oct|
 |11 |28 Oct |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 2 Nov|
-|   |        |__Quiz 3 on Thu 31 Oct__| |
+|   |        |__Quiz 3 on Thu 31 Oct at 11:20 am__| |
 |12 |4 Nov |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 9 Nov |
 |13 |11 Nov  |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 16 Nov |
-|   |        |__Quiz 4 on Thu 14 Nov__| |
+|   |        |__Quiz 4 on Thu 14 Nov at 11:20 am__| |
 |14 |18 Nov  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 23 Nov |
 |||__Thanksgiving week (25 Nov - 1 Dec) - No classes__|
 |15 |2 Dec |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 7 Dec |
-|16 |9 Dec |__Final exam on Thu 12 Dec at 11:20 am__ | |
+|16 |9 Dec |__Final exam on Tue 10 Dec at 11:20 am__ | |
 
 ## Textbook
 
