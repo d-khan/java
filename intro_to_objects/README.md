@@ -43,8 +43,6 @@ The programmer defines the details of each member method, sometimes called the c
 
 ### Example - Bicycle class
 The following class gives an overview of how a class, constructor and methods are defined.
-<details><summary>Click to get the code</summary>
-<p>
 
 ``` java
 public class Bicycle { 
@@ -75,12 +73,8 @@ public class Bicycle {
     }   
 }
 ```
-</p>
-</details>
 
 ### Example - PersonInfo class
-<details><summary>Click to get the code</summary>
-<p>
     
 ```java
 import java.util.Scanner;
@@ -120,8 +114,7 @@ class PersonInfo {
     }
 }
 ```
-</p>
-</details>
+
 
 # Mutators, accessors, and private helpers
 
@@ -133,8 +126,6 @@ An **accessor** method accesses fields but may not modify a class' fields.
 Commonly, a field has two associated methods: a mutator for setting the value, and an accessor for getting the value, known as a setter and getter method, respectively, and typically with names starting with set or get. Other mutators and accessors may exist that aren't associated with just one field, such as the print() method below.
 
 ### Example
-<details><summary>Click to get the code</summary>
-<p>
 
 ``` java
 public class MyRestaurant {
@@ -172,8 +163,6 @@ class Restaurant {
 }
 ```
 
-</p>
-</details>
 
 ## Private helper methods
 A programmer commonly creates private methods, known as private helper methods, to help public methods carry out tasks.
@@ -188,8 +177,7 @@ A programmer commonly creates private methods, known as private helper methods, 
 A programmer can initialize fields in the field declaration. Any object created of that class type will initially have those values.
 
 ### Example: A class definition with initialized fields
-<details><summary>Click to get the code</summary>
-<p>
+
     
 ``` java
 public class RestaurantFavorites {
@@ -222,8 +210,7 @@ class Restaurant_f {
     }
 }
 ```
-</p>
-</details>
+
 
 ## Constructors
 Java provides a special class member method, known as a constructor, that is called when an object of that class type is created, and which can be used to initialize all fields. The constructor has the same name as the class. The constructor method has no return type, not even void. Ex: public Restaurant() {...} defines a constructor for the Restaurant class.
@@ -233,8 +220,7 @@ A programmer specifies the constructor that should be called when creating an ob
 If a class does not have a programmer-defined constructor, then the Java compiler implicitly defines a default constructor with no arguments. The Java compiler also initializes all fields to their default values.
 
 ### Example: Adding a constructor member method to the Restaurant class.
-<details><summary>Click to get the code</summary>
-<p>
+
     
 ``` java
 public class RestaurantFavorites {
@@ -269,8 +255,7 @@ class Restaurant_f {
     }
 }
 ```
-</p>
-</details>
+
 
 Further details can be found at:  
     - [Constructors from Oracle's Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)  
@@ -286,8 +271,6 @@ Below, the programmer wants to maintain a soccer team. The programmer realizes t
 
 
 ### Example: SoccerTeam and TeamPerson classes
-<details><summary>Click to get the TeamPerson class</summary>
-<p>
 
 ``` java
 \\ TeamPerson.java
@@ -318,11 +301,7 @@ public class TeamPerson {
 }
 
 ```
-</p>
-</details>
 
-<details><summary>Click to get the SoccerTeam class</summary>
-<p>
 
 ``` java
 \\ SoccerTeam.java
@@ -358,11 +337,7 @@ public class SoccerTeam {
     }
 }
 ```
-</p>
-</details>
 
-<details><summary>Click to get the main method</summary>
-<p>
 
 ``` java
 // main method
@@ -384,8 +359,7 @@ public class SoccerTeamPrinter {
     }
 }
 ```
-</p>
-</details>
+
 
 # Defining main() in a programmer-defined class
 The main() method can be defined within a programmer-defined class and create objects of that class type. The BasicCar class defined in the example below represents a car that keeps track of the number of miles driven. BasicCar has a field that maintains the miles driven and three methods that set, retrieve, and modify the object's field.
@@ -395,8 +369,6 @@ main() is a static method that is independent of class objects. main() can acces
 Non-static fields and methods are also called instance variables and instance methods.
 
 ### Example: Class definition with main() method.
-<details><summary>Click to get the code</summary>
-<p>
 
 ``` java
 public class BasicCar {
@@ -432,16 +404,13 @@ public class BasicCar {
     }
 }
 ```
-</p>
-</details>
+
 
 # Unit testing (classes)
 ## Testbenches
 Like a chef who tastes food before serving, a class creator should test a class before allowing use. A testbench is a program whose job is to thoroughly test another program (or portion) via a series of input/output checks known as test cases. Unit testing means to create and run a testbench for a specific item (or "unit") like a method or a class.
 
 ### Example: Unit testing of a class
-<details><summary>Click to get the code</summary>
-<p>
 
 ``` java
 public class StatsInfoTest {
@@ -509,8 +478,7 @@ class StatsInfo {
     }
 }
 ```
-</p>
-</details>
+
 
 Features of a good testbench include:
 - Automatic checks. Ex: Values are compared, as in testData.GetNum1() != 100. For conciseness, only fails are printed.
@@ -553,9 +521,7 @@ Within a member method, the implicitly-passed object reference is accessible via
 Using this makes clear that a class member is being accessed and is essential if a field member and parameter have the same identifier. In the example below, this is necessary to differentiate between the field member sideLength and the parameter sideLength.
 
 ### Example: Using 'this' to refer to an object's members
-<details><summary>Click to get the code</summary>
-<p>
-    
+
 ``` java
 public class ShapeTest {
     public static void main(String[] args) {
@@ -581,8 +547,7 @@ class ShapeSquare {
     }
 }
 ```
-</p>
-</details>
+
 
 ### Using 'this' in class member methods and constructors
 The figure below illustrates how member methods work. When an object's member method is called, the object's reference, which can be thought of as the object's memory address, is passed to the method via the implicit "this" parameter. An access in setTime() to this.hours first goes to the object's address, then to the hours field.
@@ -632,8 +597,6 @@ A wrapper class object (as well as a String object) is immutable, meaning a prog
 4. A new Integer object is created and assigned with 400 / 60, or 6, and timeHrs is updated to refer to that new Integer object.
 
 ### Example: Program using the Double class to calculate flight and driving times
-<details><summary>Click to get the code</summary>
-<p>
     
 ``` java
 import java.util.Scanner;
@@ -657,8 +620,7 @@ public class FlyDrive {
     }
 }
 ```
-</p>
-</details>
+
 
 **Note**
 > When using a literal for initialization, the programmer must ensure that the literal's value falls within the appropriate numeric range, e.g., -2,147,483,648 to 2,147,483,647 for an integer. The wrapper classes (except for Character and Boolean) declare the MAX_VALUE and MIN_VALUE fields, which are static fields initialized with the maximum and minimum values a type may represent, respectively. A programmer may access these fields to check the supported numeric range by typing the wrapper class' name followed by a dot and the field name, as in Integer.MIN_VALUE, which returns -2,147,483,648.
@@ -701,8 +663,7 @@ Wrapper classes feature methods that are useful for converting to and from Strin
 <img width="955" alt="Screen Shot 2023-01-24 at 2 02 23 PM" src="https://user-images.githubusercontent.com/11669149/214430921-f8143d7e-cfc9-4e67-a3eb-2da399a461e8.png">
 
 ### Example: A program to convert a decimal number to binary
-<details><summary>Click to get the code</summary>
-<p>
+
     
 ``` java
 import java.util.Scanner;
@@ -724,8 +685,7 @@ public class DecimalToBinary {
 }
 
 ```
-</p>
-</details>
+
 
 # ArraysList
 ## Introduction
@@ -751,9 +711,6 @@ The ArrayList's get() method returns the element at the specified list location,
 An ArrayList's index must be an integer type. The index cannot be a floating-point type, even if the value is 0.0, 1.0, etc.
 
 ### Example: ArrayList's ith element can be directly accessed using .get(i)
-
-<details><summary>Click to get the code</summary>
-<p>
     
 ``` java
 import java.util.ArrayList;
@@ -787,10 +744,7 @@ public class ArrayListAverage {
 }
 
 ```
-</p>
-</details>
-</p>
-</details>
+
 
 ## Iterating through ArrayLists
 The program below allows a user to enter 8 numbers, then prints the average of those 8 numbers. The first loop uses the add() method to add each user-specified number to the ArrayList userNums. After adding the numbers to userNums, the size() method can be used to determine the number of elements in userNums. Thus, size() is used in the second for loop to calculate the sum, and in the statement that computes the average.
@@ -798,8 +752,6 @@ The program below allows a user to enter 8 numbers, then prints the average of t
 With an ArrayList and loops, the program could easily be changed to support say 100 numbers; the code would be the same, and only the value of NUM_ELEMENTS would be changed to 100.
 
 ### Example - ArrayLists with loops
-<details> <summary> Click to get the code </summary>
-<p>
     
 ``` java
 import java.util.ArrayList;
@@ -833,10 +785,7 @@ public class ArrayListAverage {
 }
 
 ```
-</p>
-</details> 
-</p>
-</details>
+
 
 **Note**
 > An ArrayList is one of several Collections supported by Java for keeping groups of items. Other collections include LinkedList, Set, Queue, Map, and many more. A programmer selects the collection whose features best suit the desired task. For example, an ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
@@ -851,8 +800,6 @@ The Javadoc tool parses source code along with specially formatted comments to g
 The specially formatted comments for Javadoc are called Doc comments, which are multi-line comments consisting of all text enclosed between the /** and \*/ characters. Importantly, Doc comments are distinguished by the opening characters /\**, which include two asterisks. The following illustrates.
 
 ### Example - Using Javadoc comments to document the ElapsedTime and TimeDifference classes
-<details> <summary> Click to view ElapsedTime.java </summary>
-<p>
     
 ``` java
 //ElapsedTime.java
@@ -920,11 +867,7 @@ public class ElapsedTime {
 }
 
 ```
-</p>
-</details>
 
-<details> <summary> Click to view TimeDifference.java </summary>
-<p>
     
 ``` java
 //TimeDifference.java
@@ -972,8 +915,7 @@ public class TimeDifference {
    }
 }
 ```
-</p>
-</details>
+
 
 A Doc comment associated with a class is written immediately before the class definition. The main description typically describes the class' purpose. The tag section of the Doc comment may include block tags such as @author and @version to specify the class' author and version number respectively. For the classes above, the Doc comments specify "Mary Adams" as the author of the first version of both classes.
 
@@ -986,10 +928,6 @@ Doc comments may be used to describe a class's fields as well. Unlike classes or
 Private class members are not included by default in the API documentation generated by the Javadoc tool. API documentation is meant to provide a summary of all functionality available to external applications interfacing with the described classes. Thus, private class members, which cannot be accessed by other classes, are not typically included in the documentation. The Java Scanner class specification, for example, only describes the public class members available to programmers using the class.
 
 Similarly, the resulting API documentation for the above classes need only include information that enables their use by other programmers. However, if a programmer needs to document a class's complete structure, the Javadoc tool can be executed with the -private flag, as in javadoc -private -d destination class1.java class2.java, to enable the documentation of private class members.
-
-# ArrayList ADT
-
-# Java Documentation for classes
 
 
 # Parameters of reference types
@@ -1021,8 +959,7 @@ In a class, a **static** field is a field of the class instead of a field of eac
 A static member method is a class method that is independent of class objects. Static member methods are typically used to access and mutate private static fields from outside the class. Since static methods are independent of class objects, the this parameter is not passed to a static member method. So, a static member method can only access a class' static fields.
 
 ### Example - Static member method used to access a private static field
-<details> <summary> Click to get the Store.java code </summary>
-<p>
+
     
 ``` java
 public class Store {   
@@ -1053,11 +990,7 @@ public class Store {
 
 
 ```
-</p>
-</details>
 
-<details> <summary> Click to get the NewStores.java code </summary>
-<p>
     
 ``` java
 public class NewStores {
@@ -1073,8 +1006,7 @@ public class NewStores {
    }
 }
 ```
-</p>
-</details>
+
 
 
 # Using packages
