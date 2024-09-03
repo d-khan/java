@@ -100,11 +100,9 @@ A common use of objects and references is to create a list of items such that an
 ### Step 5
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/11669149/218657936-8e9753d7-bc1d-4956-8daf-03a7c331c04c.png">
 
-    
-<details><summary>Click to get the code IntNode.java</summary>
-<p>
 
 ```java
+// IntNode.java
 public class IntNode {
    private int dataVal;         // Node data
    private IntNode nextNodeRef; // Reference to the next node
@@ -143,11 +141,8 @@ public class IntNode {
 }
 ```
     
-</p>
-</details>
-
 ```java
-    
+//main    
 public class CustomLinkedList {
    public static void main(String[] args) {
       IntNode headObj; // Create IntNode reference variables
