@@ -129,6 +129,7 @@ ___
 ### Concept check!! (Please work in a group - 2 members per group)
 Improvise the above code and perform the following:   
 __a. Include the middle name; and if the middle name is missing, the middle name shows NA__ (Discuss with your group member how to design before starting to code)  
+
 __b. Your job is to validate the credit card of a financial institution.__  
 The first six or eight digits of the credit card represent the Issuer Identification Number (IIN), also known as the Bank Identification Number (BIN). These digits clearly identify the financial institution issuing the card. The first digit is the Major Industry Identifier (MII) and it is allocated by the American Banking Association. Each major credit card network has its own MII:
 
