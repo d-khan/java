@@ -127,7 +127,7 @@ public class StringInputStream {
 ___
 
 ### Concept check!! (Please work in a group - 2 members per group)
-Improvise the above code and perform the following: 
+Improvise the above code and perform the following:   
 __Include the middle name; and if the middle name is missing, the middle name shows NA__ (Discuss with your group member how to design before starting to code)  
  
 ___
