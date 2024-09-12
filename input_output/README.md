@@ -130,7 +130,8 @@ ___
 Improvise the above code and perform the following:   
 __a. Include the middle name; and if the middle name is missing, the middle name shows NA__ (Discuss with your group member how to design before starting to code)  
 
-__b. Your job is to validate the credit card of a financial institution.__  
+__b. Your job is to validate the credit card of a financial institution.__ For example, if a user enters 123a 111 111 222, your code should spot an error because characters are not valid. (Please talk with your group member about how to design before starting to code). For simplicity, you can just check the first number.
+
 The first six or eight digits of the credit card represent the Issuer Identification Number (IIN), also known as the Bank Identification Number (BIN). These digits clearly identify the financial institution issuing the card. The first digit is the Major Industry Identifier (MII) and it is allocated by the American Banking Association. Each major credit card network has its own MII:
 
 American Express cards always begin with the number 3, more specifically 34 or 37.
