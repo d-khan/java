@@ -82,7 +82,7 @@ __%(flags)(width)(.precision)specifier__
 ## Flushing output
 - The PrintStream method ```flush()``` flushes the stream's buffer contents.
 - To preserve resources, the system may wait until the buffer is full, or at least has a certain number of characters before moving them to the output device. 
-- The PrintStream method flush() flushes the stream's buffer contents. Ex: The statement ```System.out.flush()```; writes the contents of the buffer for System.out to the computer screen. Most Java implementations make System.out flush when a newline character is output or println() method is called.
+- The PrintStream method ```flush()``` flushes the stream's buffer contents. Ex: The statement ```System.out.flush()```; writes the contents of the buffer for System.out to the computer screen. Most Java implementations make System.out flush when a newline character is output or ```println()``` method is called.
 
 __Indicate if the line of output is immediately flushed from the System.out buffer.__
 ```Java
