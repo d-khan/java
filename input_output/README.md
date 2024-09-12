@@ -22,6 +22,16 @@ An InputStream is a class for achieving such input. InputStream provides several
 
 <img width="721" alt="image" src="https://user-images.githubusercontent.com/11669149/219961583-6cdc5246-72f9-489f-9538-32df0ba40115.png">
 
+___
+
+### Concept check!!
+Based on the above code, find out the following:  
+__a. What is ```System``` in ```System.in.read()```?__  
+__b. What does it mean by "overload read methods"?__
+
+
+___
+
 ## byte stream
 A byte stream is used by programs to input or output 8-bits (a byte).
 
