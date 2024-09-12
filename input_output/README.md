@@ -134,10 +134,10 @@ __b. Your job is to validate the credit card of a financial institution.__ For e
 
 The first six or eight digits of the credit card represent the Issuer Identification Number (IIN), also known as the Bank Identification Number (BIN). These digits clearly identify the financial institution issuing the card. The first digit is the Major Industry Identifier (MII) and it is allocated by the American Banking Association. Each major credit card network has its own MII:
 
-American Express cards always begin with the number 3, more specifically 34 or 37.
-Visa cards begin with the number 4.
-Mastercards start with the number 5.
-Discover Cards begin with the number 6.
+- American Express cards always begin with the number 3, more specifically 34 or 37.  
+- Visa cards begin with the number 4.  
+- Mastercards start with the number 5.  
+- Discover Cards begin with the number 6.  
 ___
 
 
