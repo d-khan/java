@@ -86,11 +86,11 @@ __%(flags)(width)(.precision)specifier__
 
 __Indicate if the line of output is immediately flushed from the System.out buffer.__
 ```Java
-System.out.print("My life has been the poem ");  // A
-System.out.println("I would have writ");         // B
-System.out.print("But I could not ");            // C
+System.out.print("All the world's a stage ");  // A
+System.out.println("And all the men and women merely players;");         // B
+System.out.print("They have their exits and their entrances, ");            // C
 System.out.flush();
-System.out.print("both live and utter it.\n");   // D
+System.out.print("And one man in his time plays many parts,");   // D
 ```
 
 # Streams using Strings
