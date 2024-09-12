@@ -28,7 +28,7 @@ ___
 Based on the above code, find out the following:  
 __a. What is ```System``` in ```System.in.read()```?__  
 __b. What does it mean by "overload read methods"?__  
-__c. Run the code below, and follow what the comment says.__
+__c. Run the code below, and follow what the comment says.__ Provide your answer in Github - a normal routine in industry 
 ```java
 import java.io.IOException;
 
@@ -36,7 +36,7 @@ public class IO {
     public static void main(String[] args) throws IOException {
         int usrInput1;
         int usrInput2;
-        //Select user inputs 12
+        //Select user inputs 12 (only integers)
         usrInput1 = System.in.read();
         usrInput2 = System.in.read();
         System.out.println("Where this " + usrInput1 + " comes from?");
@@ -55,7 +55,7 @@ ___
 A byte stream is used by programs to input or output 8-bits (a byte).
 
 ## throws clause / exception
-A throws clause tells the Java virtual machine that the corresponding method may exit unexpectedly due to an exception, which is an event that disrupts a program's execution.
+A throws clause tells the Java virtual machine that the corresponding method may exit unexpectedly due to an exception, which is an event that disrupts a program's execution. This topic is covered separately in a difference lecture.
 
 # Output formatting
 
