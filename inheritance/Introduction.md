@@ -184,7 +184,7 @@ Access specifiers for class members
 | ------------ | ------------------------------------------------------------ |
 | private      | Accessible by self                                           |
 | protected    | Accessible by self, derived classes, and other classes in the same package |
-| public       | Accessible by self, derived classes, and everyone else       |
+| public       | Accessible by self, and derived classes      |
 | no specifier | Accessible by self and other classes in the same package     |
 
 ### Class definitions
