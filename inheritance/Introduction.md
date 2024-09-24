@@ -305,7 +305,7 @@ class Main {
 
 ___
 
-## Hands-on group exercise - Overloading
+## Hands-on group exercise - Overloading (NOT GRADED)
 1. Design a class with two methods; one takes two integer arguments and returns the sum of the integer arguments; the second takes two double arguments and returns the sum of the double arguments. Use the paper provided. You might need to discuss with the other members of the group.
 2. Implement the design, and use the main to execute the class and supply correct inputs.
 3. Verify that the class is working by printing the result on the screen.
