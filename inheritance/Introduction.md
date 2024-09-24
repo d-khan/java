@@ -303,6 +303,16 @@ class Main {
 >
 > Overriding differs from overloading. In overloading, methods with the same name must have different parameter types, number of parameters, or return values. In overriding, a derived class member method must have the same parameter types, number of parameters, and return value as the base class member method with the same name. Overloading is performed if derived and base member methods have different parameter types; the member method of the derived class does not hide the member method of the base class.
 
+___
+
+## Hands-on group exercise - Overloading
+1. Design a class with two methods; one takes two integer arguments and returns the sum of the integer arguments; the second takes two double arguments and returns the sum of the double arguments. Use the paper provided. You might need to discuss with the other members of the group.
+2. Implement the design, and use the main to execute the class and supply correct inputs.
+3. Verify that the class is working by printing the result on the screen.
+
+____
+
+
 ### Calling a base class method
 An overriding method can call the overridden method by using the super keyword ```super.getDescription()``` . The __super__ keyword is a reference variable used to call the parent class's methods or constructors.
 
