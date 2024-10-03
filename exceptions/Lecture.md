@@ -265,7 +265,7 @@ public class FileDataAverage {
       Scanner fileScanner;
       String fileName;
       FileInputStream fileInStream;
-      double dataAvg;
+      double dataAvg = 0;
 
       System.out.print("Enter a file name: ");
       fileName = scnr.next();
