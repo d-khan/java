@@ -6,7 +6,8 @@ Create a meeting scheduler that allows users to display schedules or set meeting
 
 ## Description
 
-The user will interact with the scheduler using GUI. The scheduler will also have a calendar feature to display calendar based on the user input such as month and year. The user will
+The user will interact with the scheduler through a GUI, which will include a calendar feature. This feature will display a calendar based on user input such as the month and the year or just simply the year. The user
+will input the description on the selected date and time. The user should able to display the current schedule.
 
 ## What do you need to perform this task?
 
