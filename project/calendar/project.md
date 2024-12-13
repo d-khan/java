@@ -34,6 +34,6 @@ Upload your work in the .java or .txt format.
 The deadline is 27 Dec 2024 at 11:59 pm PST.
 
 ## Rubric
-The video describes each section clearly and the corresponding Java code and SQL statements are submitted. (100%)
-The video is submitted but not the code. (Score will be given based on the completed task).
-The code is uploaded but not working regardless of whether the video is submitted or not. (0 marks)
+- The video describes each section clearly and the corresponding Java code and SQL statements are submitted. (100%)
+- The video is submitted but not the code. (Score will be given based on the completed task).
+- The code is uploaded but not working regardless of whether the video is submitted or not. (0 marks)
