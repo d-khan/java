@@ -19,9 +19,9 @@ Review SQL cheat sheet
 
 ## Task
 
-1. Display a calendar based on user input. For example, when the user inputs a year, all the months along with their dates and days of the week should be displayed. [Visit the link to see the output example](https://github.com/d-khan/java/blob/main/project/calendar/full-year-calendar-2020.png). **(5 marks)**
+1. Display a calendar based on user input. For example, when the user inputs a year, all the months along with their dates and days of the week should be displayed. [Visit the link to see the output example](https://github.com/d-khan/java/blob/main/project/calendar/full-year-calendar-2020.png). **(15 marks)**
 
-2. Users should be able to select a date and time to set their schedule. There should be options to either "Create a New Schedule" or "View Current Schedule." When setting up or accessing the current schedule, it is necessary to use JConnector to connect to the SQL database. Make sure that the database, data types, and tables have been created correctly. Under Java, use SQL queries to display the current schedule or to set a new schedule. The scheduling data will be stored in the database. **(5 marks)**
+2. Users should be able to select a date and time to set their schedule. There should be options to either "Create a New Schedule" or "View Current Schedule." When setting up or accessing the current schedule, it is necessary to use JConnector to connect to the SQL database. Make sure that the database, data types, and tables have been created correctly. Under Java, use SQL queries to display the current schedule or to set a new schedule. The scheduling data will be stored in the database. **(15 marks)**
 
 ## What to submit?
 1. What were your challenges in performing the project (from design to the implementation phases)
