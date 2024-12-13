@@ -18,6 +18,5 @@ Review SQL cheat sheet
 
 ## Task
 
-1. Display calendar based on the user input. For example, when the user input the year, all the months along with the dates and days of the week should display. The output will be like:
-[image](https://github.com/d-khan/java/blob/main/project/calendar/full-year-calendar-2020.png)
+1. Display calendar based on the user input. For example, when the user input the year, all the months along with the dates and days of the week should display. [Visit the link to see the output example](https://github.com/d-khan/java/blob/main/project/calendar/full-year-calendar-2020.png)
 
