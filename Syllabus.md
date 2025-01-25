@@ -9,43 +9,45 @@ linked lists, queues, and stacks. This course is intended for students majoring 
 information sciences or anyone interested in learning more about the Java programming language.
 
 ## Student learning outcomes
-- Demonstrate an ability to successfully follow a specification. Measurement Method: Development of classroom projects.  
-- Demonstrate an ability to successfully create electronic documents. Measurement Method: Performance on homework assignments.
+- Apply algorithmic and mathematical reasoning to solve a wide range of computational problems.  
+- Analyze and evaluate alternative solutions to computing problems using a programming language.
+- Use current tools in computing practice such as Integrated Development Environments and Code Sharing platforms.
 
 ## Course information
 
 |                               |                                           |
 |-------------------------------|-------------------------------------------|
 |   Course name                 |   CISC-191 Intermediate Java Programming|
-|   Year                        |   Fall 2024|
-|   Class ID                    |   73491|
-|   Location                    |   Miramar College, M building, Room M-103|
-|   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm|
+|   Year                        |   Spring 2025|
+|   Class ID                    |   85749|
+|   Section                     |   3025|
+|   Live (synchronous online)   |   Tue & Thu 11:10 am – 12:35 pm; https://sdccd-edu.zoom.us/j/81008935206 |
+|   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm;  Miramar College, M building, Room M-110|
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
-|   Duration                    |   Aug 19 – Dec 16 (16 weeks)|
+|   Duration                    |   Feb 3 – Jun 2 2025 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
-|   Office hours                |   Mon & Wed 12:35 - 1:35 pm (Room M-110)|   
-|                               |   Tue & Thu 12:35 - 1:35 pm (Room M-103)|
-|                               |   Mon 6:00 - 7:00 pm in Zoom (https://sdccd-edu.zoom.us/j/84358409903)|
+|   Office hours                |   Mon 9:00 am - 11:00 am in Zoom (https://sdccd-edu.zoom.us/j/81215489501) or in-person (Room M-107P) |
+|                               |   Mon 12:30 pm - 2:30 pm in Zoom (https://sdccd-edu.zoom.us/j/89694884444) or in-person (Room M-107P) |
 |   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu|
 
 ## Important dates/deadlines
 
 |<div style="width500:px"></div> ||
 |:----------------------|:--------------|
-|19 Aug                 |   Fall 2024 16-Week Session Begins |
-|30 Aug                 |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
+|3 Feb                  |   Spring 2025 16-Week Session Begins |
+|14 Feb                 |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
 |                       |   __Student Drop:__ Deadline to drop class with no "W" recorded. |
 |                       |   __Refund Date:__ Deadline to drop classes and be eligible for refund of Enrollment Fee and/or all applicable fees.|
-|2 Sep                  |   __Labor Day (CAMPUS CLOSED)__ |
-|3 Sep                  |   __Instructor Drop/Census:__ All drops must be submitted by Noon
-|25 Oct                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
-|11 Nov                 |   __Veterans Day (CAMPUS CLOSED)__ |
-|25 Nov - 1 Dec         |   __Thanksgiving (NO CLASSES)__ |
-|16 Dec                 |   __Session end__|
-|3 Jan 2025             |   __Grades:__ Deadline for instructors to submit final grades|
+|18 Feb                 |   __Instructor Drop/Census:__ All drops must be submitted by Noon
+|31 Mar - 4 Apr         |   __Spring break (NO CLASSES)__ |
+|4 Apr                  |   __Cesar Chavez Day (COLLEGE CLOSED__ |
+|18 Apr                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
+|26 May                 |   __Memorial Day (COLLEGE CLOSED)__ |
+|2 Jun                  |   __Session end__|
+|9 Jun                  |   __Grades:__ Deadline for instructors to submit final grades|
+|13 Jun                 |   __Spring grades available__|
 
-Please visit the [district website](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the deadlines.
+Please visit the [Academic Semester Calendars and Key Dates](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the Spring 2025 deadlines.
 
 ## Instructor communication policy
 
@@ -89,7 +91,7 @@ I would recommend that you follow my notes and resources provided on the course 
 ## Software and hardware resources
 
 - Minimum Laptop/desktop requirements: Intel/AMD CPU, 4GB DDR3/4 generation RAM, 40+GB hard drive, 64-bit OS (Windows/OSX), Microphone, and high-speed Internet.
-- SD Miramar students may check out laptops from the library, dependent on availability at <https://sdmiramar.edu/library/materials-checkout>
+- SD Miramar students may check out laptops from the library, dependent on availability at <https://sdmiramar.edu/library/equipment_checkout>
 
 ## Grading scheme
 
@@ -128,8 +130,6 @@ Students with disabilities who may need academic accommodations should contact m
 
 > DSPS is located in the K1 Student Services building, room K1-204 and can be reached at (619) 388-7312 or by email at miradsps@sdccd.edu. To register or to learn more about their services, please visit their website at www.sdmiramar.edu/dsps
 
-
-
 ## Undocumented & Immigrant Student Services
 
 Undocumented and immigrant students are welcome in this class. As an educator, I strive to be an ally and provide a safe learning environment for you regardless of your immigration status. Your legal status should not be an obstacle to you in my classroom or to your educational success.
@@ -141,7 +141,6 @@ The Miramar Dreamers Support Office provides programs and services to undocument
 Students are expected to be honest and ethical at all times in the pursuit of academic goals. Students who are found to be in violation of Administrative Procedure 3100.3 Honest Academic Conduct, will receive a grade of zero on the assignment, quiz, or exam in question and may be referred for disciplinary action in accordance with Administrative Procedure 5520, Student Disciplinary Procedures.
 
 ## Honest Academic Conduct
-
 Students are expected to adhere to the Honest Academic Conduct policy at all times. Students who violate the Honest Academic Conduct policy may be removed from class by the faculty for the class meeting in which the behavior occurred and the next class meeting.
 - For online classes: Student access to class is removed for one week (5 instructional days).
 
@@ -157,4 +156,4 @@ You are encouraged to bring reusable drink containers to school (and fill them a
  
 Thank you for doing your part to conserve resources in your academic life and keeping our campus environment clean.   
 ____
-Last updated on Aug 2024
+Last updated on Jan 2025
