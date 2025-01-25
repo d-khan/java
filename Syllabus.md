@@ -21,7 +21,7 @@ information sciences or anyone interested in learning more about the Java progra
 |   Year                        |   Spring 2025|
 |   Class ID                    |   85749|
 |   Section                     |   3025|
-|   Live (synchronous online)   |   Tue & Thu 11:10 am – 12:35 pm; https://sdccd-edu.zoom.us/j/81008935206 |
+|   Live (synchronous online)   |   Tue & Thu 11:10 am – 12:35 pm; https://sdccd-edu.zoom.us/j/87099429612 |
 |   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm;  Miramar College, M building, Room M-110|
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
 |   Duration                    |   Feb 3 – Jun 2 2025 (16 weeks)|
