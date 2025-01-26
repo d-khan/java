@@ -15,43 +15,45 @@ The students enrolled in the Honors Contract are expected to do independent rese
 You can find more information about the Honors Contract [here](https://sdmiramar.edu/services/honors).
 
 ## Student learning outcomes
-- Demonstrate an ability to successfully follow a specification. Measurement Method: Development of classroom projects.  
-- Demonstrate an ability to successfully create electronic documents. Measurement Method: Performance on homework assignments.
+- Apply algorithmic and mathematical reasoning to solve a wide range of computational problems.  
+- Analyze and evaluate alternative solutions to computing problems using a programming language.
+- Use current tools in computing practice such as Integrated Development Environments and Code Sharing platforms.
 
 ## Course information
 
 |                               |                                           |
 |-------------------------------|-------------------------------------------|
 |   Course name                 |   CISC-191 Intermediate Java Programming|
-|   Year                        |   Fall 2024|
-|   Class ID                    |   73491|
-|   Location                    |   Miramar College, M building, Room M-103|
-|   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm|
+|   Year                        |   Spring 2025|
+|   Class ID                    |   85749|
+|   Section                     |   3025|
+|   Live (synchronous online)   |   Tue & Thu 11:10 am – 12:35 pm; https://sdccd-edu.zoom.us/j/87099429612 |
+|   In-person class schedule    |   Tue & Thu 11:10 am – 12:35 pm;  Miramar College, M building, Room M-110|
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
-|   Duration                    |   Aug 19 – Dec 16 (16 weeks)|
+|   Duration                    |   Feb 3 – Jun 2 2025 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
-|   Office hours                |   Mon & Wed 12:35 - 1:35 pm (Room M-110)|   
-|                               |   Tue & Thu 12:35 - 1:35 pm (Room M-103)|
-|                               |   Mon 6:00 - 7:00 pm in Zoom (https://sdccd-edu.zoom.us/j/84358409903)|
+|   Office hours                |   Mon 9:00 am - 11:00 am in Zoom (https://sdccd-edu.zoom.us/j/81215489501) or in-person (Room M-107P) |
+|                               |   Mon 12:30 pm - 2:30 pm in Zoom (https://sdccd-edu.zoom.us/j/89694884444) or in-person (Room M-107P) |
 |   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu|
 
 ## Important dates/deadlines
 
 |<div style="width500:px"></div> ||
 |:----------------------|:--------------|
-|19 Aug                 |   Fall 2024 16-Week Session Begins |
-|30 Aug                 |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
+|3 Feb                  |   Spring 2025 16-Week Session Begins |
+|14 Feb                 |   __Student Add:__ Deadline to add class with Permission Number and pay Enrollment Fee &/or all applicable fees. |
 |                       |   __Student Drop:__ Deadline to drop class with no "W" recorded. |
 |                       |   __Refund Date:__ Deadline to drop classes and be eligible for refund of Enrollment Fee and/or all applicable fees.|
-|2 Sep                  |   __Labor Day (CAMPUS CLOSED)__ |
-|3 Sep                  |   __Instructor Drop/Census:__ All drops must be submitted by Noon
-|25 Oct                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
-|11 Nov                 |   __Veterans Day (CAMPUS CLOSED)__ |
-|25 Nov - 1 Dec         |   __Thanksgiving (NO CLASSES)__ |
-|16 Dec                 |   __Session end__|
-|3 Jan 2025             |   __Grades:__ Deadline for instructors to submit final grades|
+|18 Feb                 |   __Instructor Drop/Census:__ All drops must be submitted by Noon
+|31 Mar - 4 Apr         |   __Spring break (NO CLASSES)__ |
+|4 Apr                  |   __Cesar Chavez Day (COLLEGE CLOSED__ |
+|18 Apr                 |   __Withdraw:__ Last day to withdraw from classes and receive a "W". No drops accepted after this date. Thereafter, a student must receive a letter grade.|
+|26 May                 |   __Memorial Day (COLLEGE CLOSED)__ |
+|2 Jun                  |   __Session end__|
+|9 Jun                  |   __Grades:__ Deadline for instructors to submit final grades|
+|13 Jun                 |   __Spring grades available__|
 
-Please visit the [district website](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the deadlines.
+Please visit the [Academic Semester Calendars and Key Dates](https://www.sdccd.edu/students/dates-and-deadlines/index.aspx) to learn more about the Spring 2025 deadlines.
 
 ## Instructor communication policy
 
@@ -63,27 +65,27 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 |Week|<div style="width:75px">Week commence from Monday </div>|Topics | Hands-on activities | Deadlines|
 |-|--|--|---|----|
-|1  |19 Aug |Java lang review | Apply arrays, loops, data types, and methods | 24 Aug |
-|2  |26 Aug  |Object and classes | Write code based on OOP principles | 31 Aug |
-|3  |2 Sep |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 7 Sep |
-|4  |9 Sep |Input and output | Perform input/output operation on a text file using Java | 14 Sep |
-|   |        |__Quiz 1 on Thu 12 Sep at 11:20 am__| |
-|5  |16 Sep |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 21 Sep |
-|6  |23 Sep  |Inheritance (contd.) | Hands-on activity (contd.) | 28 Sep|
-|7  |30 Sep |Exceptions| Solve a task with and without exceptions | 5 Oct|
-|   |        |__Quiz 2 on Thu 3 Oct at 11:20 am__| |
-|8  |7 Oct |__Hands-on exam Thu 10 Oct at 11:20 am__|
-|9  |14 Oct  |Collections | Apply data structures using collections and perform code profiling  | 19 Oct|
-|10 |21 Oct  |GUI| Create user interface using JFrame and Swing GUI components | 26 Oct|
-|11 |28 Oct |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 2 Nov|
-|   |        |__Quiz 3 on Thu 31 Oct at 11:20 am__| |
-|12 |4 Nov |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 9 Nov |
-|13 |11 Nov  |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 16 Nov |
-|   |        |__Quiz 4 on Thu 14 Nov at 11:20 am__| |
-|14 |18 Nov  |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 23 Nov |
-|||__Thanksgiving week (25 Nov - 1 Dec) - No classes__|
-|15 |2 Dec |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 7 Dec |
-|16 |9 Dec |__Final exam on Tue 10 Dec at 11:20 am__ | |
+|1  |3 Feb  |Java lang review | Apply arrays, loops, data types, and methods | 16 Feb |
+|2  |10 Feb  |Object and classes | Write code based on OOP principles | 16 Feb |
+|3  |17 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 23 Feb |
+|4  |24 Feb |Input and output | Perform input/output operation on a text file using Java | 2 Mar |
+|   |        |__Quiz 1 on Thu 27 Feb at 11:20 am__| |
+|5  |3 Mar |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 9 Mar |
+|6  |10 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 16 Mar|
+|7  |17 Mar |Exceptions| Solve a task with and without exceptions | 23 Mar|
+|   |        |__Quiz 2 on Thu 20 Mar at 11:20 am__| |
+|8  |24 Mar |__Hands-on exam Thu 27 Mar at 11:20 am__|
+|||__Spring break (31 Mar - 4 May) - No classes__|
+|9  |7 Apr  |Collections | Apply data structures using collections and perform code profiling  | 13 Apr|
+|10 |14 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 20 Apr|
+|11 |21 Apr  |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 27 Apr|
+|   |        |__Quiz 3 on Thu 24 Apr at 11:20 am__| |
+|12 |28 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 4 May |
+|13 |5 May |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 11 May |
+|   |        |__Quiz 4 on Thu 8 May at 11:20 am__| |
+|14 |12 May   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 18 May |
+|15 |19 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 25 May |
+|16 |26 May |__IN-PERSON Final exam on Tue 27 May at 11:20 am__ | |
 
 ## Textbook
 
@@ -166,4 +168,4 @@ You are encouraged to bring reusable drink containers to school (and fill them a
 Thank you for doing your part to conserve resources in your academic life and keeping our campus environment clean.   
 
 ____
-Last updated on Aug 2024
+Last updated on Feb 2025
