@@ -7,7 +7,6 @@
 
 Hi, and welcome to CISC 191 Intermediate Java Programming class. Thanks for enrolling. I am looking forward to going through the course with you. My name is Dr Danish Khan, and you can contact me via **dkhan@sdccd.edu**  
 
-
 ## 1. The first thing to do - setup SDCCD email address
 [Setup your student email and Microsoft 365](https://www.sdccd.edu/students/student-email.aspx)
 
