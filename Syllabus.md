@@ -79,7 +79,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 |   |        |__Quiz 4 on Thu 8 May at 11:20 am__| |
 |14 |12 May   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 18 May |
 |15 |19 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 25 May |
-|16 |26 May |__Final exam on Tue 27 May at 11:20 am__ | |
+|16 |26 May |__IN-PERSON Final exam on Tue 27 May at 11:20 am__ | |
 
 ## Textbook
 
