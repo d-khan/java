@@ -34,9 +34,9 @@ Select the **horizontal lines next to the course name -> Home -> Welcome to the 
 Review the course [Course Syllabus](https://github.com/d-khan/java/blob/main/Syllabus.md) to learn about the course, important dates/deadlines, schedule, textbook, etc.
 
 ## 5. How will my class be conducted?
-**Partially online:** Theory, labs, hands-on assessments, and tests will be conducted on campus. Students are required to spend extra time off-campus for additional reading and researching study materials. Attending in-person classes and labs is mandatory to avoid dropping or withdrawing from the course.
+**HyFlex:** Students can join the scheduled class session live online or on campus based on student preference. Please note that in-person class attendance or live online attendance is mandatory to avoid dropping or withdrawing from the course.
 
-### <div align="center">Bring a laptop with you!.</div> 
+### <div align="center">Bring a laptop if you are attending an in-person class at the college!</div> 
 ___
 **<div align="center">The End.**</div> 
 
