@@ -59,7 +59,7 @@ If I have not responded to your message within 24 hours, Monday through Friday, 
 
 |Week|<div style="width:75px">Week commence from Monday </div>|Topics | Hands-on activities | Deadlines|
 |-|--|--|---|----|
-|1  |3 Feb  |Java lang review | Apply arrays, loops, data types, and methods | 16 Feb |
+|1  |3 Feb  |Java lang review | Apply arrays, loops, data types, and methods | 9 Feb |
 |2  |10 Feb  |Object and classes | Write code based on OOP principles | 16 Feb |
 |3  |17 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 23 Feb |
 |4  |24 Feb |Input and output | Perform input/output operation on a text file using Java | 2 Mar |
