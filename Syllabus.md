@@ -1,5 +1,10 @@
 # Syllabus (CISC-191 Intermediate Java Programming)
 
+## Welcome to the course!
+My name is Dr Danish Khan and I am looking forward to starting this educational journey with each of you! Together, we will build a constructive and inclusive environment where everyone's ideas are welcomed and appreciated. Your contributions will greatly enrich our classroom community, and I am eager to learn more about each of you. Let’s focus on making this school year a valuable experience filled with growth, learning, and positive memories!
+
+> ___A person who never made a mistake never tried anything new.___ (Albert Einstein)
+
 ## Course description
 This course is an intermediate-level study of the Java programming language. Topics include single and
 multidimensional arrays; objects and classes; object-oriented programming; inheritance and
