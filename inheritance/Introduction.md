@@ -249,7 +249,7 @@ __OverridingExample.java - main__
 ```{java .numberLines}
 public class InheritanceExample {
     public static void main(String[] args) {
-				Business someBusiness = new Business();
+	Business someBusiness = new Business();
         Restaurant favoritePlace = new Restaurant();
  
       	someBusiness.setName("ACME");
