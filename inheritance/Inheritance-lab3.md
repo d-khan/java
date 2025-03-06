@@ -29,7 +29,7 @@ Watson-Guptill
 ```
 ## Expected output
 ```Course Information:
-CBook Information: 
+Book Information: 
    Book Title: The Hobbit
    Author: J. R. R. Tolkien
    Publisher: George Allen & Unwin
