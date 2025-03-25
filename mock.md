@@ -35,6 +35,6 @@ add accessories such as dry wall patch compounds, location
 
 **You are enhancing version 1 of the aisle management system where you used prewritten derived exceptions by the Exception class on the user inputs. Catch any two possible invalid user inputs.**
 
-# Aisle control system - version 3.0
+# Aisle management system - version 3.0
 
 **You are enhancing version 1 or 2 of the aisle management system where you used customized derived exception by the Exception class on the user input. Catch any one possible invalid user input.**
