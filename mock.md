@@ -37,4 +37,4 @@ add accessories such as dry wall patch compounds, location
 
 # Inventory control system - version 3.0
 
-**You are enhancing version 1 or 2 of the inventory control system where you used customized derived exception by the Exception class on the user input. Catch any one possible invalid user input.**
+**You are enhancing version 1 or 2 of the aisle management system where you used customized derived exception by the Exception class on the user input. Catch any one possible invalid user input.**
