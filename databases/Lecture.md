@@ -104,7 +104,7 @@ Make sure the prompt says SQL on the left hand side. If it does not, then type `
 #### Log in to your MySQL Server (as root) from the command prompt
 
 ```
-mysql -u root -p
+mysql -u root -p;
 ```
 
 
