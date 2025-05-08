@@ -96,6 +96,11 @@ To access or write applications for database systems, you need to use the Struct
 
 ### Examples of simple SQL statements
 
+#### Connect to the SQL server. Use mySQL shell.
+Make sure the prompt says SQL on the left hand side. If it does not, then type ```\sql```.
+```
+\connect root@localhost:3306
+```
 #### Log in to your MySQL Server (as root) from the command prompt
 
 ```
