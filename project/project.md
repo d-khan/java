@@ -34,22 +34,13 @@ Be creative, you can use the following image as an example.
 
 ## What to submit?
   
-1. What were your challenges in performing the lab (from design to the implementation phases)?
-2. Submit all the codes and provide meaningful filenames.
-3. Create a video that explains the working of the code. Furthermore, the video should show your face on one side of the screen (preferably the top or bottom right of the screen). Also, submit the code in the .java extension. 
-
-## How to submit it?
-
-- Upload your work in the .pdf or .txt format and clearly define your responses.  
-- Use headings when possible. Upload the code in the .java or .txt extensions.
-- Do not compress or zip files.
+1. Use github to push all the code and share the link on Canvas.
+2. Present your work in the class timings to receive grades.
 
 ## Deadline
 
 The deadlines are posted on the Syllabus as well as on Canvas.
 
 ## Rubric
-
-- The video describes each section clearly and the corresponding Java code and SQL statements are submitted. (100%)
-- The video is submitted but not the code. (Score will be given based on the completed task).
-- The code is uploaded but not working regardless the video is submitted or not. (0 marks)
+- The task is functioning properly with no logical or compile errors. (100%)
+- The task contains one or more logical and compile errors. (50%)
