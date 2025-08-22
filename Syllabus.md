@@ -1,17 +1,14 @@
 # Syllabus (CISC-191 Intermediate Java Programming)
 
 ## Welcome to the course!
-My name is Dr Danish Khan and I am looking forward to starting this educational journey with each of you! Together, we will build a constructive and inclusive environment where everyone's ideas are welcomed and appreciated. Your contributions will greatly enrich our classroom community, and I am eager to learn more about each of you. Let’s focus on making this school year a valuable experience filled with growth, learning, and positive memories!
+My name is Dr. Danish Khan, and I am excited to begin this educational journey with all of you! Together, we will create a supportive and inclusive environment where everyone’s ideas are valued and respected. Your active participation will enrich our learning community, and I look forward to getting to know each of you. Let’s make this school year a meaningful experience filled with growth, learning, and lasting positive memories!
 
 > ___A person who never made a mistake never tried anything new.___ (Albert Einstein)
 
 ## Course description
-This course is an intermediate-level study of the Java programming language. Topics include single and
-multidimensional arrays; objects and classes; object-oriented programming; inheritance and
-polymorphism; exception handling and text input/output (I/O); abstract classes and interfaces; graphical
-user interfaces (GUIs); recursion; concurrency; and generic collections and data structures, such as
-linked lists, queues, and stacks. This course is intended for students majoring in computer and
-information sciences or anyone interested in learning more about the Java programming language.
+This intermediate-level course provides a comprehensive study of the Java programming language. Key topics include single- and multidimensional arrays, objects and classes, and the principles of object-oriented programming. Students will explore inheritance, polymorphism, exception handling, and text input/output (I/O). Additional areas of focus include abstract classes, interfaces, graphical user interfaces (GUIs), recursion, concurrency, and generic collections with data structures such as linked lists, queues, and stacks.
+
+The course is designed for students majoring in computer and information sciences, as well as anyone interested in deepening their understanding of Java programming.
 
 ## [Student learning outcomes](https://github.com/d-khan/sdccd/blob/main/slos.md)
 
