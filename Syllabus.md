@@ -55,7 +55,7 @@ The course is designed for students majoring in computer and information science
 |||__Thanksgiving break (24 - 30 Nov) - No classes__|
 |14 |1 Dec   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 7 Dec |
 |15 |8 Dec |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 14 Dec |
-|16 |15 Dec |__Final exam on Mov 15 Dec available all day__ | |
+|16 |15 Dec |__Final exam on Mon 15 Dec available all day__ | |
 
 ## Textbook
 
