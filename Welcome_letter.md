@@ -31,9 +31,7 @@ Select the **horizontal lines next to the course name -> Home -> Welcome to the 
 Review the course [Course Syllabus](https://github.com/d-khan/java/blob/main/Syllabus.md) to learn about the course, important dates/deadlines, schedule, textbook, etc.
 
 ## 5. How will my class be conducted?
-**HyFlex:** Students can join the scheduled class session live online or on campus based on student preference. Please note that in-person class attendance or live online attendance is mandatory to avoid dropping or withdrawing from the course.
-
-### <div align="center">Bring a laptop if you are attending an in-person class at the college!</div> 
+**Fully online:** All classwork is conducted online through Canvas without a requirement for real-time/live meetings. However, regular login to Canvas and submitting assignments on time are mandatory to avoid dropping or withdrawing from the course.
 ___
 **<div align="center">The End.**</div> 
 
