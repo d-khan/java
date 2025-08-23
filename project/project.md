@@ -19,6 +19,7 @@ Automate the data insertion process in mySQL from the tab-separated value file u
 1. Create a database in mySQL called 'Auto'. **(2 marks)**
 2. Using Java to insert data using SQL statements. The data is in tab separated value file, [Auto MPG data](https://github.com/d-khan/java/blob/main/project/auto-mpg.data-original), and the details about the data and data types can be found at [Data set details](https://github.com/d-khan/java/blob/main/project/auto-mpg.names). **(10 marks)**
 3. Using GUI, create a text box which takes user input and another windows to display results. For example, if the text box says 'ALL' then you display the entire table. Under the hood, the corresponding SQL statement in Java will be running. **(4 marks)**
+
 ### Example
 Be creative! You can use the following image as an example.
 [See the example image](https://raw.githubusercontent.com/d-khan/java/refs/heads/main/project/Task3_project.png)
@@ -35,7 +36,7 @@ Be creative, you can use the following image as an example.
 ## What to submit?
   
 1. Use github to push all the code and share the link on Canvas.
-2. Present your work in the class timings to receive grades.
+2. Create a video and explain the code in detail.
 
 ## Deadline
 
