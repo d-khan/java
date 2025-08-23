@@ -52,7 +52,8 @@ WrangellStElias1987_info.txt
 4. Upload the working code. (5 marks)
 
 ## How to submit it?
-Upload your work to your Github account and share the link on Canvas.
+Upload your work as a Markdown file to your GitHub account and share the link on Canvas. Please review the guide:"
+[Submitting your assignments using Github](https://sdccd-edu.zoom.us/rec/share/SVvlngcEn-7CaNI8FvwEVJ5ulLp4sxpqN9hnCYvXeHHcls2e0TBlU47uATNklUf-.yX4fsJjsU2nuLGeX?startTime=1725121532000)"
 
 ## Deadline
 The deadlines are posted on the Syllabus as well as on Canvas.
