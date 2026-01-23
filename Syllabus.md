@@ -20,7 +20,7 @@ The course is designed for students majoring in computer and information science
 |   Year                        |   Spring 2026|
 |   Class ID                    |   24131|
 |   Section                     |   3025|
-|   Location                    |   In Person (Miramar M-102) |
+|   Location                    |   In Person (Room: Miramar M-102) |
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
 |   Duration                    |   Feb 2 – Jun 1 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
