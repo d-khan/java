@@ -23,12 +23,12 @@ You can find more information about the Honors Contract [here](https://sdmiramar
 |                               |                                           |
 |-------------------------------|-------------------------------------------|
 |   Course name                 |   CISC-191 Intermediate Java Programming|
-|   Year                        |   Fall 2025|
-|   Class ID                    |   12126|
-|   Section                     |   3001|
-|   Location                    |   Online|
+|   Year                        |   Spring 2026|
+|   Class ID                    |   24131|
+|   Section                     |   3025|
+|   Location                    |   In Person (Room: Miramar M-102) |
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
-|   Duration                    |   Aug 25 – Dec 20 (16 weeks)|
+|   Duration                    |   Feb 2 – Jun 1 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
 |   Office hours                |   Mon 11:00 am - 3:00 pm in Zoom (https://sdccd-edu.zoom.us/j/81092343678) or in-person (Room M-107P) |
 |   Contact                     |   Room M-107P, Office phone: 619-388-7152, Email: dkhan@sdccd.edu|
@@ -41,27 +41,27 @@ You can find more information about the Honors Contract [here](https://sdmiramar
 
 |Week|<div style="width:75px">Week commence from Monday </div>|Topics | Hands-on activities | Deadlines|
 |-|--|--|---|----|
-|1  |25 Aug  |Java lang review | Apply arrays, loops, data types, and methods | 31 Aug |
-|2  |1 Sep  |Object and classes | Write code based on OOP principles | 7 Sep |
-|3  |8 Sep |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 14 Sep |
-|4  |15 Sep |Input and output | Perform input/output operation on a text file using Java | 21 Sep |
-|   |        |__Quiz 1 on Mon 15 Sep available all day__| |
-|5  |22 Sep |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 28 Sep |
-|6  |29 Sep  |Inheritance (contd.) | Hands-on activity (contd.) | 5 Oct |
-|7  |6 Oct |Exceptions| Solve a task with and without exceptions | 12 Oct |
-|   |        |__Quiz 2 on Mon 6 Oct available all day__| |
-|8  |13 Oct |__Hands-on exam on Mon 13 Oct available all day__|
-|9  |20 Oct  |Collections | Apply data structures using collections and perform code profiling  | 26 Oct|
-|10 |27 Oct  |GUI| Create user interface using JFrame and Swing GUI components | 2 Nov|
-|11 |3 Nov  |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 9 Nov |
-|   |        |__Quiz 3 on Mon 3 Nov available all day__| |
-|12 |10 Nov |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 16 Nov |
-|13 |17 Nov |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 23 Nov |
-|   |        |__Quiz 4 on Mon 17 Nov available all day__| |
-|||__Thanksgiving break (24 - 30 Nov) - No classes__|
-|14 |1 Dec   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 7 Dec |
-|15 |8 Dec |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 14 Dec |
-|16 |15 Dec |__Final exam on Mon 15 Dec available all day__ | |
+|1  |2 Feb  |Java lang review | Apply arrays, loops, data types, and methods | 8 Feb |
+|2  |9 Feb  |Object and classes | Write code based on OOP principles | 15 Feb |
+|3  |16 Feb |Memory management | Disect code and identify how stacks, heaps, and garbage collections are utilized | 22 Feb |
+|4  |23 Feb |Input and output | Perform input/output operation on a text file using Java | 1 Mar |
+|   |        |__Quiz 1 (in person) on Mon 23 Feb at 1:45pm__| |
+|5  |2 Mar |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 8 Mar |
+|6  |9 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 15 Mar |
+|7  |16 Mar |Exceptions| Solve a task with and without exceptions | 22 Mar |
+|   |        |__Quiz 2 (in person) on 16 Mar at 1:45pm__| |
+|8  |23 Mar |__Hands-on exam (in person) on 23 Mar at 1:45pm__|
+|||__Spring break (30 Mar - 5 Apr) - No classes__|
+|9  |6 Apr  |Collections | Apply data structures using collections and perform code profiling  | 12 Apr |
+|10 |13 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 19 Apr |
+|11 |20 Apr  |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 26 Apr |
+|   |        |__Quiz 3 (in person) on 20 Apr at 1:45pm__| |
+|12 |27 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 3 May |
+|13 |4 May |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 10 May |
+|   |        |__Quiz 4 (in person) on 4 May at 1:45pm__| |
+|14 |11 May   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 17 May |
+|15 |18 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 24 May |
+|16 |25 May |__Final exam (in person) on 27 May at 1:45pm__ | |
 
 ## Textbook
 
@@ -108,4 +108,4 @@ I would like you to follow my notes and the resources provided on the course sit
 ## [Sustainability](https://github.com/d-khan/sdccd/blob/main/sustainability.md)
 
 ____
-Last updated on Aug 2025
+Last updated on Jan 2026
