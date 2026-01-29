@@ -52,8 +52,8 @@ The course is designed for students majoring in computer and information science
 |   |        |__Quiz 3 (in person) on 20 Apr at 1:45pm__| |
 |12 |27 Apr |Multithreading and parallel programming| Analyze the performance of single vs multithreading programming | 3 May |
 |13 |4 May |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 10 May |
-|   |        |__Quiz 4 (in person) on 4 May at 1:45pm__| |
 |14 |11 May   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 17 May |
+|   |        |__Quiz 4 (in person) on 11 May at 1:45pm__| |
 |15 |18 May |Project (contd.) | Apply GUI, data structures, and database knowledge to create an application | 24 May |
 |16 |25 May |__Final exam (in person) on 27 May at 1:45pm__ | |
 
