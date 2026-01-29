@@ -41,16 +41,16 @@ The course is designed for students majoring in computer and information science
 |4  |23 Feb |Input and output | Perform input/output operation on a text file using Java | 1 Mar |
 |   |        |__Quiz 1 (in person) on Mon 23 Feb at 1:45pm__| |
 |5  |2 Mar |Inheritance | Demonstrate inheritance concepts and write a code to solve a task and identify when and when not to use inheritance| 8 Mar |
-|6  |9 Mar  |Inheritance (contd.) | Hands-on activity (contd.) | 15 Mar |
-|7  |16 Mar |Exceptions| Solve a task with and without exceptions | 22 Mar |
+|6  |9 Mar  |Exceptions| Solve a task with and without exceptions | 15 Mar |
+|7  |16 Mar |Collections | Apply data structures using collections and perform code profiling   | 22 Mar |
 |   |        |__Quiz 2 (in person) on 16 Mar at 1:45pm__| |
 |8  |23 Mar |__Hands-on exam (in person) on 23 Mar at 1:45pm__|
 |||__Spring break (30 Mar - 5 Apr) - No classes__|
-|9  |6 Apr  |Collections | Apply data structures using collections and perform code profiling  | 12 Apr |
+|9  |6 Apr  |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations  | 12 Apr |
 |10 |13 Apr  |GUI| Create user interface using JFrame and Swing GUI components | 19 Apr |
 |11 |20 Apr  |GUI (contd.) | Improve a seat reservation system using Swing GUI components | 26 Apr |
 |   |        |__Quiz 3 (in person) on 20 Apr at 1:45pm__| |
-|12 |27 Apr |Searching and sorting | Apply searching and sorting algorithms and differentiate performance using O(N) notations | 3 May |
+|12 |27 Apr |Multithreading and parallel programming| Analyze the performance of single vs multithreading programming | 3 May |
 |13 |4 May |Java database programming | Install MySQL database, create a database, and write basic MySQL queries | 10 May |
 |   |        |__Quiz 4 (in person) on 4 May at 1:45pm__| |
 |14 |11 May   |Java database programming (contd.) & Project | Connect Java with MySQL database using J connecter and write MySQL queries in Java | 17 May |
