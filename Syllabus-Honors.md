@@ -105,6 +105,8 @@ I would like you to follow my notes and the resources provided on the course sit
 
 ## [Career & Life Design Services](https://github.com/d-khan/sdccd/blob/main/career.md)
 
+## [Rising Scholars](https://github.com/d-khan/sdccd/blob/main/rising_scholars.md)
+
 ## [Sustainability](https://github.com/d-khan/sdccd/blob/main/sustainability.md)
 
 ____
