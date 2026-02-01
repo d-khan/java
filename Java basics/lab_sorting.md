@@ -39,6 +39,6 @@ Upload your work as a Markdown file to your GitHub account and share the link on
 The deadlines are posted on the Syllabus as well as on Canvas.
 
 ## Rubric
-- The video describes the code in detail. The code is working as per instruction, and the explanation of the questions is submitted (10 marks)
-- The video is submitted, and the code is working, but a partial explanation of the questions is submitted. (6+ marks)
-- The code is uploaded but not working regardless the video is submitted or not. (0 marks)
+- The code is working as per instruction, and the explanation of the questions is submitted (10 marks)
+- The code is working, but a partial explanation of the questions is submitted. (6+ marks)
+- The code is uploaded but not working. (0 marks)
