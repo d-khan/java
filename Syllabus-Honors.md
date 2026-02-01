@@ -26,7 +26,7 @@ You can find more information about the Honors Contract [here](https://sdmiramar
 |   Year                        |   Spring 2026|
 |   Class ID                    |   24131|
 |   Section                     |   3025|
-|   Location                    |   In Person (Room: Miramar M-102) |
+|   Location                    |   In Person (Room: Miramar M-102); 1:45 - 4:55pm | 
 |   Course resource             |   Course contents are available in Canvas <https://sdccd.instructure.com> |
 |   Duration                    |   Feb 2 – Jun 1 (16 weeks)|
 |   Professor                   |   Dr Danish Khan|
