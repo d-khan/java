@@ -30,8 +30,7 @@ mark 2
 However, you can use any application of your choice. (2 marks)
 2. Explain how you will perform a frequency analysis of a website if you have to do it. (1 mark)
 3. What were your challenges in performing the lab (from design to the implementation phases)? (1 mark)
-4. Create a video explaining how the code works. The video should show your face on one side of the screen preferably the top or bottom right of the screen. (1 mark)
-5. Upload the working code. (6 marks)
+4. Upload the working code. (6 marks)
 
 ## How to submit it?
 Upload your work as a Markdown file to your GitHub account and share the link on Canvas. Please review the guide:"
@@ -41,6 +40,6 @@ Upload your work as a Markdown file to your GitHub account and share the link on
 The deadlines are posted on the Syllabus as well as on Canvas.
 
 ## Rubric
-- The video describes the code in detail. The code is working as per instruction, and the explanation of the questions is submitted (10 marks)
-- The video is submitted, and the code is working, but a partial explanation of the questions is submitted. (6+ marks)
-- The code is uploaded but not working regardless the video is submitted or not. (0 marks)
+- The code is working as per instruction, and the explanation of the questions is submitted (10 marks)
+- The code is working, but a partial explanation of the questions is submitted. (6+ marks)
+- The code is uploaded but not working. (0 marks)
