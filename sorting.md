@@ -1,11 +1,23 @@
-In the last class, I have discussed sorting algorithms like bubble sort. Furthermore I have mentioned the following approach:
+In the last class, we talked about sorting algorithms, including the ever-famous bubble sort (yes, the one that bubbles its way slowly to success 🫧).
+I then mentioned an alternative approach that works like this:
 
-1) Finding the smallest element in unsorted_list  
-2) Adding that element to sorted_list  
-3) Marking the selected element in unsorted_list with a large value (500) so it won’t be chosen again  
-4) Printing both arrays after each pass
+Find the smallest element in unsorted_list
+Move that poor little element into sorted_list
+Mark its original spot with a very large number (500) so it never gets picked again
+Print both arrays after each pass so we can watch the drama unfold
+I went ahead and implemented this logic in C++, because… well… that’s my go-to language.
+This does not mean I don’t know Java 😌
+It simply means I’m lazy and C++ lets me write fewer lines to do the same thing. Productivity, right?
+Since you’re taking an intermediate Java course, I’m sharing this C++ code with you and asking you to translate the logic into Java. Think of it as a language workout—same brain, different syntax muscles 💪
 
-I have written this code in C++. This is my goto language. This does not mean that I dont know Java but rather lazy to write long written lines of code. Since you are taking an intermediate Java, I am sharing this code in C++. You are going to transform this logic using Java. This will be an exiciting exercise for those who have nothing to do except programming. Try this and if you really struggle, I will share the ready made version in Java.
+This will be an exciting exercise for those who:
+
+love programming ❤️
+have free time ⏳
+or have absolutely nothing better to do than write code 😄
+Give it an honest try.
+And if you really struggle (or start questioning your life choices), don’t worry—I’ll share the ready-made Java version later.
+Until then… happy coding ☕👨‍💻👩‍💻
 
 ```cpp
 #include <iostream>
