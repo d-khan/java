@@ -12,9 +12,10 @@ Since you’re taking an intermediate Java course, I’m sharing this C++ code w
 
 This will be an exciting exercise for those who:
 
-love programming ❤️
-have free time ⏳
-or have absolutely nothing better to do than write code 😄
+- love programming ❤️
+- no friends
+- or have absolutely nothing better to do than write code 😄
+
 Give it an honest try.
 And if you really struggle (or start questioning your life choices), don’t worry—I’ll share the ready-made Java version later.
 Until then… happy coding ☕👨‍💻👩‍💻
