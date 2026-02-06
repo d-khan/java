@@ -1,10 +1,11 @@
 In the last class, we talked about sorting algorithms, including the ever-famous bubble sort (yes, the one that bubbles its way slowly to success 🫧).
 I then mentioned an alternative approach that works like this:
 
-Find the smallest element in unsorted_list
-Move that poor little element into sorted_list
-Mark its original spot with a very large number (500) so it never gets picked again
-Print both arrays after each pass so we can watch the drama unfold
+- Find the smallest element in ```unsorted_list```
+- Move that poor little element into ```sorted_list```
+- Mark its original spot with a very large number (500) so it never gets picked again  
+- Print both arrays after each pass so we can watch the drama unfold
+  
 I went ahead and implemented this logic in C++, because… well… that’s my go-to language.
 This does not mean I don’t know Java 😌
 It simply means I’m lazy and C++ lets me write fewer lines to do the same thing. Productivity, right?
