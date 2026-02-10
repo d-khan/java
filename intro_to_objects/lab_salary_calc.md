@@ -270,7 +270,7 @@ public class IncomeTaxMain {
 ## What to submit?
 1. Draw a flowchart of your thought process. I found this [online flowchart website](http://www.draw.io) very useful. However, you can use any application of your choice. (2 marks).   
 2. What were your challenges in performing the lab (from design to the implementation phases)? (2 mark). 
-3. Upload the working code. (5 marks)
+3. Upload the working code. (6 marks)
 
 ## How to submit it?
 Upload your work as a Markdown file to your GitHub account and share the link on Canvas. Please review the guide:"
