@@ -27,6 +27,15 @@ Collections like `ArrayList` require objects --- not primitives.
 2.  Convert it to an `Integer` using `Integer.valueOf()`.
 3.  Print both values.
 
+```java
+System.out.println("Hello World");
+```
+
+```txt
+Hello World
+```
+
+
 ### Task 1.2 --- Auto Boxing and Unboxing
 
 1.  Assign an int directly to an Integer.
