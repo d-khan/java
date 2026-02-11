@@ -1,6 +1,6 @@
-# 🧪 Lab: Understanding and Using Wrapper Classes in Java
+# Lab: Understanding and Using Wrapper Classes in Java
 
-## 🎯 Objectives
+## Objectives
 
 By the end of this lab, students will: - Understand Java Wrapper
 Classes - Perform boxing and unboxing - Use wrapper utility methods -
@@ -9,7 +9,7 @@ methods
 
 ------------------------------------------------------------------------
 
-## 📘 Background
+## Background
 
 Java primitive types: `int`, `double`, `char`, `boolean`
 
@@ -19,7 +19,7 @@ Collections like `ArrayList` require objects --- not primitives.
 
 ------------------------------------------------------------------------
 
-# 🔬 Part 1 --- Boxing and Unboxing
+# Part 1 --- Boxing and Unboxing
 
 ### Task 1.1 --- Manual Boxing
 
@@ -40,7 +40,7 @@ Collections like `ArrayList` require objects --- not primitives.
 
 ------------------------------------------------------------------------
 
-# 🔬 Part 2 --- Wrapper Utility Methods
+# Part 2 --- Wrapper Utility Methods
 
 ### Task 2.1 --- Convert String to Integer
 
@@ -58,7 +58,7 @@ Why are these constants useful in programming?
 
 ------------------------------------------------------------------------
 
-# 🔬 Part 3 --- Wrapper Classes with ArrayList
+# Part 3 --- Wrapper Classes with ArrayList
 
 1.  Create an `ArrayList<Integer>`.
 2.  Add at least 3 numbers.
@@ -70,7 +70,7 @@ Why can't we use `ArrayList<int>`?
 
 ------------------------------------------------------------------------
 
-# 🔬 Part 4 --- Character Wrapper
+# Part 4 --- Character Wrapper
 
 1.  Declare a character.
 2.  Use:
@@ -81,7 +81,7 @@ Why can't we use `ArrayList<int>`?
 
 ------------------------------------------------------------------------
 
-# 🚀 Bonus Challenge
+# Bonus Challenge
 
 1.  Ask user for 5 numbers (as strings).
 2.  Convert them to Integer objects.
@@ -93,8 +93,7 @@ Why can't we use `ArrayList<int>`?
 
 ------------------------------------------------------------------------
 
-# 📊 Submission
+# Submission
 
-Submit: - All `.java` files - Reflection answers - Clean formatting -
-Proper comments
+Submit: - All in github. Reflection answers, clean formatting and proper comments
 
