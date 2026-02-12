@@ -30,7 +30,7 @@ Create an `ArrayList<Integer>` named `scores`.
     Scores: 85 92 78 90 88
     Size: 5
 
-### 🔍 Concept Check
+### Concept Check
 
 1.  What is the difference between:
 
@@ -58,7 +58,7 @@ Using the same `scores` list:
 2.  Traverse using an enhanced `for-each` loop
 3.  Traverse using `.forEach()` with a lambda expression
 
-### 💡 Discussion Question
+### Discussion Question
 
 -   Which traversal method gives you access to the index?
 -   Why might that matter?
@@ -111,7 +111,7 @@ Test with: - Search for `90` - Search for `100`
 
 Print the list after each insertion.
 
-### 📊 Complexity Analysis Table
+### Complexity Analysis Table
 
 For a list of size `n`, determine the time complexity of:
 
@@ -129,7 +129,7 @@ Fill this table in your submission.
 
 # Part 6 -- Mini Project
 
-## 🎓 Student Management System (Mini Version)
+## Student Management System (Mini Version)
 
 Create an `ArrayList<String>` that stores student names.
 
@@ -160,7 +160,7 @@ Use a simple menu-driven program:
 
 ------------------------------------------------------------------------
 
-# ⭐ Bonus Challenge (Advanced)
+# Bonus Challenge (Advanced)
 
 1.  Create an `ArrayList<Double>` and compute:
 
@@ -178,7 +178,7 @@ Use a simple menu-driven program:
 
 ------------------------------------------------------------------------
 
-# 📌 Submission Requirements
+# Submission Requirements
 
 -   Include properly formatted Java code blocks:
 
