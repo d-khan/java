@@ -220,13 +220,3 @@ Try running with:
 -   Print memory usage statistics
 
 ------------------------------------------------------------------------
-
-# 📊 Grading Rubric (100 Points)
-
-  Component                     Points
-  ----------------------------- --------
-  Memory Diagrams               25
-  Reference Explanation         20
-  Garbage Collection Analysis   20
-  Memory Leak Fix               20
-  Reflection Questions          15
