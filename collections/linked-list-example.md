@@ -95,3 +95,63 @@ public class LinkedListDemo {
     }
 }
 ```
+
+# Solution
+```java
+import java.sql.SQLOutput;
+import java.util.LinkedList;
+
+public class StackUsingLinkedList {
+    private LinkedList<Integer> list;
+
+    // Constructor
+    public StackUsingLinkedList() {
+        list = new LinkedList<>();
+    }
+
+    // Push operation (insert at top)
+    public void push(int value) {
+        list.addFirst(value);
+    }
+
+    // Pop operation (remove from top)
+    public int pop() {
+        if (list.isEmpty()) {
+            throw new RuntimeException("Stack is empty");
+        }
+        return list.removeFirst();
+    }
+
+    // Peek operation (view top element)
+    public int peek() {
+        if (list.isEmpty()) {
+            throw new RuntimeException("Stack is empty");
+        }
+        return list.getFirst();
+    }
+
+    // Check if stack is empty
+    public void display() {
+        System.out.println(list);
+    }
+
+    // Main method
+
+    public static void main() {
+        StackUsingLinkedList stack = new StackUsingLinkedList();
+
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        System.out.println("Stack after pushes:");
+        stack.display();
+
+        System.out.println("Popped: " + stack.pop());
+        System.out.println("Top element: " + stack.peek());
+        System.out.println("Stach after pop:");
+        stack.display();
+    }
+
+}
+```
