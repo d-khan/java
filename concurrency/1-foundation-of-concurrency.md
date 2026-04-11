@@ -275,4 +275,43 @@ In Java, InterruptedException is thrown when a thread is:
 
 > The term "thread" in computing is derived from its everyday meaning as a thin strand, such as a thread of fabric, which runs through and connects parts of a material. In the context of computer science, a thread represents a single, continuous path of execution within a program, much like a strand running through a larger structure. A program (or process) can be thought of as the complete fabric, while threads are the individual lines of execution that pass through it. This analogy emphasizes that multiple threads can exist within the same process, each performing its own sequence of instructions while sharing the same underlying resources. The term gained prominence in operating systems research to describe these lightweight units of execution, distinguishing them from heavier processes, and highlighting their ability to enable concurrent activity within a single program.
 
+**Can one thread perform two tasks?**
+Short answer: No—one thread cannot execute two tasks at the exact same time.
+But it can handle multiple tasks one after another.
+
+A thread represents:
+
+👉 One single sequence of execution
+
+So at any given instant:
+- It is executing only one instruction
+- Therefore, only one task at a time
+
+```java
+Runnable task1 = () -> System.out.println("Task 1");
+Runnable task2 = () -> System.out.println("Task 2");
+
+Thread t = new Thread(() -> {
+    task1.run();  // runs first
+    task2.run();  // runs after
+});
+
+t.start();
+```
+**Output**
+```txt
+Task 1
+Task 2
+```
+
+- A thread can handle multiple tasks, but only by executing them one at a time
+- To run tasks at the same time, you need:
+```java
+new Thread(task1).start();
+new Thread(task2).start();
+```
+
+> “A thread is like a single worker.
+It can do many jobs, but only one job at a time.”
+
 
