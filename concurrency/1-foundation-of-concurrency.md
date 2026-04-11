@@ -115,3 +115,37 @@ public class Main {
 - This defines a class named CounterTask.
 - The keyword implements Runnable means that this class agrees to provide the run() method required by the Runnable interface.
 - In other words, CounterTask represents a task that can be executed by a thread.
+
+``` public void run() { ```
+- This is the run() method.
+- Since Runnable has one method called run(), this class must define it.
+- The code inside this method is the task that will be performed when the thread runs.
+
+``` new Thread(new CounterTask()).start(); ```
+This line does several things.
+
+``` new CounterTask() ```
+- This creates an object of the CounterTask class.
+- Since CounterTask implements Runnable, this object is a task.
+
+``` new Thread(new CounterTask()) ```
+- This creates a new Thread object.
+- The CounterTask object is passed to the thread.
+- So the thread knows which task it should execute.
+
+``` .start(); ```
+- This starts the new thread.
+- When the thread starts, it automatically calls the run() method of the CounterTask object.
+- That means the loop begins running in a separate thread.
+
+**Overall flow of the program**
+
+Here is what happens step by step:
+
+1. The program starts in main().
+2. A CounterTask object is created.
+3. A Thread object is created and given that task.
+4. start() is called on the thread.
+5. The thread begins execution and calls run().
+6. The for loop prints the numbers 1 to 5.
+
