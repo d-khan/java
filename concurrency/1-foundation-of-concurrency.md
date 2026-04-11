@@ -81,4 +81,4 @@ In Java, Runnable is a functional interface used to define a task that can be ex
 
 👉 In simple terms:
 
-Runnable represents “a piece of work (task) that a thread can run.”
+> Runnable represents “a piece of work (task) that a thread can run.”
