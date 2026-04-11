@@ -32,6 +32,13 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 
 **Example**
 - Process: Web browser
+- Threads:
+  - UI rendering
+  - Network requests
+  - JavaScript execution
+
+<img width="768" height="497" alt="image" src="https://github.com/user-attachments/assets/777ecc24-125f-4316-848b-0c966dc07d06" />
+
 
 ## **Concurrency vs Parallelism**
 
@@ -49,7 +56,22 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 
 - A system can be **concurrent without being parallel**
 - Parallelism requires **multiple cores/processors**
-- Threads:
-  - UI rendering
-  - Network requests
-  - JavaScript execution
+
+<img width="1070" height="708" alt="image" src="https://github.com/user-attachments/assets/a92956bd-19d8-4e37-a3bb-52945dd9fedd" />
+
+## **Why Concurrency?**
+
+### **Responsiveness**
+
+- Applications remain interactive
+- Example: UI does not freeze during file download
+
+### **Throughput**
+
+- More work completed in less time
+- Example: Handling multiple web requests
+
+### **Resource Utilization**
+
+- CPU stays busy while waiting for I/O
+
