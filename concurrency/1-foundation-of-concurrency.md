@@ -379,3 +379,22 @@ public class Main {
 }
 ```
 
+Even though both threads use the same Runnable object:
+- Each thread has its own execution path (stack)
+- But they may share the same data (heap) if the task has fields
+
+## What is Callable
+
+## Thread class
+
+Do NOT overuse Thread class directly in modern Java.
+
+Why?
+- Less flexible
+- Cannot return results
+- Harder to manage at scale
+
+Prefer:
+- Runnable
+- Callable
+- (Later modules → Thread Pools / Executors)
