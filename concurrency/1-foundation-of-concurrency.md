@@ -314,4 +314,68 @@ new Thread(task2).start();
 > “A thread is like a single worker.
 It can do many jobs, but only one job at a time.”
 
+### "Using Lambda (Modern Java Style)"?
+
+A lambda expression in Java is:
+
+- A short, concise way to write a function (or task) without creating a separate class
+
+It was introduced in Java 8 to simplify code, especially when working with functional interfaces like Runnable.
+
+**Traditional Way (Before Lambdas)**
+```java
+class MyTask implements Runnable {
+    public void run() {
+        System.out.println("Task running");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        new Thread(new MyTask()).start();
+    }
+}
+```
+
+**Problems**
+- Too much boilerplate
+- Separate class just for one method
+
+**Lambda Version (Modern Style)**
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        new Thread(() -> {
+            System.out.println("Task running");
+        }).start();
+
+    }
+}
+```
+
+**Concurrent example using Lambda version**
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        // SleepTask using lambda
+        new Thread(() -> {
+            try {
+                Thread.sleep(5000);
+                System.out.println("SleepTask done");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+        // PrintTask using lambda
+        new Thread(() -> {
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("Print: " + i);
+            }
+        }).start();
+    }
+}
+```
 
