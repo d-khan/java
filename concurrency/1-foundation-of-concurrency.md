@@ -255,3 +255,7 @@ public class Main {
 }
 ```
 
+In Java, InterruptedException is thrown when a thread is:
+> interrupted while it is sleeping, waiting, or blocked
+
+
