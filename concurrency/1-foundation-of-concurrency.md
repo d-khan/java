@@ -111,3 +111,7 @@ public class Main {
 }
 ```
 
+``` class CounterTask implements Runnable { ```
+- This defines a class named CounterTask.
+- The keyword implements Runnable means that this class agrees to provide the run() method required by the Runnable interface.
+- In other words, CounterTask represents a task that can be executed by a thread.
