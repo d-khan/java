@@ -18,3 +18,19 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 **Key Idea**
 - Concurrency = structure of program
 - Parallelism = actual simultaneous execution
+
+## Process vs Thread
+**Process**
+- Independent program in execution
+- Has its own memory space
+- Heavyweight
+**Thread**
+- Lightweight unit of execution within a process
+- Shares memory with other threads in the same process
+- Faster communication
+**Example**
+- Process: Web browser
+- Threads:
+  - UI rendering
+  - Network requests
+  - JavaScript execution
