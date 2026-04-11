@@ -94,7 +94,7 @@ Instead of telling a thread how to behave, you give it a task.
 3. Pass it to a Thread
 4. Call start() → thread executes run()
 
-### Simple Counter Task
+### Example 1: Simple Counter Task
 ```java
 class CounterTask implements Runnable {
     public void run() {
@@ -149,3 +149,35 @@ Here is what happens step by step:
 5. The thread begins execution and calls run().
 6. The for loop prints the numbers 1 to 5.
 
+### Example 2: Printing Thread Name
+```java
+class NameTask implements Runnable {
+    public void run() {
+        System.out.println("Running in: " + Thread.currentThread().getName());
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread t1 = new Thread(new NameTask(), "Worker-1");
+        t1.start();
+    }
+}
+```
+### Example 3:  Multiple Threads Using Same Runnable
+```java
+class Task implements Runnable {
+    public void run() {
+        System.out.println(Thread.currentThread().getName() + " is working");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Runnable task = new Task();
+
+        new Thread(task, "Thread-A").start();
+        new Thread(task, "Thread-B").start();
+    }
+}
+```
