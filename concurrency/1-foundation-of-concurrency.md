@@ -52,6 +52,13 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 - Concurrency → One chef cooking multiple dishes (switching tasks)
 - Parallelism → Multiple chefs cooking different dishes simultaneously
 
+A clearer example of concurrency is this:
+	•	You are cooking pasta
+	•	At the same time, you are watching the stove
+	•	While the water is boiling, you chop vegetables
+	•	Then you stir the pasta
+	•	Then you go back to cutting vegetables
+  
 ### Key Insight
 
 - A system can be **concurrent without being parallel**
