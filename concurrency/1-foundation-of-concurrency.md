@@ -234,7 +234,7 @@ class SleepTask implements Runnable {
             Thread.sleep(5000);
             System.out.println("SleepTask done");
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("Thread was interrupted!");
         }
     }
 }
