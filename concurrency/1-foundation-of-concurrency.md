@@ -175,7 +175,7 @@ class Task implements Runnable {
 public class Main {
     public static void main(String[] args) {
         Runnable task = new Task();
-
+        // Note how the task and thread instructions are broken into double lines
         new Thread(task, "Thread-A").start();
         new Thread(task, "Thread-B").start();
     }
