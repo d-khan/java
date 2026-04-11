@@ -75,3 +75,10 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 
 - CPU stays busy while waiting for I/O
 
+## What is Runnable?
+
+In Java, Runnable is a functional interface used to define a task that can be executed by a thread.
+
+👉 In simple terms:
+
+Runnable represents “a piece of work (task) that a thread can run.”
