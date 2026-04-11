@@ -32,6 +32,23 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 
 **Example**
 - Process: Web browser
+
+## **Concurrency vs Parallelism**
+
+| Concept     | Description                                                  |
+| ----------- | ------------------------------------------------------------ |
+| Concurrency | Multiple tasks making progress (not necessarily simultaneously) |
+| Parallelism | Multiple tasks executing **at the same time** on multiple cores |
+
+### Simple Analogy
+
+- Concurrency → One chef cooking multiple dishes (switching tasks)
+- Parallelism → Multiple chefs cooking different dishes simultaneously
+
+### Key Insight
+
+- A system can be **concurrent without being parallel**
+- Parallelism requires **multiple cores/processors**
 - Threads:
   - UI rendering
   - Network requests
