@@ -1,5 +1,5 @@
 # Module 1: Foundations of Concurrency
-## 1. Learning Outcomes
+## Learning Outcomes
 
 By the end of this module, students should be able to:
 
@@ -82,3 +82,32 @@ In Java, Runnable is a functional interface used to define a task that can be ex
 👉 In simple terms:
 
 > Runnable represents “a piece of work (task) that a thread can run.”
+
+Instead of telling a thread how to behave, you give it a task.
+
+- Runnable = What to do
+- Thread = Who executes it
+
+### How It Works (Conceptual Flow)
+1. You create a class (or lambda) that implements Runnable
+2. Put your task inside run()
+3. Pass it to a Thread
+4. Call start() → thread executes run()
+
+### Simple Counter Task
+```java
+class CounterTask implements Runnable {
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Count: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        new Thread(new CounterTask()).start();
+    }
+}
+```
+
