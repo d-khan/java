@@ -29,6 +29,7 @@ Concurrency refers to the ability of a system to handle multiple tasks that over
 - Lightweight unit of execution within a process
 - Shares memory with other threads in the same process
 - Faster communication
+
 **Example**
 - Process: Web browser
 - Threads:
