@@ -8,3 +8,13 @@ By the end of this module, students should be able to:
 - Understand why concurrency is important in modern systems
 - Create tasks using Runnable and Callable
 - Understand the basic use of the Thread class
+
+## What is Concurrency?
+
+Concurrency refers to the ability of a system to handle multiple tasks that overlap in time.
+
+> It does not necessarily mean tasks run at the exact same time — they may interleave execution.
+
+**Key Idea**
+- Concurrency = structure of program
+- Parallelism = actual simultaneous execution
