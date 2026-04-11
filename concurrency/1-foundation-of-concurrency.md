@@ -263,4 +263,13 @@ In Java, InterruptedException is thrown when a thread is:
 - You can use one thread.
 - But then everything runs sequentially, not concurrently.
 
+**Difference between a process, a task and a thread**
+| **Concept** | **Meaning**      |
+| ----------- | ---------------- |
+| Process     | A full kitchen 🍳 |
+| Thread      | A chef 👨‍🍳        |
+| Task        | A recipe 📄       |
+
+- You need a chef (thread) to execute a recipe (task)
+- The kitchen (process) provides the environment
 
