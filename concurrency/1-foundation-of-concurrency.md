@@ -273,3 +273,6 @@ In Java, InterruptedException is thrown when a thread is:
 - You need a chef (thread) to execute a recipe (task)
 - The kitchen (process) provides the environment
 
+> The term "thread" in computing is derived from its everyday meaning as a thin strand, such as a thread of fabric, which runs through and connects parts of a material. In the context of computer science, a thread represents a single, continuous path of execution within a program, much like a strand running through a larger structure. A program (or process) can be thought of as the complete fabric, while threads are the individual lines of execution that pass through it. This analogy emphasizes that multiple threads can exist within the same process, each performing its own sequence of instructions while sharing the same underlying resources. The term gained prominence in operating systems research to describe these lightweight units of execution, distinguishing them from heavier processes, and highlighting their ability to enable concurrent activity within a single program.
+
+
