@@ -188,3 +188,70 @@ public class Main {
     }
 }
 ```
+
+### Example 4:  Sequential vs Concurrent Execution
+- One task sleeps (slow)
+- One task runs fast
+- Compare sequential vs concurrent
+
+**Sequential version**
+
+```java
+class SleepTask {
+    void run() {
+        try {
+            Thread.sleep(5000); // 5 seconds
+            System.out.println("SleepTask done");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+class PrintTask {
+    void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Print: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        SleepTask t1 = new SleepTask();
+        PrintTask t2 = new PrintTask();
+
+        t1.run(); // runs first
+        t2.run(); // runs after 5 seconds
+    }
+}
+```
+**Concurrent version**
+```java
+class SleepTask implements Runnable {
+    public void run() {
+        try {
+            Thread.sleep(5000);
+            System.out.println("SleepTask done");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+class PrintTask implements Runnable {
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Print: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        new Thread(new SleepTask()).start();
+        new Thread(new PrintTask()).start();
+    }
+}
+```
+
