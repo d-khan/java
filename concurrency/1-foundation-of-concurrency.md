@@ -258,4 +258,9 @@ public class Main {
 In Java, InterruptedException is thrown when a thread is:
 > interrupted while it is sleeping, waiting, or blocked
 
+**Why not just one thread?**
+
+- You can use one thread.
+- But then everything runs sequentially, not concurrently.
+
 
