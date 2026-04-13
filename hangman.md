@@ -1,3 +1,7 @@
+# Hangman cheat sheet
+
+## Load the file in Java and add data of the file into a string of an array
+
 ``` java
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -33,5 +37,22 @@ public class ReadWords {
             System.out.println(word);
         }
     }
+}
+```
+
+### Parse single element of an array
+
+```java
+String[] words = {"apple", "banana", "cat"};
+
+for (String word : words) {
+    System.out.println("Word: " + word);
+
+    for (int i = 0; i < word.length(); i++) {
+        char ch = word.charAt(i);
+        System.out.println(ch);
+    }
+
+    System.out.println("----");
 }
 ```
