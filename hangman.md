@@ -56,3 +56,25 @@ for (String word : words) {
     System.out.println("----");
 }
 ```
+
+### Selecting a string from the Arraylist using Random
+```java
+import java.util.ArrayList;
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> words = new ArrayList<>();
+        words.add("apple");
+        words.add("banana");
+        words.add("cherry");
+        words.add("mango");
+
+        Random rand = new Random();
+        int index = rand.nextInt(words.size()); // 0 to size-1
+
+        String randomWord = words.get(index);
+        System.out.println("Random word: " + randomWord);
+    }
+}
+```
