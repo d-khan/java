@@ -2000,6 +2000,10 @@ public void loadFromFile(String filename) {
     }
 }
 ```
+Add the following line at the end of the class SeatReservationFrame function
+```
+loadFromFile("file.txt");
+```
 
 ## 11. Reading files with GUI
 
