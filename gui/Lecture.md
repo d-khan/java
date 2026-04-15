@@ -1968,6 +1968,39 @@ If the user tries to reserve a non-existing seat, the actionPerformed() method d
 
 Notice that the program stores JTable values in an array of elements of type Object instead of String, as seen in previous examples. Because all classes in Java are also of type Object, a programmer can exploit an advanced concept known as polymorphism to store elements of various reference types in a single array of Object elements. For example, the tableVals array is declared as a two-dimensional array of Objects because it needs to store elements of type String (e.g., first name, last name) and elements of type Number (e.g., seat number and payment amount).
 
+
+### Load from the file
+
+```java
+import java.io.File;
+import java.util.Scanner;
+
+public void loadFromFile(String filename) {
+    try {
+        Scanner sc = new Scanner(new File(filename));
+
+        while (sc.hasNext()) {
+            int seatNum = sc.nextInt();
+            String firstName = sc.next();
+            String lastName = sc.next();
+            int amtPaid = sc.nextInt();
+
+            if (seatNum < NUM_SEATS) {
+                SeatInfo seat = new SeatInfo();
+                seat.reserveSeat(firstName, lastName, amtPaid);
+                seatResArr.set(seatNum, seat);
+            }
+        }
+
+        sc.close();
+        updateTable(); // refresh GUI
+
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error loading file.");
+    }
+}
+```
+
 ## 11. Reading files with GUI
 
 A **JFileChooser** is a Swing GUI component that supports directory navigation and file selection. The following example presents a GUI that allows the user to select a file with a JFileChooser component and then prints the file's contents as Unicode characters.
