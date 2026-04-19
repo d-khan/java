@@ -1,7 +1,7 @@
 # Foundations of Concurrency
 ## Learning Outcomes
 
-By the end of this module, students should be able to:
+By the end of this lecture, students should be able to:
 
 - Distinguish between processes and threads
 - Explain concurrency vs parallelism
