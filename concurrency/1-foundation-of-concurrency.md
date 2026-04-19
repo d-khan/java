@@ -537,7 +537,6 @@ System.out.println(result.get());
 You get whichever finishes first
 
 
-
 ## Thread class
 
 Do NOT overuse Thread class directly in modern Java.
