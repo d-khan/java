@@ -127,3 +127,12 @@ Runnable task = () -> {
 ## Summary
 
 Multiple threads running the same task can lead to incorrect results if shared data is not properly synchronized.
+
+## How to submit it?
+
+Upload your work as a Markdown file to your GitHub account and share the link on Canvas. 
+
+## Deadline
+
+The deadlines are posted on the Syllabus as well as on Canvas.
+
