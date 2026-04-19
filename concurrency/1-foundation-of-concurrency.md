@@ -479,6 +479,65 @@ System.out.println(result1.get());
 
 **This blocks until sleepTask completes**
 
+### Updated version without blocking
+
+```java
+import java.util.concurrent.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+
+        // CompletionService wraps the executor
+        CompletionService<String> service =
+                new ExecutorCompletionService<>(executor);
+
+        // SleepTask using Callable
+        Callable<String> sleepTask = () -> {
+            Thread.sleep(5000);
+            return "SleepTask done";
+        };
+
+        // PrintTask using Callable
+        Callable<String> printTask = () -> {
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("Print: " + i);
+            }
+            return "PrintTask done";
+        };
+
+        // Submit tasks (same as before, but via service)
+        service.submit(sleepTask);
+        service.submit(printTask);
+
+        // Get results as they COMPLETE (not submission order)
+        for (int i = 0; i < 2; i++) {
+            Future<String> result = service.take(); // waits for next finished task
+            System.out.println(result.get());
+        }
+
+        executor.shutdown();
+    }
+}
+```
+
+**Before**
+```java
+System.out.println(result1.get()); // blocks 5 sec ❌
+System.out.println(result2.get());
+```
+You wait for the slow task first
+
+**After**
+```java
+Future<String> result = service.take();
+System.out.println(result.get());
+```
+You get whichever finishes first
+
+
+
 ## Thread class
 
 Do NOT overuse Thread class directly in modern Java.
