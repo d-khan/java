@@ -385,6 +385,100 @@ Even though both threads use the same Runnable object:
 
 ## What is Callable
 
+A Callable is a functional interface in Java that represents a task capable of returning a result and throwing checked exceptions.
+
+| **#** | **Feature**              | **Runnable**                                                 | **Callable**                               |
+| ----- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------ |
+| 1     | **Return Value**         | ❌ Does not return a result                                   | ✅ Returns a result                         |
+| 2     | **Method Name**          | run()                                                        | call()                                     |
+| 3     | **Checked Exceptions**   | ❌ Cannot throw checked exceptions                            | ✅ Can throw checked exceptions             |
+| 4     | **Thread Class Support** | ✅ Directly supported by [Thread](chatgpt://generic-entity?number=0) | ❌ Not supported directly by Thread         |
+| 5     | **Execution Mechanism**  | Can run using Thread or ExecutorService                      | Must use ExecutorService                   |
+| 6     | **Result Retrieval**     | ❌ No mechanism to retrieve result                            | ✅ Uses Future.get()                        |
+| 7     | **Complexity**           | Simple and lightweight                                       | Slightly more complex                      |
+| 8     | **Use Case**             | Fire-and-forget tasks                                        | Tasks needing result or exception handling |
+| 9     | **Introduced In**        | Java 1.0                                                     | Java 5 (Concurrency API)                   |
+
+
+Exception → A general term for any error condition that disrupts program execution
+Checked Exception → A specific type of exception that must be handled at compile time
+
+| **Feature**           | **Exception**                                          | **Checked Exception**                          |
+| --------------------- | ------------------------------------------------------ | ---------------------------------------------- |
+| Definition            | General error event in a program                       | A type of exception checked at compile time    |
+| Scope                 | Broad category (includes all exceptions)               | Subset of exceptions                           |
+| Compile-time checking | ❌ Not necessarily                                      | ✅ Always checked                               |
+| Handling required     | ❌ Not always required                                  | ✅ Must handle or declare                       |
+| Examples              | ArithmeticException, NullPointerException, IOException | IOException, FileNotFoundException             |
+| Cause                 | Programming errors or runtime issues                   | External or predictable issues (file, network) |
+
+
+```java
+import java.util.concurrent.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+
+        // SleepTask using Callable
+        Callable<String> sleepTask = () -> {
+            Thread.sleep(5000);
+            return "SleepTask done";
+        };
+
+        // PrintTask using Callable
+        Callable<String> printTask = () -> {
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("Print: " + i);
+            }
+            return "PrintTask done";
+        };
+
+        // Submit tasks
+        Future<String> result1 = executor.submit(sleepTask);
+        Future<String> result2 = executor.submit(printTask);
+
+        // Get results
+        System.out.println(result1.get());
+        System.out.println(result2.get());
+
+        executor.shutdown();
+    }
+}
+```
+### What Changed
+**1. Thread → ExecutorService**
+```java
+new Thread(...).start(); ❌
+executor.submit(...);    ✅
+```
+**2. Runnable → Callable**
+```java
+Runnable → void run()
+Callable → return value
+```
+
+**3. Output Handling**
+```java
+System.out.println("SleepTask done"); // In runnable
+return "SleepTask done"; // In callable
+result.get(); // retrieved by
+
+
+Even though both tasks run concurrently:
+- printTask finishes quickly
+- sleepTask takes 5 seconds
+
+But:
+```java
+System.out.println(result1.get());
+```
+> Callable lets you run tasks concurrently and collect results, but introduces blocking when retrieving results.
+
+
+**This blocks until sleepTask completes**
+
 ## Thread class
 
 Do NOT overuse Thread class directly in modern Java.
