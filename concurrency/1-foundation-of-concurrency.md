@@ -1,4 +1,4 @@
-# Module 1: Foundations of Concurrency
+# Foundations of Concurrency
 ## Learning Outcomes
 
 By the end of this module, students should be able to:
