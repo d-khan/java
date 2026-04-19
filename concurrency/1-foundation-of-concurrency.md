@@ -464,8 +464,9 @@ Callable → return value
 System.out.println("SleepTask done"); // In runnable
 return "SleepTask done"; // In callable
 result.get(); // retrieved by
+```
 
-
+**Note**
 Even though both tasks run concurrently:
 - printTask finishes quickly
 - sleepTask takes 5 seconds
@@ -475,7 +476,6 @@ But:
 System.out.println(result1.get());
 ```
 > Callable lets you run tasks concurrently and collect results, but introduces blocking when retrieving results.
-
 
 **This blocks until sleepTask completes**
 
