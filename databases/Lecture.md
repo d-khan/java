@@ -134,7 +134,9 @@ Exit from the sql prompt by typing `\q`.
 
 At the command prompt, type the following command to enter into sql using a user **testuser**.
 
-`mysql -u testuser -p`
+```sql
+\connect testuser@localhost:3306
+```
 
 #### Check which user is connected
 
