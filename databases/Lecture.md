@@ -199,7 +199,7 @@ describe Course;
 
 ```sql
 insert into Course (courseId, subjectId, courseNumber, title, numOfCredits) 
-values ('11113', 'CSCI', '3720', 'Database Systems', 3);
+values ('11113', 'CSCI', 3720, 'Database Systems', 3);
 ```
 
 <img width="758" alt="image" src="https://user-images.githubusercontent.com/11669149/229411070-25eeb62f-9285-46f5-b645-9ab7a54e7db1.png">
