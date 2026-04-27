@@ -101,13 +101,6 @@ Make sure the prompt says SQL on the left hand side. If it does not, then type `
 ```
 \connect root@localhost:3306
 ```
-#### Log in to your MySQL Server (as root) from the command prompt
-
-```
-mysql -u root -p;
-```
-
-
 
 Then enter your MySQL root password. It is not set by default, so all you need to do is press the [Enter] key if you never set it. 
 
